@@ -329,6 +329,31 @@
       },
       "selected": false,
       "dragging": false
+    },
+    {
+      "id": "bfe79603-a9ed-42ca-b7ed-7e7a3e45ca22",
+      "type": "flow-process",
+      "position": {
+        "x": 1110.2706487463422,
+        "y": 302.95701653284925
+      },
+      "data": {
+        "label": "Python COM 脚本",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true,
+      "dragging": false
     }
   ],
   "edges": [
@@ -562,7 +587,7 @@
       "id": "xy-edge__fcb7ee88-3035-4733-a4dd-b7570e06cd20right-source-fcb7ee88-3035-4733-a4dd-b7570e06cd20right-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"读取MPP模板\")\n  n_7(\"给你表格大纲\")\n  n_8(\"给你关键节点\")\n  n_9(\"结合工程资料\")\n  n_10(\"excel 过程文件\")\n  n_11(\"根据数据编辑进度计划\")\n  n_12>\"过程检查交互\"]\n  n_2 --> n_0\n  n_0 --> n_6\n  n_1 --> n_3\n  n_1 --> n_4\n  n_1 --> n_7\n  n_1 --> n_8\n  n_3 --> n_9\n  n_4 --> n_9\n  n_7 --> n_9\n  n_8 --> n_9\n  n_9 --> n_0\n  n_0 --> n_11\n  n_11 --> n_10\n  n_10 --> n_12\n  n_6 --> n_6\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"读取MPP模板\")\n  n_7(\"给你表格大纲\")\n  n_8(\"给你关键节点\")\n  n_9(\"结合工程资料\")\n  n_10(\"excel 过程文件\")\n  n_11(\"根据数据编辑进度计划\")\n  n_12>\"过程检查交互\"]\n  n_13(\"Python COM 脚本\")\n  n_2 --> n_0\n  n_0 --> n_6\n  n_1 --> n_3\n  n_1 --> n_4\n  n_1 --> n_7\n  n_1 --> n_8\n  n_3 --> n_9\n  n_4 --> n_9\n  n_7 --> n_9\n  n_8 --> n_9\n  n_9 --> n_0\n  n_0 --> n_11\n  n_11 --> n_10\n  n_10 --> n_12\n  n_6 --> n_6\n",
   "flowEdgeStyle": "curve",
   "flowDirection": "TD"
 }
