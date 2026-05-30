@@ -81,8 +81,8 @@
       "id": "b8aa942e-16f2-497f-8ac6-a706676b647e",
       "type": "flow-process",
       "position": {
-        "x": 71.125,
-        "y": 172
+        "x": -57.875,
+        "y": 152
       },
       "data": {
         "label": "Ai自己编数据",
@@ -101,14 +101,15 @@
         "width": 160,
         "height": 56
       },
-      "selected": true
+      "selected": false,
+      "dragging": false
     },
     {
       "id": "445cbe39-76c9-4527-a991-a1f86dd0fbb2",
       "type": "flow-process",
       "position": {
-        "x": 70.74699310527444,
-        "y": 257.50073940034235
+        "x": -58.25300689472556,
+        "y": 237.50073940034235
       },
       "data": {
         "label": "表格数据",
@@ -127,7 +128,7 @@
         "width": 160,
         "height": 56
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     },
     {
@@ -210,8 +211,8 @@
       "id": "330335aa-d4fd-403b-a329-b8224a4d58b8",
       "type": "flow-process",
       "position": {
-        "x": 69,
-        "y": 367
+        "x": -60,
+        "y": 347
       },
       "data": {
         "label": "给你表格大纲",
@@ -228,15 +229,15 @@
         "width": 160,
         "height": 56
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     },
     {
       "id": "d3df4a1c-fe31-4f97-a1ad-f739b46cf4cb",
       "type": "flow-process",
       "position": {
-        "x": 70,
-        "y": 474
+        "x": -59,
+        "y": 454
       },
       "data": {
         "label": "给你关键节点",
@@ -253,15 +254,15 @@
         "width": 160,
         "height": 56
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     },
     {
       "id": "8564f5f1-df72-466a-827f-bf065a7ef542",
       "type": "flow-process",
       "position": {
-        "x": 263,
-        "y": 678
+        "x": 171,
+        "y": 289
       },
       "data": {
         "label": "结合工程资料",
@@ -313,9 +314,137 @@
         "color": "#6366f1"
       },
       "id": "xy-edge__2eaef621-5cff-44fa-ac6c-d8944add2f69right-source-aa93e0ea-b25c-4aa4-8aba-8b634592364bleft-target"
+    },
+    {
+      "source": "b6601fa5-d598-4e9a-a407-998c143c17ac",
+      "sourceHandle": "right-source",
+      "target": "b8aa942e-16f2-497f-8ac6-a706676b647e",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__b6601fa5-d598-4e9a-a407-998c143c17acright-source-b8aa942e-16f2-497f-8ac6-a706676b647eleft-target"
+    },
+    {
+      "source": "b6601fa5-d598-4e9a-a407-998c143c17ac",
+      "sourceHandle": "right-source",
+      "target": "445cbe39-76c9-4527-a991-a1f86dd0fbb2",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__b6601fa5-d598-4e9a-a407-998c143c17acright-source-445cbe39-76c9-4527-a991-a1f86dd0fbb2left-target"
+    },
+    {
+      "source": "b6601fa5-d598-4e9a-a407-998c143c17ac",
+      "sourceHandle": "right-source",
+      "target": "330335aa-d4fd-403b-a329-b8224a4d58b8",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__b6601fa5-d598-4e9a-a407-998c143c17acright-source-330335aa-d4fd-403b-a329-b8224a4d58b8left-target"
+    },
+    {
+      "source": "b6601fa5-d598-4e9a-a407-998c143c17ac",
+      "sourceHandle": "right-source",
+      "target": "d3df4a1c-fe31-4f97-a1ad-f739b46cf4cb",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__b6601fa5-d598-4e9a-a407-998c143c17acright-source-d3df4a1c-fe31-4f97-a1ad-f739b46cf4cbleft-target"
+    },
+    {
+      "source": "b8aa942e-16f2-497f-8ac6-a706676b647e",
+      "sourceHandle": "right-source",
+      "target": "8564f5f1-df72-466a-827f-bf065a7ef542",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__b8aa942e-16f2-497f-8ac6-a706676b647eright-source-8564f5f1-df72-466a-827f-bf065a7ef542left-target"
+    },
+    {
+      "source": "445cbe39-76c9-4527-a991-a1f86dd0fbb2",
+      "sourceHandle": "right-source",
+      "target": "8564f5f1-df72-466a-827f-bf065a7ef542",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__445cbe39-76c9-4527-a991-a1f86dd0fbb2right-source-8564f5f1-df72-466a-827f-bf065a7ef542left-target"
+    },
+    {
+      "source": "330335aa-d4fd-403b-a329-b8224a4d58b8",
+      "sourceHandle": "right-source",
+      "target": "8564f5f1-df72-466a-827f-bf065a7ef542",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__330335aa-d4fd-403b-a329-b8224a4d58b8right-source-8564f5f1-df72-466a-827f-bf065a7ef542left-target"
+    },
+    {
+      "source": "d3df4a1c-fe31-4f97-a1ad-f739b46cf4cb",
+      "sourceHandle": "right-source",
+      "target": "8564f5f1-df72-466a-827f-bf065a7ef542",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__d3df4a1c-fe31-4f97-a1ad-f739b46cf4cbright-source-8564f5f1-df72-466a-827f-bf065a7ef542left-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"读取MPP模板\")\n  n_7(\"Process 8\")\n  n_8(\"给你表格大纲\")\n  n_9(\"给你关键节点\")\n  n_10(\"结合工程资料\")\n  n_2 --> n_0\n  n_0 --> n_6\n",
-  "flowEdgeStyle": "smooth",
+  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"读取MPP模板\")\n  n_7(\"Process 8\")\n  n_8(\"给你表格大纲\")\n  n_9(\"给你关键节点\")\n  n_10(\"结合工程资料\")\n  n_2 --> n_0\n  n_0 --> n_6\n  n_1 --> n_3\n  n_1 --> n_4\n  n_1 --> n_8\n  n_1 --> n_9\n  n_3 --> n_10\n  n_4 --> n_10\n  n_8 --> n_10\n  n_9 --> n_10\n",
+  "flowEdgeStyle": "curve",
   "flowDirection": "TD"
 }
