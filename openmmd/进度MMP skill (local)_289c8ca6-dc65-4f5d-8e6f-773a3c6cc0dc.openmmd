@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "id": "2eaef621-5cff-44fa-ac6c-d8944add2f69",
+      "id": "60638295-4cd4-4e13-82dc-cd7a50e70f64",
       "type": "flow-terminator",
       "position": {
         "x": 397.5,
@@ -26,11 +26,11 @@
       }
     },
     {
-      "id": "b6601fa5-d598-4e9a-a407-998c143c17ac",
+      "id": "52c75feb-a065-481e-9d21-101c92fb42b4",
       "type": "flow-process",
       "position": {
-        "x": -297.75,
-        "y": 305
+        "x": -347.75,
+        "y": 295
       },
       "data": {
         "label": "数据来源",
@@ -48,12 +48,10 @@
       "measured": {
         "width": 160,
         "height": 56
-      },
-      "selected": false,
-      "dragging": false
+      }
     },
     {
-      "id": "be13c8fd-60c7-44a2-bbe8-26b5a1479e61",
+      "id": "6b14c4c5-082b-4342-84be-109a5f2ec604",
       "type": "flow-process",
       "position": {
         "x": 396,
@@ -78,11 +76,11 @@
       }
     },
     {
-      "id": "b8aa942e-16f2-497f-8ac6-a706676b647e",
+      "id": "017e9c0a-aede-4c5c-bcde-ca80fa112227",
       "type": "flow-process",
       "position": {
-        "x": -57.875,
-        "y": 152
+        "x": -107.875,
+        "y": 142
       },
       "data": {
         "label": "Ai自己编数据",
@@ -100,16 +98,14 @@
       "measured": {
         "width": 160,
         "height": 56
-      },
-      "selected": false,
-      "dragging": false
+      }
     },
     {
-      "id": "445cbe39-76c9-4527-a991-a1f86dd0fbb2",
+      "id": "e41daf8c-b95f-4715-824c-ea6b8c4da6e6",
       "type": "flow-process",
       "position": {
-        "x": -58.25300689472556,
-        "y": 237.50073940034235
+        "x": -108.25300689472556,
+        "y": 227.50073940034235
       },
       "data": {
         "label": "表格数据",
@@ -127,16 +123,14 @@
       "measured": {
         "width": 160,
         "height": 56
-      },
-      "selected": false,
-      "dragging": false
+      }
     },
     {
-      "id": "72941ad9-0091-47a1-b480-d59ef1c7b124",
+      "id": "2e4101a9-024e-4395-a207-58759113e861",
       "type": "flow-process",
       "position": {
-        "x": 1119.6408888918013,
-        "y": 343.49857049267143
+        "x": 1198.6408888918013,
+        "y": 287.49857049267143
       },
       "data": {
         "label": "建立MPP",
@@ -159,10 +153,10 @@
       "dragging": false
     },
     {
-      "id": "aa93e0ea-b25c-4aa4-8aba-8b634592364b",
+      "id": "fcb7ee88-3035-4733-a4dd-b7570e06cd20",
       "type": "flow-process",
       "position": {
-        "x": 691,
+        "x": 621,
         "y": 290
       },
       "data": {
@@ -176,6 +170,8 @@
         "width": 160,
         "height": 56
       },
+      "width": 160,
+      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
@@ -184,7 +180,7 @@
       "dragging": false
     },
     {
-      "id": "0307768b-e5b8-4a75-8539-311cd24a56b5",
+      "id": "348a719c-9055-4e5a-afa5-979087e721c6",
       "type": "flow-process",
       "position": {
         "x": 911,
@@ -195,28 +191,25 @@
         "width": 160,
         "height": 56,
         "selectedCount": 1,
-        "isMultiSelectAnchor": false,
-        "customColors": {
-          "bg": "#eab308"
-        }
+        "isMultiSelectAnchor": false
       },
       "style": {
         "width": 160,
         "height": 56
       },
+      "width": 160,
+      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
-      },
-      "selected": false,
-      "dragging": false
+      }
     },
     {
-      "id": "330335aa-d4fd-403b-a329-b8224a4d58b8",
+      "id": "42bbce29-1921-4bb4-bb93-ba9e35aba09e",
       "type": "flow-process",
       "position": {
-        "x": -60,
-        "y": 347
+        "x": -110,
+        "y": 337
       },
       "data": {
         "label": "给你表格大纲",
@@ -229,19 +222,19 @@
         "width": 160,
         "height": 56
       },
+      "width": 160,
+      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
-      },
-      "selected": false,
-      "dragging": false
+      }
     },
     {
-      "id": "d3df4a1c-fe31-4f97-a1ad-f739b46cf4cb",
+      "id": "71038e8b-3641-4216-8d9c-0ea1b3053642",
       "type": "flow-process",
       "position": {
-        "x": -59,
-        "y": 454
+        "x": -109,
+        "y": 444
       },
       "data": {
         "label": "给你关键节点",
@@ -254,18 +247,18 @@
         "width": 160,
         "height": 56
       },
+      "width": 160,
+      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
-      },
-      "selected": false,
-      "dragging": false
+      }
     },
     {
-      "id": "8564f5f1-df72-466a-827f-bf065a7ef542",
+      "id": "093fb653-9404-4a14-8585-72263806c5ac",
       "type": "flow-process",
       "position": {
-        "x": 171,
+        "x": 166,
         "y": 289
       },
       "data": {
@@ -279,19 +272,67 @@
         "width": 160,
         "height": 56
       },
+      "width": 160,
+      "height": 56,
+      "measured": {
+        "width": 160,
+        "height": 56
+      }
+    },
+    {
+      "id": "bd36977a-8105-4c2a-9bc2-25d4f74753a5",
+      "type": "flow-process",
+      "position": {
+        "x": 788,
+        "y": 431
+      },
+      "data": {
+        "label": "excel 过程文件",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
       "measured": {
         "width": 160,
         "height": 56
       },
       "selected": false,
       "dragging": false
+    },
+    {
+      "id": "0c826c83-9fab-4f31-a5fe-e36546c077c7",
+      "type": "flow-process",
+      "position": {
+        "x": 583,
+        "y": 418
+      },
+      "data": {
+        "label": "Process 13",
+        "width": 160,
+        "height": 56
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true,
+      "dragging": false
     }
   ],
   "edges": [
     {
-      "id": "e-2",
-      "source": "be13c8fd-60c7-44a2-bbe8-26b5a1479e61",
-      "target": "2eaef621-5cff-44fa-ac6c-d8944add2f69",
+      "id": "e-0",
+      "source": "6b14c4c5-082b-4342-84be-109a5f2ec604",
+      "target": "60638295-4cd4-4e13-82dc-cd7a50e70f64",
       "data": {
         "lineStyle": "solid",
         "arrowHead": "arrow",
@@ -304,151 +345,157 @@
       "targetHandle": "top-target"
     },
     {
-      "source": "2eaef621-5cff-44fa-ac6c-d8944add2f69",
-      "sourceHandle": "right-source",
-      "target": "aa93e0ea-b25c-4aa4-8aba-8b634592364b",
-      "targetHandle": "left-target",
-      "animated": false,
-      "style": {
-        "stroke": "#6366f1",
-        "strokeWidth": 2
-      },
-      "markerEnd": {
-        "type": "arrowclosed",
+      "id": "e-1",
+      "source": "60638295-4cd4-4e13-82dc-cd7a50e70f64",
+      "target": "fcb7ee88-3035-4733-a4dd-b7570e06cd20",
+      "data": {
+        "lineStyle": "solid",
+        "arrowHead": "arrow",
         "color": "#6366f1"
       },
-      "id": "xy-edge__2eaef621-5cff-44fa-ac6c-d8944add2f69right-source-aa93e0ea-b25c-4aa4-8aba-8b634592364bleft-target"
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "sourceHandle": "right-source",
+      "targetHandle": "left-target"
     },
     {
-      "source": "b6601fa5-d598-4e9a-a407-998c143c17ac",
-      "sourceHandle": "right-source",
-      "target": "b8aa942e-16f2-497f-8ac6-a706676b647e",
-      "targetHandle": "left-target",
-      "animated": false,
-      "style": {
-        "stroke": "#6366f1",
-        "strokeWidth": 2
-      },
-      "markerEnd": {
-        "type": "arrowclosed",
+      "id": "e-2",
+      "source": "52c75feb-a065-481e-9d21-101c92fb42b4",
+      "target": "017e9c0a-aede-4c5c-bcde-ca80fa112227",
+      "data": {
+        "lineStyle": "solid",
+        "arrowHead": "arrow",
         "color": "#6366f1"
       },
-      "id": "xy-edge__b6601fa5-d598-4e9a-a407-998c143c17acright-source-b8aa942e-16f2-497f-8ac6-a706676b647eleft-target"
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "sourceHandle": "right-source",
+      "targetHandle": "left-target"
     },
     {
-      "source": "b6601fa5-d598-4e9a-a407-998c143c17ac",
-      "sourceHandle": "right-source",
-      "target": "445cbe39-76c9-4527-a991-a1f86dd0fbb2",
-      "targetHandle": "left-target",
-      "animated": false,
-      "style": {
-        "stroke": "#6366f1",
-        "strokeWidth": 2
-      },
-      "markerEnd": {
-        "type": "arrowclosed",
+      "id": "e-3",
+      "source": "52c75feb-a065-481e-9d21-101c92fb42b4",
+      "target": "e41daf8c-b95f-4715-824c-ea6b8c4da6e6",
+      "data": {
+        "lineStyle": "solid",
+        "arrowHead": "arrow",
         "color": "#6366f1"
       },
-      "id": "xy-edge__b6601fa5-d598-4e9a-a407-998c143c17acright-source-445cbe39-76c9-4527-a991-a1f86dd0fbb2left-target"
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "sourceHandle": "right-source",
+      "targetHandle": "left-target"
     },
     {
-      "source": "b6601fa5-d598-4e9a-a407-998c143c17ac",
-      "sourceHandle": "right-source",
-      "target": "330335aa-d4fd-403b-a329-b8224a4d58b8",
-      "targetHandle": "left-target",
-      "animated": false,
-      "style": {
-        "stroke": "#6366f1",
-        "strokeWidth": 2
-      },
-      "markerEnd": {
-        "type": "arrowclosed",
+      "id": "e-4",
+      "source": "52c75feb-a065-481e-9d21-101c92fb42b4",
+      "target": "42bbce29-1921-4bb4-bb93-ba9e35aba09e",
+      "data": {
+        "lineStyle": "solid",
+        "arrowHead": "arrow",
         "color": "#6366f1"
       },
-      "id": "xy-edge__b6601fa5-d598-4e9a-a407-998c143c17acright-source-330335aa-d4fd-403b-a329-b8224a4d58b8left-target"
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "sourceHandle": "right-source",
+      "targetHandle": "left-target"
     },
     {
-      "source": "b6601fa5-d598-4e9a-a407-998c143c17ac",
-      "sourceHandle": "right-source",
-      "target": "d3df4a1c-fe31-4f97-a1ad-f739b46cf4cb",
-      "targetHandle": "left-target",
-      "animated": false,
-      "style": {
-        "stroke": "#6366f1",
-        "strokeWidth": 2
-      },
-      "markerEnd": {
-        "type": "arrowclosed",
+      "id": "e-5",
+      "source": "52c75feb-a065-481e-9d21-101c92fb42b4",
+      "target": "71038e8b-3641-4216-8d9c-0ea1b3053642",
+      "data": {
+        "lineStyle": "solid",
+        "arrowHead": "arrow",
         "color": "#6366f1"
       },
-      "id": "xy-edge__b6601fa5-d598-4e9a-a407-998c143c17acright-source-d3df4a1c-fe31-4f97-a1ad-f739b46cf4cbleft-target"
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "sourceHandle": "right-source",
+      "targetHandle": "left-target"
     },
     {
-      "source": "b8aa942e-16f2-497f-8ac6-a706676b647e",
-      "sourceHandle": "right-source",
-      "target": "8564f5f1-df72-466a-827f-bf065a7ef542",
-      "targetHandle": "left-target",
-      "animated": false,
-      "style": {
-        "stroke": "#6366f1",
-        "strokeWidth": 2
-      },
-      "markerEnd": {
-        "type": "arrowclosed",
+      "id": "e-6",
+      "source": "017e9c0a-aede-4c5c-bcde-ca80fa112227",
+      "target": "093fb653-9404-4a14-8585-72263806c5ac",
+      "data": {
+        "lineStyle": "solid",
+        "arrowHead": "arrow",
         "color": "#6366f1"
       },
-      "id": "xy-edge__b8aa942e-16f2-497f-8ac6-a706676b647eright-source-8564f5f1-df72-466a-827f-bf065a7ef542left-target"
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "sourceHandle": "right-source",
+      "targetHandle": "left-target"
     },
     {
-      "source": "445cbe39-76c9-4527-a991-a1f86dd0fbb2",
-      "sourceHandle": "right-source",
-      "target": "8564f5f1-df72-466a-827f-bf065a7ef542",
-      "targetHandle": "left-target",
-      "animated": false,
-      "style": {
-        "stroke": "#6366f1",
-        "strokeWidth": 2
-      },
-      "markerEnd": {
-        "type": "arrowclosed",
+      "id": "e-7",
+      "source": "e41daf8c-b95f-4715-824c-ea6b8c4da6e6",
+      "target": "093fb653-9404-4a14-8585-72263806c5ac",
+      "data": {
+        "lineStyle": "solid",
+        "arrowHead": "arrow",
         "color": "#6366f1"
       },
-      "id": "xy-edge__445cbe39-76c9-4527-a991-a1f86dd0fbb2right-source-8564f5f1-df72-466a-827f-bf065a7ef542left-target"
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "sourceHandle": "right-source",
+      "targetHandle": "left-target"
     },
     {
-      "source": "330335aa-d4fd-403b-a329-b8224a4d58b8",
-      "sourceHandle": "right-source",
-      "target": "8564f5f1-df72-466a-827f-bf065a7ef542",
-      "targetHandle": "left-target",
-      "animated": false,
-      "style": {
-        "stroke": "#6366f1",
-        "strokeWidth": 2
-      },
-      "markerEnd": {
-        "type": "arrowclosed",
+      "id": "e-8",
+      "source": "42bbce29-1921-4bb4-bb93-ba9e35aba09e",
+      "target": "093fb653-9404-4a14-8585-72263806c5ac",
+      "data": {
+        "lineStyle": "solid",
+        "arrowHead": "arrow",
         "color": "#6366f1"
       },
-      "id": "xy-edge__330335aa-d4fd-403b-a329-b8224a4d58b8right-source-8564f5f1-df72-466a-827f-bf065a7ef542left-target"
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "sourceHandle": "right-source",
+      "targetHandle": "left-target"
     },
     {
-      "source": "d3df4a1c-fe31-4f97-a1ad-f739b46cf4cb",
-      "sourceHandle": "right-source",
-      "target": "8564f5f1-df72-466a-827f-bf065a7ef542",
-      "targetHandle": "left-target",
-      "animated": false,
-      "style": {
-        "stroke": "#6366f1",
-        "strokeWidth": 2
-      },
-      "markerEnd": {
-        "type": "arrowclosed",
+      "id": "e-9",
+      "source": "71038e8b-3641-4216-8d9c-0ea1b3053642",
+      "target": "093fb653-9404-4a14-8585-72263806c5ac",
+      "data": {
+        "lineStyle": "solid",
+        "arrowHead": "arrow",
         "color": "#6366f1"
       },
-      "id": "xy-edge__d3df4a1c-fe31-4f97-a1ad-f739b46cf4cbright-source-8564f5f1-df72-466a-827f-bf065a7ef542left-target"
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "sourceHandle": "right-source",
+      "targetHandle": "left-target"
+    },
+    {
+      "id": "e-10",
+      "source": "093fb653-9404-4a14-8585-72263806c5ac",
+      "target": "60638295-4cd4-4e13-82dc-cd7a50e70f64",
+      "data": {
+        "lineStyle": "solid",
+        "arrowHead": "arrow",
+        "color": "#6366f1"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "sourceHandle": "right-source",
+      "targetHandle": "left-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"读取MPP模板\")\n  n_7(\"Python COM 脚本\")\n  n_8(\"给你表格大纲\")\n  n_9(\"给你关键节点\")\n  n_10(\"结合工程资料\")\n  n_2 --> n_0\n  n_0 --> n_6\n  n_1 --> n_3\n  n_1 --> n_4\n  n_1 --> n_8\n  n_1 --> n_9\n  n_3 --> n_10\n  n_4 --> n_10\n  n_8 --> n_10\n  n_9 --> n_10\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"读取MPP模板\")\n  n_7(\"Python COM 脚本\")\n  n_8(\"给你表格大纲\")\n  n_9(\"给你关键节点\")\n  n_10(\"结合工程资料\")\n  n_11(\"excel 过程文件\")\n  n_12(\"Process 13\")\n  n_2 --> n_0\n  n_0 --> n_6\n  n_1 --> n_3\n  n_1 --> n_4\n  n_1 --> n_8\n  n_1 --> n_9\n  n_3 --> n_10\n  n_4 --> n_10\n  n_8 --> n_10\n  n_9 --> n_10\n  n_10 --> n_0\n",
   "flowEdgeStyle": "curve",
   "flowDirection": "TD"
 }
