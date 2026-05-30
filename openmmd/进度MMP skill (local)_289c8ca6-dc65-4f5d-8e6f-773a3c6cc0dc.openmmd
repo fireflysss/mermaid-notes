@@ -4,8 +4,8 @@
       "id": "e0f84008-aea1-4b83-afde-a8a64f49d3dd",
       "type": "flow-terminator",
       "position": {
-        "x": -190.5,
-        "y": -8
+        "x": 397.5,
+        "y": 290
       },
       "data": {
         "label": "make mpp SKILL",
@@ -54,8 +54,8 @@
       "id": "09d9c623-a244-4dfb-8cec-3c6f2580a0a9",
       "type": "flow-process",
       "position": {
-        "x": 51,
-        "y": -8
+        "x": 396,
+        "y": 104
       },
       "data": {
         "label": "skill  creata 要求创建",
@@ -129,8 +129,8 @@
       "id": "2b743924-e86e-4d62-9105-791de37fa427",
       "type": "flow-process",
       "position": {
-        "x": 1127.6408888918013,
-        "y": 293.49857049267143
+        "x": 689.6408888918013,
+        "y": 290.49857049267143
       },
       "data": {
         "label": "建立MPP",
@@ -152,22 +152,6 @@
     }
   ],
   "edges": [
-    {
-      "id": "e-0",
-      "source": "09d9c623-a244-4dfb-8cec-3c6f2580a0a9",
-      "target": "e0f84008-aea1-4b83-afde-a8a64f49d3dd",
-      "data": {
-        "lineStyle": "solid",
-        "arrowHead": "arrow",
-        "color": "#6366f1"
-      },
-      "markerEnd": {
-        "type": "arrowclosed"
-      },
-      "sourceHandle": "left-source",
-      "targetHandle": "right-target",
-      "selected": false
-    },
     {
       "source": "9a06a90c-2693-4e75-8df3-87252718cdac",
       "sourceHandle": "right-source",
@@ -201,9 +185,73 @@
       },
       "id": "xy-edge__9a06a90c-2693-4e75-8df3-87252718cdacright-source-1d937409-fb69-4238-99c1-ec85ddd01539left-target",
       "selected": false
+    },
+    {
+      "source": "09d9c623-a244-4dfb-8cec-3c6f2580a0a9",
+      "sourceHandle": "bottom-source",
+      "target": "e0f84008-aea1-4b83-afde-a8a64f49d3dd",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__09d9c623-a244-4dfb-8cec-3c6f2580a0a9bottom-source-e0f84008-aea1-4b83-afde-a8a64f49d3ddtop-target"
+    },
+    {
+      "source": "5f7b3412-bd2f-46f2-baea-3f2e84808666",
+      "sourceHandle": "right-source",
+      "target": "e0f84008-aea1-4b83-afde-a8a64f49d3dd",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__5f7b3412-bd2f-46f2-baea-3f2e84808666right-source-e0f84008-aea1-4b83-afde-a8a64f49d3ddleft-target"
+    },
+    {
+      "source": "1d937409-fb69-4238-99c1-ec85ddd01539",
+      "sourceHandle": "right-source",
+      "target": "e0f84008-aea1-4b83-afde-a8a64f49d3dd",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__1d937409-fb69-4238-99c1-ec85ddd01539right-source-e0f84008-aea1-4b83-afde-a8a64f49d3ddleft-target"
+    },
+    {
+      "source": "e0f84008-aea1-4b83-afde-a8a64f49d3dd",
+      "sourceHandle": "right-source",
+      "target": "2b743924-e86e-4d62-9105-791de37fa427",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__e0f84008-aea1-4b83-afde-a8a64f49d3ddright-source-2b743924-e86e-4d62-9105-791de37fa427left-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_2 --> n_0\n  n_1 --> n_3\n  n_1 --> n_4\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_1 --> n_3\n  n_1 --> n_4\n  n_2 --> n_0\n  n_3 --> n_0\n  n_4 --> n_0\n  n_0 --> n_5\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD"
 }
