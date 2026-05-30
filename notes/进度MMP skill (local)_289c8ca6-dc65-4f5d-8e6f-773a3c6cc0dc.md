@@ -9,7 +9,7 @@ flowchart TD
   n_4("表格数据")
   n_5("建立MPP")
   n_6("读取MPP模板")
-  n_7("Process 8")
+  n_7("Python COM 脚本")
   n_8("给你表格大纲")
   n_9("给你关键节点")
   n_10("结合工程资料")
