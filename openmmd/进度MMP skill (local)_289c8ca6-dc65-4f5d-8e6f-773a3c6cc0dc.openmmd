@@ -99,6 +99,56 @@
       },
       "selected": false,
       "dragging": false
+    },
+    {
+      "id": "454a8b02-47d5-42b4-bc4c-5dc9b469fcea",
+      "type": "flow-process",
+      "position": {
+        "x": -322.37800689472556,
+        "y": 267.50073940034235
+      },
+      "data": {
+        "label": "表格数据",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "05724abb-f98d-4f1c-aebe-4556346cf33f",
+      "type": "flow-process",
+      "position": {
+        "x": 252.64088889180132,
+        "y": 201.49857049267146
+      },
+      "data": {
+        "label": "建立MPP",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
     }
   ],
   "edges": [
@@ -119,7 +169,7 @@
       "id": "xy-edge__3d2d5ef4-7485-4104-9f16-1f0e1fb5f968left-source-1709f709-59b0-4933-9e33-2843990e8fbcright-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_2 --> n_0\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_2 --> n_0\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD"
 }
