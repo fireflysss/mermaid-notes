@@ -1,23 +1,23 @@
 {
   "nodes": [
     {
-      "id": "1709f709-59b0-4933-9e33-2843990e8fbc",
+      "id": "e0f84008-aea1-4b83-afde-a8a64f49d3dd",
       "type": "flow-terminator",
       "position": {
-        "x": 51.5,
-        "y": -96
+        "x": -190.5,
+        "y": -8
       },
       "data": {
         "label": "make mpp SKILL",
         "width": 160,
-        "height": 56,
-        "selectedCount": 1,
-        "isMultiSelectAnchor": false
+        "height": 56
       },
       "style": {
         "width": 160,
         "height": 56
       },
+      "width": 160,
+      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
@@ -26,23 +26,23 @@
       "dragging": false
     },
     {
-      "id": "6a5fb186-63d2-47d3-a1b2-af2604d2016a",
+      "id": "9a06a90c-2693-4e75-8df3-87252718cdac",
       "type": "flow-process",
       "position": {
-        "x": 681.25,
-        "y": 56
+        "x": -202.75,
+        "y": 257
       },
       "data": {
         "label": "数据来源",
         "width": 160,
-        "height": 56,
-        "selectedCount": 1,
-        "isMultiSelectAnchor": false
+        "height": 56
       },
       "style": {
         "width": 160,
         "height": 56
       },
+      "width": 160,
+      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
@@ -51,23 +51,23 @@
       "dragging": false
     },
     {
-      "id": "3d2d5ef4-7485-4104-9f16-1f0e1fb5f968",
+      "id": "09d9c623-a244-4dfb-8cec-3c6f2580a0a9",
       "type": "flow-process",
       "position": {
-        "x": 293,
-        "y": -96
+        "x": 51,
+        "y": -8
       },
       "data": {
         "label": "skill  creata 要求创建",
         "width": 160,
-        "height": 56,
-        "selectedCount": 1,
-        "isMultiSelectAnchor": false
+        "height": 56
       },
       "style": {
         "width": 160,
         "height": 56
       },
+      "width": 160,
+      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
@@ -76,23 +76,23 @@
       "dragging": false
     },
     {
-      "id": "aaeca53e-272e-4e93-a5f5-25381c146531",
+      "id": "5f7b3412-bd2f-46f2-baea-3f2e84808666",
       "type": "flow-process",
       "position": {
-        "x": 955.125,
-        "y": -29
+        "x": 71.125,
+        "y": 172
       },
       "data": {
         "label": "Ai自己编数据",
         "width": 160,
-        "height": 56,
-        "selectedCount": 1,
-        "isMultiSelectAnchor": false
+        "height": 56
       },
       "style": {
         "width": 160,
         "height": 56
       },
+      "width": 160,
+      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
@@ -101,23 +101,23 @@
       "dragging": false
     },
     {
-      "id": "454a8b02-47d5-42b4-bc4c-5dc9b469fcea",
+      "id": "1d937409-fb69-4238-99c1-ec85ddd01539",
       "type": "flow-process",
       "position": {
-        "x": 951.7469931052744,
-        "y": 169.50073940034235
+        "x": 67.74699310527444,
+        "y": 370.50073940034235
       },
       "data": {
         "label": "表格数据",
         "width": 160,
-        "height": 56,
-        "selectedCount": 1,
-        "isMultiSelectAnchor": false
+        "height": 56
       },
       "style": {
         "width": 160,
         "height": 56
       },
+      "width": 160,
+      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
@@ -126,23 +126,23 @@
       "dragging": false
     },
     {
-      "id": "05724abb-f98d-4f1c-aebe-4556346cf33f",
+      "id": "2b743924-e86e-4d62-9105-791de37fa427",
       "type": "flow-process",
       "position": {
-        "x": 252.64088889180132,
-        "y": 201.49857049267146
+        "x": 1127.6408888918013,
+        "y": 293.49857049267143
       },
       "data": {
         "label": "建立MPP",
         "width": 160,
-        "height": 56,
-        "selectedCount": 1,
-        "isMultiSelectAnchor": false
+        "height": 56
       },
       "style": {
         "width": 160,
         "height": 56
       },
+      "width": 160,
+      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
@@ -153,10 +153,26 @@
   ],
   "edges": [
     {
-      "source": "3d2d5ef4-7485-4104-9f16-1f0e1fb5f968",
+      "id": "e-0",
+      "source": "09d9c623-a244-4dfb-8cec-3c6f2580a0a9",
+      "target": "e0f84008-aea1-4b83-afde-a8a64f49d3dd",
+      "data": {
+        "lineStyle": "solid",
+        "arrowHead": "arrow",
+        "color": "#6366f1"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
       "sourceHandle": "left-source",
-      "target": "1709f709-59b0-4933-9e33-2843990e8fbc",
       "targetHandle": "right-target",
+      "selected": false
+    },
+    {
+      "source": "9a06a90c-2693-4e75-8df3-87252718cdac",
+      "sourceHandle": "right-source",
+      "target": "5f7b3412-bd2f-46f2-baea-3f2e84808666",
+      "targetHandle": "left-target",
       "animated": false,
       "style": {
         "stroke": "#6366f1",
@@ -166,10 +182,28 @@
         "type": "arrowclosed",
         "color": "#6366f1"
       },
-      "id": "xy-edge__3d2d5ef4-7485-4104-9f16-1f0e1fb5f968left-source-1709f709-59b0-4933-9e33-2843990e8fbcright-target"
+      "id": "xy-edge__9a06a90c-2693-4e75-8df3-87252718cdacright-source-5f7b3412-bd2f-46f2-baea-3f2e84808666left-target",
+      "selected": false
+    },
+    {
+      "source": "9a06a90c-2693-4e75-8df3-87252718cdac",
+      "sourceHandle": "right-source",
+      "target": "1d937409-fb69-4238-99c1-ec85ddd01539",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__9a06a90c-2693-4e75-8df3-87252718cdacright-source-1d937409-fb69-4238-99c1-ec85ddd01539left-target",
+      "selected": false
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_2 --> n_0\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_2 --> n_0\n  n_1 --> n_3\n  n_1 --> n_4\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD"
 }
