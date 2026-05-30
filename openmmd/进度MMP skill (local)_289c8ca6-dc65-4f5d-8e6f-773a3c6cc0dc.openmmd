@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "id": "602c0e61-f8bf-46f6-b0ff-2871574730da",
+      "id": "1709f709-59b0-4933-9e33-2843990e8fbc",
       "type": "flow-terminator",
       "position": {
-        "x": 66,
-        "y": 12
+        "x": 51.5,
+        "y": -96
       },
       "data": {
-        "label": "msproject SKILL",
+        "label": "make mpp SKILL",
         "width": 160,
         "height": 56,
         "selectedCount": 1,
@@ -18,8 +18,6 @@
         "width": 160,
         "height": 56
       },
-      "width": 160,
-      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
@@ -28,14 +26,14 @@
       "dragging": false
     },
     {
-      "id": "1709f709-59b0-4933-9e33-2843990e8fbc",
-      "type": "flow-terminator",
+      "id": "6a5fb186-63d2-47d3-a1b2-af2604d2016a",
+      "type": "flow-process",
       "position": {
-        "x": 58,
-        "y": -94
+        "x": 56,
+        "y": 35
       },
       "data": {
-        "label": "MPP SKILL",
+        "label": "Process 3",
         "width": 160,
         "height": 56,
         "selectedCount": 1,
@@ -49,12 +47,54 @@
         "width": 160,
         "height": 56
       },
-      "selected": true,
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "3d2d5ef4-7485-4104-9f16-1f0e1fb5f968",
+      "type": "flow-process",
+      "position": {
+        "x": 293,
+        "y": -96
+      },
+      "data": {
+        "label": "skill  creata 要求创建",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
       "dragging": false
     }
   ],
-  "edges": [],
-  "mermaidCode": "flowchart TD\n  n_0([\"msproject SKILL\"])\n  n_1([\"MPP SKILL\"])\n",
+  "edges": [
+    {
+      "source": "3d2d5ef4-7485-4104-9f16-1f0e1fb5f968",
+      "sourceHandle": "left-source",
+      "target": "1709f709-59b0-4933-9e33-2843990e8fbc",
+      "targetHandle": "right-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__3d2d5ef4-7485-4104-9f16-1f0e1fb5f968left-source-1709f709-59b0-4933-9e33-2843990e8fbcright-target"
+    }
+  ],
+  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"Process 3\")\n  n_2(\"skill  creata 要求创建\")\n  n_2 --> n_0\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD"
 }

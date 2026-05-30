@@ -2,7 +2,9 @@
 
 ```mermaid
 flowchart TD
-  n_0(["msproject SKILL"])
-  n_1(["MPP SKILL"])
+  n_0(["make mpp SKILL"])
+  n_1("Process 3")
+  n_2("skill  creata 要求创建")
+  n_2 --> n_0
 
 ```
