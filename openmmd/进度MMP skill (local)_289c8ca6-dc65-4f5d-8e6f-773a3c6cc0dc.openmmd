@@ -130,13 +130,13 @@
       "id": "2e4101a9-024e-4395-a207-58759113e861",
       "type": "flow-process",
       "position": {
-        "x": 1385.9531411867151,
-        "y": 240.91495438782263
+        "x": 1604.2058286361516,
+        "y": 390.2457405374372
       },
       "data": {
         "label": "建立MPP",
-        "width": 160,
-        "height": 56,
+        "width": 163,
+        "height": 66,
         "selectedCount": 1,
         "isMultiSelectAnchor": false
       },
@@ -144,14 +144,15 @@
         "width": 160,
         "height": 56
       },
-      "width": 160,
-      "height": 56,
+      "width": 163,
+      "height": 66,
       "measured": {
-        "width": 160,
-        "height": 56
+        "width": 163,
+        "height": 66
       },
       "selected": false,
-      "dragging": false
+      "dragging": false,
+      "resizing": false
     },
     {
       "id": "42bbce29-1921-4bb4-bb93-ba9e35aba09e",
@@ -307,8 +308,8 @@
       "id": "bfe79603-a9ed-42ca-b7ed-7e7a3e45ca22",
       "type": "flow-process",
       "position": {
-        "x": 940.263292206781,
-        "y": 261.60387575295596
+        "x": 1113.7167438113333,
+        "y": 397.15028164260616
       },
       "data": {
         "label": "脚本或者skill",
@@ -357,11 +358,36 @@
       "id": "7c99105f-cf87-46b8-89e6-acb78df1305f",
       "type": "flow-process",
       "position": {
-        "x": 1159.6646780112144,
-        "y": 245.52209878299752
+        "x": 1348.0512082307282,
+        "y": 401.7450750625943
       },
       "data": {
         "label": "根据模板创建",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "98ccea57-0850-4080-83fa-945043e90056",
+      "type": "flow-process",
+      "position": {
+        "x": 874.78748597195,
+        "y": 239.7786070080124
+      },
+      "data": {
+        "label": "熟悉模板样式",
         "width": 160,
         "height": 56,
         "selectedCount": 1,
@@ -595,22 +621,6 @@
       "id": "xy-edge__60638295-4cd4-4e13-82dc-cd7a50e70f64right-source-27dfacec-c4af-4da7-a1fa-6d9928dccd2bleft-target"
     },
     {
-      "source": "bd36977a-8105-4c2a-9bc2-25d4f74753a5",
-      "sourceHandle": "top-source",
-      "target": "bfe79603-a9ed-42ca-b7ed-7e7a3e45ca22",
-      "targetHandle": "bottom-target",
-      "animated": false,
-      "style": {
-        "stroke": "#6366f1",
-        "strokeWidth": 2
-      },
-      "markerEnd": {
-        "type": "arrowclosed",
-        "color": "#6366f1"
-      },
-      "id": "xy-edge__bd36977a-8105-4c2a-9bc2-25d4f74753a5top-source-bfe79603-a9ed-42ca-b7ed-7e7a3e45ca22bottom-target"
-    },
-    {
       "source": "bfe79603-a9ed-42ca-b7ed-7e7a3e45ca22",
       "sourceHandle": "right-source",
       "target": "7c99105f-cf87-46b8-89e6-acb78df1305f",
@@ -641,9 +651,73 @@
         "color": "#6366f1"
       },
       "id": "xy-edge__7c99105f-cf87-46b8-89e6-acb78df1305fright-source-2e4101a9-024e-4395-a207-58759113e861left-target"
+    },
+    {
+      "source": "2e4101a9-024e-4395-a207-58759113e861",
+      "sourceHandle": "bottom-source",
+      "target": "2e4101a9-024e-4395-a207-58759113e861",
+      "targetHandle": "bottom-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__2e4101a9-024e-4395-a207-58759113e861bottom-source-2e4101a9-024e-4395-a207-58759113e861bottom-target"
+    },
+    {
+      "source": "27dfacec-c4af-4da7-a1fa-6d9928dccd2b",
+      "sourceHandle": "right-source",
+      "target": "98ccea57-0850-4080-83fa-945043e90056",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__27dfacec-c4af-4da7-a1fa-6d9928dccd2bright-source-98ccea57-0850-4080-83fa-945043e90056left-target"
+    },
+    {
+      "source": "bd36977a-8105-4c2a-9bc2-25d4f74753a5",
+      "sourceHandle": "right-source",
+      "target": "bfe79603-a9ed-42ca-b7ed-7e7a3e45ca22",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__bd36977a-8105-4c2a-9bc2-25d4f74753a5right-source-bfe79603-a9ed-42ca-b7ed-7e7a3e45ca22left-target"
+    },
+    {
+      "source": "98ccea57-0850-4080-83fa-945043e90056",
+      "sourceHandle": "right-source",
+      "target": "7c99105f-cf87-46b8-89e6-acb78df1305f",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__98ccea57-0850-4080-83fa-945043e90056right-source-7c99105f-cf87-46b8-89e6-acb78df1305fleft-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"给你表格大纲\")\n  n_7(\"给你关键节点\")\n  n_8(\"结合工程资料\")\n  n_9(\"excel 过程文件\")\n  n_10(\"根据数据编辑进度计划\")\n  n_11>\"过程检查交互\"]\n  n_12(\"脚本或者skill\")\n  n_13(\"读取MPP模板\")\n  n_14(\"根据模板创建\")\n  n_2 --> n_0\n  n_1 --> n_3\n  n_1 --> n_4\n  n_1 --> n_6\n  n_1 --> n_7\n  n_3 --> n_8\n  n_4 --> n_8\n  n_6 --> n_8\n  n_7 --> n_8\n  n_8 --> n_0\n  n_0 --> n_10\n  n_10 --> n_9\n  n_9 --> n_11\n  n_0 --> n_13\n  n_9 --> n_12\n  n_12 --> n_14\n  n_14 --> n_5\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"给你表格大纲\")\n  n_7(\"给你关键节点\")\n  n_8(\"结合工程资料\")\n  n_9(\"excel 过程文件\")\n  n_10(\"根据数据编辑进度计划\")\n  n_11>\"过程检查交互\"]\n  n_12(\"脚本或者skill\")\n  n_13(\"读取MPP模板\")\n  n_14(\"根据模板创建\")\n  n_15(\"熟悉模板样式\")\n  n_2 --> n_0\n  n_1 --> n_3\n  n_1 --> n_4\n  n_1 --> n_6\n  n_1 --> n_7\n  n_3 --> n_8\n  n_4 --> n_8\n  n_6 --> n_8\n  n_7 --> n_8\n  n_8 --> n_0\n  n_0 --> n_10\n  n_10 --> n_9\n  n_9 --> n_11\n  n_0 --> n_13\n  n_12 --> n_14\n  n_14 --> n_5\n  n_5 --> n_5\n  n_13 --> n_15\n  n_9 --> n_12\n  n_15 --> n_14\n",
   "flowEdgeStyle": "curve",
   "flowDirection": "TD"
 }
