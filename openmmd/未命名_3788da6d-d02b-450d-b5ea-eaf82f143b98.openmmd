@@ -1,0 +1,635 @@
+{
+  "nodes": [
+    {
+      "id": "b403adb8-04a1-4592-88ca-4e1934212ded",
+      "label": "root((make-docx<br/>DOCX 全功能工具包))",
+      "parentId": null,
+      "order": 0
+    },
+    {
+      "id": "2d06d87b-5a4a-449a-9724-4de71d987395",
+      "label": "格式模板.docx",
+      "parentId": "b403adb8-04a1-4592-88ca-4e1934212ded",
+      "order": 0
+    },
+    {
+      "id": "a8f51d7b-26f8-4bdf-adfd-97b4509598be",
+      "label": "Normal 正文 / H1-H6 标题",
+      "parentId": "2d06d87b-5a4a-449a-9724-4de71d987395",
+      "order": 0
+    },
+    {
+      "id": "08961c8d-f280-470a-add3-5335a4b56892",
+      "label": "页面边距 / 字体 / 字号",
+      "parentId": "2d06d87b-5a4a-449a-9724-4de71d987395",
+      "order": 1
+    },
+    {
+      "id": "b9e734fd-6531-4676-a390-08c422247b49",
+      "label": "品牌配置页::icon(fa fa-paint-brush)",
+      "parentId": "2d06d87b-5a4a-449a-9724-4de71d987395",
+      "order": 2
+    },
+    {
+      "id": "e0abd7c4-cc1c-4c47-9c18-0e0798385d34",
+      "label": "品牌模板配置 H1",
+      "parentId": "b9e734fd-6531-4676-a390-08c422247b49",
+      "order": 0
+    },
+    {
+      "id": "23eb448c-6cd0-4605-91d8-1182dd36238e",
+      "label": "全局默认值 H2",
+      "parentId": "e0abd7c4-cc1c-4c47-9c18-0e0798385d34",
+      "order": 0
+    },
+    {
+      "id": "5e4d421f-e6ab-41a1-9839-d5807ea8840a",
+      "label": "北京建工 H2",
+      "parentId": "e0abd7c4-cc1c-4c47-9c18-0e0798385d34",
+      "order": 1
+    },
+    {
+      "id": "d2861e5b-2f7d-4ef0-b16a-0fccfec27234",
+      "label": "中建八局 H2",
+      "parentId": "e0abd7c4-cc1c-4c47-9c18-0e0798385d34",
+      "order": 2
+    },
+    {
+      "id": "49407ef4-8b9f-46df-bce7-fa44140e29e6",
+      "label": "中建三局 H2",
+      "parentId": "e0abd7c4-cc1c-4c47-9c18-0e0798385d34",
+      "order": 3
+    },
+    {
+      "id": "5dabd0e7-b605-44cb-a368-545dfe98cff4",
+      "label": "新增品牌 H2",
+      "parentId": "e0abd7c4-cc1c-4c47-9c18-0e0798385d34",
+      "order": 4
+    },
+    {
+      "id": "d76766ba-c4ee-4242-8dfb-d89417f2933c",
+      "label": "色块参数 ■■■■",
+      "parentId": "b9e734fd-6531-4676-a390-08c422247b49",
+      "order": 1
+    },
+    {
+      "id": "6bd39a30-1800-43b8-b72d-580649c822f2",
+      "label": "表头底色",
+      "parentId": "d76766ba-c4ee-4242-8dfb-d89417f2933c",
+      "order": 0
+    },
+    {
+      "id": "6a3ab4d6-e8f4-46f2-889a-21535a62d3ac",
+      "label": "表头文字色",
+      "parentId": "d76766ba-c4ee-4242-8dfb-d89417f2933c",
+      "order": 1
+    },
+    {
+      "id": "91846b92-07d1-41bc-a1d0-93377ca23917",
+      "label": "首列底色",
+      "parentId": "d76766ba-c4ee-4242-8dfb-d89417f2933c",
+      "order": 2
+    },
+    {
+      "id": "0b3cbac7-78d9-499f-8dc8-a82113bb09e9",
+      "label": "隔行底色",
+      "parentId": "d76766ba-c4ee-4242-8dfb-d89417f2933c",
+      "order": 3
+    },
+    {
+      "id": "6b732deb-ae5b-4b7d-8d78-602459a8c333",
+      "label": "边框色",
+      "parentId": "d76766ba-c4ee-4242-8dfb-d89417f2933c",
+      "order": 4
+    },
+    {
+      "id": "762f7eb7-3420-4791-8ed8-dc349d8d0971",
+      "label": "开关参数",
+      "parentId": "b9e734fd-6531-4676-a390-08c422247b49",
+      "order": 2
+    },
+    {
+      "id": "ed5727c1-d296-44cd-8bd6-a6d469cec249",
+      "label": "是否启用首列底色 = 是/否",
+      "parentId": "762f7eb7-3420-4791-8ed8-dc349d8d0971",
+      "order": 0
+    },
+    {
+      "id": "098d33ee-fd69-435e-8316-b75e0ef9595d",
+      "label": "是否启用隔行底色 = 是/否",
+      "parentId": "762f7eb7-3420-4791-8ed8-dc349d8d0971",
+      "order": 1
+    },
+    {
+      "id": "dd83a9ef-0888-4558-9b5a-e5d93d5254a2",
+      "label": "操作",
+      "parentId": "b9e734fd-6531-4676-a390-08c422247b49",
+      "order": 3
+    },
+    {
+      "id": "c6efaa02-a2e6-4028-800b-6434a78fca6c",
+      "label": "选中色块 → 字体颜色 → 保存",
+      "parentId": "dd83a9ef-0888-4558-9b5a-e5d93d5254a2",
+      "order": 0
+    },
+    {
+      "id": "8a8f0efa-57de-4e12-84aa-ab7ae72f134a",
+      "label": "python build_templates.py",
+      "parentId": "dd83a9ef-0888-4558-9b5a-e5d93d5254a2",
+      "order": 1
+    },
+    {
+      "id": "f1de9fd9-c8d3-4127-b05d-7e0f06f33f6a",
+      "label": "build_templates.py",
+      "parentId": "b403adb8-04a1-4592-88ca-4e1934212ded",
+      "order": 1
+    },
+    {
+      "id": "64573c89-e35e-43e6-b63f-2cc76a0c0f8b",
+      "label": "读取 H2 配置",
+      "parentId": "f1de9fd9-c8d3-4127-b05d-7e0f06f33f6a",
+      "order": 0
+    },
+    {
+      "id": "dfd4400b-d9ed-4d06-8cde-490bf51beaa4",
+      "label": "色块字体色 → hex",
+      "parentId": "f1de9fd9-c8d3-4127-b05d-7e0f06f33f6a",
+      "order": 1
+    },
+    {
+      "id": "b9444415-46d4-4e60-bb62-e71e702dda96",
+      "label": "注入 Table Grid 样式",
+      "parentId": "f1de9fd9-c8d3-4127-b05d-7e0f06f33f6a",
+      "order": 2
+    },
+    {
+      "id": "7d813fd2-3753-4dba-bcf8-8d2d978126e3",
+      "label": "wholeTable 边框",
+      "parentId": "b9444415-46d4-4e60-bb62-e71e702dda96",
+      "order": 0
+    },
+    {
+      "id": "cd65b360-4764-4628-918b-5590f82336d8",
+      "label": "firstRow 表头色",
+      "parentId": "b9444415-46d4-4e60-bb62-e71e702dda96",
+      "order": 1
+    },
+    {
+      "id": "3aba8fc9-1535-45e9-99a1-427cabc68ea2",
+      "label": "firstCol 首列色",
+      "parentId": "b9444415-46d4-4e60-bb62-e71e702dda96",
+      "order": 2
+    },
+    {
+      "id": "7a589e66-0888-4e1b-b22f-57a3a2108107",
+      "label": "band1Horz 奇数行",
+      "parentId": "b9444415-46d4-4e60-bb62-e71e702dda96",
+      "order": 3
+    },
+    {
+      "id": "869c8c21-1d8d-4ab3-9651-efde9b5c8fae",
+      "label": "band2Horz 斑马纹",
+      "parentId": "b9444415-46d4-4e60-bb62-e71e702dda96",
+      "order": 4
+    },
+    {
+      "id": "76973afa-db6d-45bc-b3e8-6d5ba394eca8",
+      "label": "修复 tblLook",
+      "parentId": "f1de9fd9-c8d3-4127-b05d-7e0f06f33f6a",
+      "order": 3
+    },
+    {
+      "id": "f7a38d10-3f5c-4e76-b07a-b26911813f39",
+      "label": "noHBand → 0",
+      "parentId": "76973afa-db6d-45bc-b3e8-6d5ba394eca8",
+      "order": 0
+    },
+    {
+      "id": "bc59c1d8-2e78-43ba-8701-d6bc9e0c2b50",
+      "label": "firstColumn → 1",
+      "parentId": "76973afa-db6d-45bc-b3e8-6d5ba394eca8",
+      "order": 1
+    },
+    {
+      "id": "d79d1672-45f7-4132-ac06-0c67e93aedb1",
+      "label": "删除配置页",
+      "parentId": "f1de9fd9-c8d3-4127-b05d-7e0f06f33f6a",
+      "order": 4
+    },
+    {
+      "id": "5dcf109b-3a8a-4037-8af6-1e72831de7ac",
+      "label": "输出 模板-品牌.docx",
+      "parentId": "f1de9fd9-c8d3-4127-b05d-7e0f06f33f6a",
+      "order": 5
+    },
+    {
+      "id": "99b65188-093e-4e08-b522-85734e26d944",
+      "label": "html_to_docx.py",
+      "parentId": "b403adb8-04a1-4592-88ca-4e1934212ded",
+      "order": 2
+    },
+    {
+      "id": "af6acf08-4a09-48ab-b168-506b2ab00823",
+      "label": "HTML → DOCX 核心转换",
+      "parentId": "99b65188-093e-4e08-b522-85734e26d944",
+      "order": 0
+    },
+    {
+      "id": "b12589a2-7faf-4c54-b0b9-dfa73d77d540",
+      "label": "inject_table_style_from_template",
+      "parentId": "99b65188-093e-4e08-b522-85734e26d944",
+      "order": 1
+    },
+    {
+      "id": "836ad71a-d046-48a7-beb7-b370b401fbbc",
+      "label": "copy.deepcopy Table Grid",
+      "parentId": "b12589a2-7faf-4c54-b0b9-dfa73d77d540",
+      "order": 0
+    },
+    {
+      "id": "05442eda-eac4-4507-8ad6-1817dab9ef5e",
+      "label": "replace 输出中的旧样式",
+      "parentId": "b12589a2-7faf-4c54-b0b9-dfa73d77d540",
+      "order": 1
+    },
+    {
+      "id": "43f9a05d-bbba-4c2a-9f03-a754845f30fc",
+      "label": "表格保险代码",
+      "parentId": "99b65188-093e-4e08-b522-85734e26d944",
+      "order": 2
+    },
+    {
+      "id": "eeaa2625-4038-41a9-bdc5-dff42ca830c1",
+      "label": "row.height = Cm 0.7",
+      "parentId": "43f9a05d-bbba-4c2a-9f03-a754845f30fc",
+      "order": 0
+    },
+    {
+      "id": "855caf5b-4a20-4211-9635-381beede135b",
+      "label": "row.height_rule = AT_LEAST",
+      "parentId": "43f9a05d-bbba-4c2a-9f03-a754845f30fc",
+      "order": 1
+    },
+    {
+      "id": "7a22bd1a-de18-49d9-8d44-da2356999de2",
+      "label": "cell.vertical_alignment = CENTER",
+      "parentId": "43f9a05d-bbba-4c2a-9f03-a754845f30fc",
+      "order": 2
+    },
+    {
+      "id": "b641dde4-17b7-43ca-8760-f35a4480a5dc",
+      "label": "自动列宽计算",
+      "parentId": "99b65188-093e-4e08-b522-85734e26d944",
+      "order": 3
+    },
+    {
+      "id": "3291fbd4-7fbf-4e3e-bd26-d5d5347d51e8",
+      "label": "图片嵌入 img-dir",
+      "parentId": "99b65188-093e-4e08-b522-85734e26d944",
+      "order": 4
+    },
+    {
+      "id": "83ced1a1-5c1e-4399-8dad-678a3fa8bed8",
+      "label": "docx_tool.py",
+      "parentId": "b403adb8-04a1-4592-88ca-4e1934212ded",
+      "order": 3
+    },
+    {
+      "id": "4293b083-dd73-4e33-bde3-c9b46f2dda49",
+      "label": "26 命令 CLI",
+      "parentId": "83ced1a1-5c1e-4399-8dad-678a3fa8bed8",
+      "order": 0
+    },
+    {
+      "id": "e9d87800-a832-4051-9686-dec686099004",
+      "label": "create 新建",
+      "parentId": "4293b083-dd73-4e33-bde3-c9b46f2dda49",
+      "order": 0
+    },
+    {
+      "id": "5376ce9f-2bf4-4338-8049-9ced8c1f0735",
+      "label": "read 读取",
+      "parentId": "4293b083-dd73-4e33-bde3-c9b46f2dda49",
+      "order": 1
+    },
+    {
+      "id": "bf37ac37-bfe2-4f3f-9f15-3e9b92ee463a",
+      "label": "add-p 追加段落",
+      "parentId": "4293b083-dd73-4e33-bde3-c9b46f2dda49",
+      "order": 2
+    },
+    {
+      "id": "97700220-a01a-43b6-86b3-c56e797d56b6",
+      "label": "add-h 追加标题",
+      "parentId": "4293b083-dd73-4e33-bde3-c9b46f2dda49",
+      "order": 3
+    },
+    {
+      "id": "98be48b4-6489-41ab-bdcb-b97c8dc17a2a",
+      "label": "add-table 追加表格",
+      "parentId": "4293b083-dd73-4e33-bde3-c9b46f2dda49",
+      "order": 4
+    },
+    {
+      "id": "b4a0a16d-55ed-48af-befa-6cda603c8e3b",
+      "label": "replace 全文替换",
+      "parentId": "4293b083-dd73-4e33-bde3-c9b46f2dda49",
+      "order": 5
+    },
+    {
+      "id": "45d0f9f5-8871-4c4c-b76f-4464c1f9ac22",
+      "label": "merge-cells 合并单元格",
+      "parentId": "4293b083-dd73-4e33-bde3-c9b46f2dda49",
+      "order": 6
+    },
+    {
+      "id": "fcd8cd23-db2c-4774-81f6-f9c82b250de7",
+      "label": "count 统计",
+      "parentId": "4293b083-dd73-4e33-bde3-c9b46f2dda49",
+      "order": 7
+    },
+    {
+      "id": "cc061add-43e1-4fa2-ae08-018f0fd52779",
+      "label": "dump 全文提取",
+      "parentId": "4293b083-dd73-4e33-bde3-c9b46f2dda49",
+      "order": 8
+    },
+    {
+      "id": "3722b091-a1fd-4ceb-82c3-5e306aee85af",
+      "label": "工作流",
+      "parentId": "b403adb8-04a1-4592-88ca-4e1934212ded",
+      "order": 4
+    },
+    {
+      "id": "00c6f936-28ee-4168-9bc2-290496808752",
+      "label": "从零创建",
+      "parentId": "3722b091-a1fd-4ceb-82c3-5e306aee85af",
+      "order": 0
+    },
+    {
+      "id": "907569d2-c103-4aca-9d27-9a92fd745300",
+      "label": "create → add-h → add-p → add-table",
+      "parentId": "00c6f936-28ee-4168-9bc2-290496808752",
+      "order": 0
+    },
+    {
+      "id": "0e947664-a37f-420b-b7e7-62c8a81a9519",
+      "label": "MD → DOCX",
+      "parentId": "3722b091-a1fd-4ceb-82c3-5e306aee85af",
+      "order": 1
+    },
+    {
+      "id": "307e66de-6452-4cd5-9da1-fbdfd55a1690",
+      "label": "md_to_docx.py → 自动管道",
+      "parentId": "0e947664-a37f-420b-b7e7-62c8a81a9519",
+      "order": 0
+    },
+    {
+      "id": "557e6e5a-15a8-43ff-9b2a-0ca409524eca",
+      "label": "HTML → DOCX",
+      "parentId": "3722b091-a1fd-4ceb-82c3-5e306aee85af",
+      "order": 2
+    },
+    {
+      "id": "ab36b812-8d85-46ef-b72e-2fbd14b70867",
+      "label": "html_to_docx.py → 格式化输出",
+      "parentId": "557e6e5a-15a8-43ff-9b2a-0ca409524eca",
+      "order": 0
+    },
+    {
+      "id": "a4f8f9db-443f-468e-9b5f-6649f328c70f",
+      "label": "DOCX 审阅",
+      "parentId": "3722b091-a1fd-4ceb-82c3-5e306aee85af",
+      "order": 3
+    },
+    {
+      "id": "3d0487f0-bf86-4bb8-a558-53591a8ae8b3",
+      "label": "用户Word修订",
+      "parentId": "a4f8f9db-443f-468e-9b5f-6649f328c70f",
+      "order": 0
+    },
+    {
+      "id": "98fece16-5939-49dd-9d86-a7d37dea2958",
+      "label": "read_revisions.py 读取",
+      "parentId": "a4f8f9db-443f-468e-9b5f-6649f328c70f",
+      "order": 1
+    },
+    {
+      "id": "163afcc3-a100-47d6-883c-6b157f268111",
+      "label": "AI同步改MD/HTML",
+      "parentId": "a4f8f9db-443f-468e-9b5f-6649f328c70f",
+      "order": 2
+    },
+    {
+      "id": "05d3464b-6db6-4668-bf4b-fe67950706dd",
+      "label": "重建DOCX",
+      "parentId": "a4f8f9db-443f-468e-9b5f-6649f328c70f",
+      "order": 3
+    },
+    {
+      "id": "dd0730ee-adfb-46af-912b-1480bcf8ec5c",
+      "label": "DOCX ↔ HTML",
+      "parentId": "3722b091-a1fd-4ceb-82c3-5e306aee85af",
+      "order": 4
+    },
+    {
+      "id": "a4ec2010-7609-4442-89dc-66dbf0e88319",
+      "label": "docx_to_html.py 提取",
+      "parentId": "dd0730ee-adfb-46af-912b-1480bcf8ec5c",
+      "order": 0
+    },
+    {
+      "id": "ccd53c82-57e0-4fd6-89e0-71fdafd72a11",
+      "label": "编辑HTML",
+      "parentId": "dd0730ee-adfb-46af-912b-1480bcf8ec5c",
+      "order": 1
+    },
+    {
+      "id": "ff5dbad5-3c8e-4d66-ac14-0bf51b0cf60f",
+      "label": "html_to_docx.py 回写",
+      "parentId": "dd0730ee-adfb-46af-912b-1480bcf8ec5c",
+      "order": 2
+    },
+    {
+      "id": "d4195622-8a25-4ebf-964b-ba17f7745947",
+      "label": "转换映射",
+      "parentId": "b403adb8-04a1-4592-88ca-4e1934212ded",
+      "order": 5
+    },
+    {
+      "id": "5935c25e-1c76-4228-bff2-8d5bd485f8ac",
+      "label": "h1-h6 → Heading 1-6",
+      "parentId": "d4195622-8a25-4ebf-964b-ba17f7745947",
+      "order": 0
+    },
+    {
+      "id": "9df48746-ac66-46fa-8a18-0a8bbb281b6b",
+      "label": "p → Normal 仿宋14pt",
+      "parentId": "d4195622-8a25-4ebf-964b-ba17f7745947",
+      "order": 1
+    },
+    {
+      "id": "824b74f5-c9f8-4864-a74c-1d0c01bb0936",
+      "label": "table → Table Grid 品牌配色",
+      "parentId": "d4195622-8a25-4ebf-964b-ba17f7745947",
+      "order": 2
+    },
+    {
+      "id": "88429e26-241b-4d27-bd24-254a29228d2b",
+      "label": "img → 居中图片15cm",
+      "parentId": "d4195622-8a25-4ebf-964b-ba17f7745947",
+      "order": 3
+    },
+    {
+      "id": "39316e8c-4a76-4bbf-97da-e6cb997d2add",
+      "label": "ul/ol → 缩进段落",
+      "parentId": "d4195622-8a25-4ebf-964b-ba17f7745947",
+      "order": 4
+    },
+    {
+      "id": "1be1ee2d-9c2f-4f2c-806a-c0b2bfdde557",
+      "label": "质量检查",
+      "parentId": "b403adb8-04a1-4592-88ca-4e1934212ded",
+      "order": 6
+    },
+    {
+      "id": "773fd143-2302-4de2-8498-f124066aa018",
+      "label": "docx_count.py",
+      "parentId": "1be1ee2d-9c2f-4f2c-806a-c0b2bfdde557",
+      "order": 0
+    },
+    {
+      "id": "d58837f5-3048-4644-9948-e29b2f4492f1",
+      "label": "中文字数",
+      "parentId": "773fd143-2302-4de2-8498-f124066aa018",
+      "order": 0
+    },
+    {
+      "id": "2bb076e1-75f6-465f-8c0d-a81e5155f030",
+      "label": "H1/H2 数量",
+      "parentId": "773fd143-2302-4de2-8498-f124066aa018",
+      "order": 1
+    },
+    {
+      "id": "e1e96765-0200-4e00-983e-772751ba0c95",
+      "label": "表格数",
+      "parentId": "773fd143-2302-4de2-8498-f124066aa018",
+      "order": 2
+    },
+    {
+      "id": "4cab705c-13af-4380-a244-ebea8dda9567",
+      "label": "图片数",
+      "parentId": "773fd143-2302-4de2-8498-f124066aa018",
+      "order": 3
+    },
+    {
+      "id": "bb1b6daf-b042-43f5-80b6-5248abfdf70e",
+      "label": "品牌模板",
+      "parentId": "b403adb8-04a1-4592-88ca-4e1934212ded",
+      "order": 7
+    },
+    {
+      "id": "6a0b4b4b-e928-4db6-81ba-ced6eca74b9e",
+      "label": "模板-北京建工.docx",
+      "parentId": "bb1b6daf-b042-43f5-80b6-5248abfdf70e",
+      "order": 0
+    },
+    {
+      "id": "e9af3c84-77d4-4089-b68a-eac440fbc9ae",
+      "label": "模板-中建八局.docx",
+      "parentId": "bb1b6daf-b042-43f5-80b6-5248abfdf70e",
+      "order": 1
+    },
+    {
+      "id": "ae4c94dc-5c0d-4878-9d5c-d24101f2997d",
+      "label": "模板-中建三局.docx",
+      "parentId": "bb1b6daf-b042-43f5-80b6-5248abfdf70e",
+      "order": 2
+    },
+    {
+      "id": "451246ec-da40-4e10-bbb9-f7a02c68d349",
+      "label": "--template 模板-品牌.docx",
+      "parentId": "bb1b6daf-b042-43f5-80b6-5248abfdf70e",
+      "order": 3
+    },
+    {
+      "id": "0035d7ce-24d7-441f-aa56-9067575143f9",
+      "label": "辅助脚本",
+      "parentId": "b403adb8-04a1-4592-88ca-4e1934212ded",
+      "order": 8
+    },
+    {
+      "id": "442969eb-6688-424e-9a59-0f1e62e3d1b9",
+      "label": "make-chatu AI配图",
+      "parentId": "0035d7ce-24d7-441f-aa56-9067575143f9",
+      "order": 0
+    },
+    {
+      "id": "d7ac663b-55b7-4918-817d-0f92faad3a33",
+      "label": "make-ziliaotiqu 资料提取",
+      "parentId": "0035d7ce-24d7-441f-aa56-9067575143f9",
+      "order": 1
+    },
+    {
+      "id": "828726a2-e60e-43ba-9142-a6a5c5faadc2",
+      "label": "read_revisions 修订读取",
+      "parentId": "0035d7ce-24d7-441f-aa56-9067575143f9",
+      "order": 2
+    },
+    {
+      "id": "a8577227-eefd-4c12-aa2d-d4528999bd35",
+      "label": "add_comment 批注注入",
+      "parentId": "0035d7ce-24d7-441f-aa56-9067575143f9",
+      "order": 3
+    },
+    {
+      "id": "489fd5dd-e8da-419f-b2c6-50d65d900792",
+      "label": "ai_comments_to_docx AI注释转批注",
+      "parentId": "0035d7ce-24d7-441f-aa56-9067575143f9",
+      "order": 4
+    },
+    {
+      "id": "db45ccc2-8982-46ea-80eb-d3bee21b8a13",
+      "label": "版本管理",
+      "parentId": "b403adb8-04a1-4592-88ca-4e1934212ded",
+      "order": 9
+    },
+    {
+      "id": "86828e5e-da4b-4389-932e-5e11389b9419",
+      "label": "新建 V1.0",
+      "parentId": "db45ccc2-8982-46ea-80eb-d3bee21b8a13",
+      "order": 0
+    },
+    {
+      "id": "9595b708-75c2-4240-a8f2-22cd27a57752",
+      "label": "小修 +0.1",
+      "parentId": "db45ccc2-8982-46ea-80eb-d3bee21b8a13",
+      "order": 1
+    },
+    {
+      "id": "c4789efc-e289-4688-9b30-abc43b9cf413",
+      "label": "大修 +1.0",
+      "parentId": "db45ccc2-8982-46ea-80eb-d3bee21b8a13",
+      "order": 2
+    },
+    {
+      "id": "c4af6d82-2818-4681-a648-973bf04f82ac",
+      "label": "旧版不删",
+      "parentId": "db45ccc2-8982-46ea-80eb-d3bee21b8a13",
+      "order": 3
+    },
+    {
+      "id": "67170064-c036-4d6f-a29a-d28855d7784a",
+      "label": "AI输出/ 为唯一可写目录",
+      "parentId": "db45ccc2-8982-46ea-80eb-d3bee21b8a13",
+      "order": 4
+    }
+  ],
+  "mmLayout": "right",
+  "mmNodeStyle": "plain",
+  "mmBgPattern": "none",
+  "mmEdgeStyle": "curve",
+  "mmTheme": "default",
+  "mmSlotOverrides": {},
+  "mermaidCode": "mindmap\n  root((make-docx<br/>DOCX 全功能工具包))\n    格式模板.docx\n      Normal 正文 / H1-H6 标题\n      页面边距 / 字体 / 字号\n      品牌配置页::icon(fa fa-paint-brush)\n        品牌模板配置 H1\n          全局默认值 H2\n          北京建工 H2\n          中建八局 H2\n          中建三局 H2\n          新增品牌 H2\n        色块参数 ■■■■\n          表头底色\n          表头文字色\n          首列底色\n          隔行底色\n          边框色\n        开关参数\n          是否启用首列底色 = 是/否\n          是否启用隔行底色 = 是/否\n        操作\n          选中色块 → 字体颜色 → 保存\n          python build_templates.py\n    build_templates.py\n      读取 H2 配置\n      色块字体色 → hex\n      注入 Table Grid 样式\n        wholeTable 边框\n        firstRow 表头色\n        firstCol 首列色\n        band1Horz 奇数行\n        band2Horz 斑马纹\n      修复 tblLook\n        noHBand → 0\n        firstColumn → 1\n      删除配置页\n      输出 模板-品牌.docx\n    html_to_docx.py\n      HTML → DOCX 核心转换\n      inject_table_style_from_template\n        copy.deepcopy Table Grid\n        replace 输出中的旧样式\n      表格保险代码\n        row.height = Cm 0.7\n        row.height_rule = AT_LEAST\n        cell.vertical_alignment = CENTER\n      自动列宽计算\n      图片嵌入 img-dir\n    docx_tool.py\n      26 命令 CLI\n        create 新建\n        read 读取\n        add-p 追加段落\n        add-h 追加标题\n        add-table 追加表格\n        replace 全文替换\n        merge-cells 合并单元格\n        count 统计\n        dump 全文提取\n    工作流\n      从零创建\n        create → add-h → add-p → add-table\n      MD → DOCX\n        md_to_docx.py → 自动管道\n      HTML → DOCX\n        html_to_docx.py → 格式化输出\n      DOCX 审阅\n        用户Word修订\n        read_revisions.py 读取\n        AI同步改MD/HTML\n        重建DOCX\n      DOCX ↔ HTML\n        docx_to_html.py 提取\n        编辑HTML\n        html_to_docx.py 回写\n    转换映射\n      h1-h6 → Heading 1-6\n      p → Normal 仿宋14pt\n      table → Table Grid 品牌配色\n      img → 居中图片15cm\n      ul/ol → 缩进段落\n    质量检查\n      docx_count.py\n        中文字数\n        H1/H2 数量\n        表格数\n        图片数\n    品牌模板\n      模板-北京建工.docx\n      模板-中建八局.docx\n      模板-中建三局.docx\n      --template 模板-品牌.docx\n    辅助脚本\n      make-chatu AI配图\n      make-ziliaotiqu 资料提取\n      read_revisions 修订读取\n      add_comment 批注注入\n      ai_comments_to_docx AI注释转批注\n    版本管理\n      新建 V1.0\n      小修 +0.1\n      大修 +1.0\n      旧版不删\n      AI输出/ 为唯一可写目录\n"
+}

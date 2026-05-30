@@ -1,0 +1,515 @@
+{
+  "nodes": [
+    {
+      "id": "4cbb7337-39fe-4a34-818a-df771a8ab8aa",
+      "label": "危大工程提升",
+      "parentId": null,
+      "order": 0
+    },
+    {
+      "id": "080ab671-b184-48ba-8103-a572867c91e0",
+      "label": "核心文档",
+      "parentId": "4cbb7337-39fe-4a34-818a-df771a8ab8aa",
+      "order": 0
+    },
+    {
+      "id": "b57e5b77-1bba-4ebd-b89c-8c1bfae8717f",
+      "label": "危大需求.md",
+      "parentId": "080ab671-b184-48ba-8103-a572867c91e0",
+      "order": 0
+    },
+    {
+      "id": "e5033fd1-7bb6-4ce3-96a5-218682a181c2",
+      "label": "项目总览 / 质量标准 / 进度 / 工具 / 偏好",
+      "parentId": "b57e5b77-1bba-4ebd-b89c-8c1bfae8717f",
+      "order": 0
+    },
+    {
+      "id": "c5d3808e-d492-4ceb-9a17-23ebfc1c6f85",
+      "label": "危大工程大纲.md",
+      "parentId": "080ab671-b184-48ba-8103-a572867c91e0",
+      "order": 1
+    },
+    {
+      "id": "36dfc669-2964-49bc-a40d-bdf709122644",
+      "label": "A-J 10套模板，AI自动匹配",
+      "parentId": "c5d3808e-d492-4ceb-9a17-23ebfc1c6f85",
+      "order": 0
+    },
+    {
+      "id": "d6bb9f14-b6e9-4663-9ffb-b0f1821574ea",
+      "label": "危大工程插图提示词.md",
+      "parentId": "080ab671-b184-48ba-8103-a572867c91e0",
+      "order": 2
+    },
+    {
+      "id": "34229f2a-753c-47e1-9092-65e18bf9b701",
+      "label": "统一风格（工程图·稳重简洁·去AI化）",
+      "parentId": "d6bb9f14-b6e9-4663-9ffb-b0f1821574ea",
+      "order": 0
+    },
+    {
+      "id": "faf9c0a1-e21c-4d74-b750-04e87d249885",
+      "label": "暗标细节导向（禁止总平面/鸟瞰/全貌）",
+      "parentId": "d6bb9f14-b6e9-4663-9ffb-b0f1821574ea",
+      "order": 1
+    },
+    {
+      "id": "ad91ba93-2142-4cf4-b3e0-35739eda14f4",
+      "label": "6大类型 + 拼图优先 + 统一色板",
+      "parentId": "d6bb9f14-b6e9-4663-9ffb-b0f1821574ea",
+      "order": 2
+    },
+    {
+      "id": "76ceeca0-b537-4a1d-adac-d8ebdfc27e35",
+      "label": "4K分辨率 + 统一风格尾句模板",
+      "parentId": "d6bb9f14-b6e9-4663-9ffb-b0f1821574ea",
+      "order": 3
+    },
+    {
+      "id": "3f72100e-9417-4857-a395-df325d9a1313",
+      "label": "危大工程清单.md",
+      "parentId": "080ab671-b184-48ba-8103-a572867c91e0",
+      "order": 3
+    },
+    {
+      "id": "d10024a1-5e4b-4c41-9ff0-5a70fb7d79cd",
+      "label": "46项危大内容（编号-分类-名称）",
+      "parentId": "3f72100e-9417-4857-a395-df325d9a1313",
+      "order": 0
+    },
+    {
+      "id": "9031ebed-09a0-48e1-9191-e5655a6f6305",
+      "label": "危大 格式.docx",
+      "parentId": "080ab671-b184-48ba-8103-a572867c91e0",
+      "order": 4
+    },
+    {
+      "id": "0ef1dde7-39bf-4dbf-a093-1181ccd3a062",
+      "label": "标题1-6 / 正文 / 顶格表格 / 居中图片",
+      "parentId": "9031ebed-09a0-48e1-9191-e5655a6f6305",
+      "order": 0
+    },
+    {
+      "id": "85bd9af3-6abe-4b98-9fa1-b7a36fd91cb5",
+      "label": "API密钥、模型及地址.txt",
+      "parentId": "080ab671-b184-48ba-8103-a572867c91e0",
+      "order": 5
+    },
+    {
+      "id": "18ed9874-057e-4a51-ba91-f8099985b153",
+      "label": "sharkmagic.top → gpt-image-2",
+      "parentId": "85bd9af3-6abe-4b98-9fa1-b7a36fd91cb5",
+      "order": 0
+    },
+    {
+      "id": "ba891413-0ada-4533-85b1-14e0860b4704",
+      "label": "工作目录",
+      "parentId": "4cbb7337-39fe-4a34-818a-df771a8ab8aa",
+      "order": 1
+    },
+    {
+      "id": "cf168bbc-3e00-43ca-a91a-1f72163eab85",
+      "label": "素材原始素材",
+      "parentId": "ba891413-0ada-4533-85b1-14e0860b4704",
+      "order": 0
+    },
+    {
+      "id": "f3b7a56c-dc39-435f-a303-e004bf8b9c39",
+      "label": "45个原始HTML（待提升）",
+      "parentId": "cf168bbc-3e00-43ca-a91a-1f72163eab85",
+      "order": 0
+    },
+    {
+      "id": "8f7b0ed7-e6e6-4598-8076-72968540baf4",
+      "label": "素材半成品",
+      "parentId": "ba891413-0ada-4533-85b1-14e0860b4704",
+      "order": 1
+    },
+    {
+      "id": "1a2a8ef2-b1c0-4d03-b95d-494cd5778cfc",
+      "label": "扩写后HTML（含图片占位符+提示词）",
+      "parentId": "8f7b0ed7-e6e6-4598-8076-72968540baf4",
+      "order": 0
+    },
+    {
+      "id": "da413e61-8466-494e-8ef8-cc1f17dd6cfc",
+      "label": "素材提升",
+      "parentId": "ba891413-0ada-4533-85b1-14e0860b4704",
+      "order": 2
+    },
+    {
+      "id": "024750df-76c7-48c3-8e9e-d6e9f0f9ff2c",
+      "label": "最终HTML（已嵌入实际图片）",
+      "parentId": "da413e61-8466-494e-8ef8-cc1f17dd6cfc",
+      "order": 0
+    },
+    {
+      "id": "5177e526-a877-4510-9537-a51473b4e91c",
+      "label": "prompt_md",
+      "parentId": "ba891413-0ada-4533-85b1-14e0860b4704",
+      "order": 3
+    },
+    {
+      "id": "d13eae99-0a0a-4a4e-a1c2-28020c9a2571",
+      "label": "图片提示词MD（每5个HTML汇总1份）",
+      "parentId": "5177e526-a877-4510-9537-a51473b4e91c",
+      "order": 0
+    },
+    {
+      "id": "2812b9d8-adb4-4992-9adc-949adc5c13d0",
+      "label": "素材image",
+      "parentId": "ba891413-0ada-4533-85b1-14e0860b4704",
+      "order": 4
+    },
+    {
+      "id": "bb49fc6f-211f-4579-b7bb-1ceaf9bd1b13",
+      "label": "AI生成PNG（4K·拼图格式·暗标安全）",
+      "parentId": "2812b9d8-adb4-4992-9adc-949adc5c13d0",
+      "order": 0
+    },
+    {
+      "id": "ed66e2a7-e2e5-47e1-b489-a8a6915b0aa9",
+      "label": "流程",
+      "parentId": "4cbb7337-39fe-4a34-818a-df771a8ab8aa",
+      "order": 2
+    },
+    {
+      "id": "4200c8d4-4fa3-4664-bb42-edf79e5fa9d5",
+      "label": "第零步",
+      "parentId": "ed66e2a7-e2e5-47e1-b489-a8a6915b0aa9",
+      "order": 0
+    },
+    {
+      "id": "6bb3184d-2d18-4f1e-845b-8e6f9d83c0f5",
+      "label": "准备",
+      "parentId": "4200c8d4-4fa3-4664-bb42-edf79e5fa9d5",
+      "order": 0
+    },
+    {
+      "id": "981a3c1f-b05b-444f-9c36-0cbd1347a756",
+      "label": "复制原始HTML → 素材原始素材",
+      "parentId": "6bb3184d-2d18-4f1e-845b-8e6f9d83c0f5",
+      "order": 0
+    },
+    {
+      "id": "944664a9-b1e2-48f5-9786-8a6bd17922f6",
+      "label": "确认大纲模板（A-J匹配）",
+      "parentId": "6bb3184d-2d18-4f1e-845b-8e6f9d83c0f5",
+      "order": 1
+    },
+    {
+      "id": "bc9cc308-afd6-4346-8464-e394a27e4716",
+      "label": "第一步",
+      "parentId": "ed66e2a7-e2e5-47e1-b489-a8a6915b0aa9",
+      "order": 1
+    },
+    {
+      "id": "17a21158-18df-439a-b17e-d762322b4624",
+      "label": "扩写",
+      "parentId": "bc9cc308-afd6-4346-8464-e394a27e4716",
+      "order": 0
+    },
+    {
+      "id": "130f51ea-43b5-4f03-8b42-7a4813758dc9",
+      "label": "删除编制依据 / 工程概况",
+      "parentId": "17a21158-18df-439a-b17e-d762322b4624",
+      "order": 0
+    },
+    {
+      "id": "bf97aebe-d469-49a4-916d-67b758bb9b9e",
+      "label": "标题具体化（对齐大纲模板）",
+      "parentId": "17a21158-18df-439a-b17e-d762322b4624",
+      "order": 1
+    },
+    {
+      "id": "18c84abf-40ee-4f11-b6ed-85d873142834",
+      "label": "补足字数至≥20000",
+      "parentId": "17a21158-18df-439a-b17e-d762322b4624",
+      "order": 2
+    },
+    {
+      "id": "4c80a0f0-53a6-42b5-b66a-add69dcd82d4",
+      "label": "生成图片占位符+中文提示词",
+      "parentId": "17a21158-18df-439a-b17e-d762322b4624",
+      "order": 3
+    },
+    {
+      "id": "456692dc-269f-44d4-9e5f-5f77ffcbd28b",
+      "label": "输出 → 素材半成品",
+      "parentId": "17a21158-18df-439a-b17e-d762322b4624",
+      "order": 4
+    },
+    {
+      "id": "3bef4957-e32e-4858-9ef8-2729266efdd2",
+      "label": "第二步",
+      "parentId": "ed66e2a7-e2e5-47e1-b489-a8a6915b0aa9",
+      "order": 2
+    },
+    {
+      "id": "24fcafc3-456e-45a9-a5e1-1fc6c47ea67c",
+      "label": "提取提示词",
+      "parentId": "3bef4957-e32e-4858-9ef8-2729266efdd2",
+      "order": 0
+    },
+    {
+      "id": "c1bfaed4-f422-4f36-9276-00bd26b68988",
+      "label": "从HTML占位符提取",
+      "parentId": "24fcafc3-456e-45a9-a5e1-1fc6c47ea67c",
+      "order": 0
+    },
+    {
+      "id": "85143734-b657-44a0-b9fa-b0217e1ce1f0",
+      "label": "5个文件汇总为1个MD",
+      "parentId": "24fcafc3-456e-45a9-a5e1-1fc6c47ea67c",
+      "order": 1
+    },
+    {
+      "id": "5ec3cd00-3100-43d2-9e09-14c9387d0693",
+      "label": "输出 → prompt_md",
+      "parentId": "24fcafc3-456e-45a9-a5e1-1fc6c47ea67c",
+      "order": 2
+    },
+    {
+      "id": "4037fe3f-06d3-442b-9975-da3acce664c4",
+      "label": "第三步",
+      "parentId": "ed66e2a7-e2e5-47e1-b489-a8a6915b0aa9",
+      "order": 3
+    },
+    {
+      "id": "b4c30e2e-34f9-4b3f-9ffe-ef56523c25eb",
+      "label": "生图",
+      "parentId": "4037fe3f-06d3-442b-9975-da3acce664c4",
+      "order": 0
+    },
+    {
+      "id": "8200d4ee-b13b-4fef-990f-7b91608d124a",
+      "label": "读取 prompt_md",
+      "parentId": "b4c30e2e-34f9-4b3f-9ffe-ef56523c25eb",
+      "order": 0
+    },
+    {
+      "id": "cdcc519d-71c3-48e8-908a-1600db0a9696",
+      "label": "调用 API（并发≤20）",
+      "parentId": "b4c30e2e-34f9-4b3f-9ffe-ef56523c25eb",
+      "order": 1
+    },
+    {
+      "id": "d2eb9952-1b41-4ca6-aa66-1248d2ac3b89",
+      "label": "4K拼图·工程风·去AI化·暗标安全",
+      "parentId": "b4c30e2e-34f9-4b3f-9ffe-ef56523c25eb",
+      "order": 2
+    },
+    {
+      "id": "d3dbf8ae-47fa-40eb-8ce2-81371881f1d2",
+      "label": "输出 → 素材image",
+      "parentId": "b4c30e2e-34f9-4b3f-9ffe-ef56523c25eb",
+      "order": 3
+    },
+    {
+      "id": "06a6d1b3-5b49-49f8-8822-c20568c51274",
+      "label": "第四步",
+      "parentId": "ed66e2a7-e2e5-47e1-b489-a8a6915b0aa9",
+      "order": 4
+    },
+    {
+      "id": "f2add982-5701-454a-9676-4d094527efa5",
+      "label": "嵌入",
+      "parentId": "06a6d1b3-5b49-49f8-8822-c20568c51274",
+      "order": 0
+    },
+    {
+      "id": "a4ac3c63-58da-4c02-ab51-34a78f286507",
+      "label": "占位符 → img标签",
+      "parentId": "f2add982-5701-454a-9676-4d094527efa5",
+      "order": 0
+    },
+    {
+      "id": "d3f5cd1d-8c54-431c-b0aa-e6608668c45c",
+      "label": "相对路径 ../素材image/",
+      "parentId": "f2add982-5701-454a-9676-4d094527efa5",
+      "order": 1
+    },
+    {
+      "id": "6b2d9fa1-0ac1-4653-b2e3-aba059f600d9",
+      "label": "输出 → 素材提升",
+      "parentId": "f2add982-5701-454a-9676-4d094527efa5",
+      "order": 2
+    },
+    {
+      "id": "4b1bf4b4-8208-4228-8540-f8c7ee2ff9c3",
+      "label": "第五步",
+      "parentId": "ed66e2a7-e2e5-47e1-b489-a8a6915b0aa9",
+      "order": 5
+    },
+    {
+      "id": "75846e6b-5912-4912-8132-eb88ac6d8e41",
+      "label": "验证",
+      "parentId": "4b1bf4b4-8208-4228-8540-f8c7ee2ff9c3",
+      "order": 0
+    },
+    {
+      "id": "3a0605a3-cfbd-453c-9bfc-40cca5f86547",
+      "label": "final_check.py",
+      "parentId": "75846e6b-5912-4912-8132-eb88ac6d8e41",
+      "order": 0
+    },
+    {
+      "id": "f9daf371-a03f-4df1-b4d9-700fa81e92fa",
+      "label": "字数≥20000 / H1≥7 / 表格≥5 / 实图≥3",
+      "parentId": "75846e6b-5912-4912-8132-eb88ac6d8e41",
+      "order": 1
+    },
+    {
+      "id": "50c2f5d9-53a2-456b-99de-880d70f0fc1b",
+      "label": "暗标审查（无总平面/无logo/无人脸）",
+      "parentId": "75846e6b-5912-4912-8132-eb88ac6d8e41",
+      "order": 2
+    },
+    {
+      "id": "3ff43d79-ae6c-4292-839d-b7b6437fa4d7",
+      "label": "批次计划",
+      "parentId": "4cbb7337-39fe-4a34-818a-df771a8ab8aa",
+      "order": 3
+    },
+    {
+      "id": "b616501c-cd5a-4a6d-acac-a7ee205565ca",
+      "label": "测试",
+      "parentId": "3ff43d79-ae6c-4292-839d-b7b6437fa4d7",
+      "order": 0
+    },
+    {
+      "id": "8b294f05-c909-46c1-ade7-b20f2970adb0",
+      "label": "02 号",
+      "parentId": "b616501c-cd5a-4a6d-acac-a7ee205565ca",
+      "order": 0
+    },
+    {
+      "id": "30373380-3ff8-4717-acf8-5c51a1f25a09",
+      "label": "扩写 ✅",
+      "parentId": "8b294f05-c909-46c1-ade7-b20f2970adb0",
+      "order": 0
+    },
+    {
+      "id": "0304a10e-4435-43a3-9d2e-41563417d4cb",
+      "label": "提示词 ✅",
+      "parentId": "8b294f05-c909-46c1-ade7-b20f2970adb0",
+      "order": 1
+    },
+    {
+      "id": "154575b3-22b7-47fd-a946-9607921bbe42",
+      "label": "生图 ✅",
+      "parentId": "8b294f05-c909-46c1-ade7-b20f2970adb0",
+      "order": 2
+    },
+    {
+      "id": "e1330e90-d679-4c18-9a94-51a8270770c7",
+      "label": "嵌入 ✅",
+      "parentId": "8b294f05-c909-46c1-ade7-b20f2970adb0",
+      "order": 3
+    },
+    {
+      "id": "36c41d67-dd1a-4494-bf88-51cf4f2cb568",
+      "label": "全部跑通",
+      "parentId": "8b294f05-c909-46c1-ade7-b20f2970adb0",
+      "order": 4
+    },
+    {
+      "id": "bdde270c-ed8c-458c-9e1e-dc6c98a79368",
+      "label": "第1批",
+      "parentId": "3ff43d79-ae6c-4292-839d-b7b6437fa4d7",
+      "order": 1
+    },
+    {
+      "id": "dbbb42d1-5319-4615-975d-cc9a2f1f1d3b",
+      "label": "03-10",
+      "parentId": "bdde270c-ed8c-458c-9e1e-dc6c98a79368",
+      "order": 0
+    },
+    {
+      "id": "da7daa12-5104-41f2-816b-3cc4240a424e",
+      "label": "8个文件",
+      "parentId": "dbbb42d1-5319-4615-975d-cc9a2f1f1d3b",
+      "order": 0
+    },
+    {
+      "id": "71997a91-7af9-4201-8325-9aad19988128",
+      "label": "第2批",
+      "parentId": "3ff43d79-ae6c-4292-839d-b7b6437fa4d7",
+      "order": 2
+    },
+    {
+      "id": "affefb4a-7679-479b-80bf-6124578fada9",
+      "label": "11-20",
+      "parentId": "71997a91-7af9-4201-8325-9aad19988128",
+      "order": 0
+    },
+    {
+      "id": "a8c5cd05-90ba-442a-bab6-8fdf11bc864d",
+      "label": "10个文件",
+      "parentId": "affefb4a-7679-479b-80bf-6124578fada9",
+      "order": 0
+    },
+    {
+      "id": "35421910-2d4b-4225-8561-c6f2463fc337",
+      "label": "第3批",
+      "parentId": "3ff43d79-ae6c-4292-839d-b7b6437fa4d7",
+      "order": 3
+    },
+    {
+      "id": "f403760a-6209-45d1-9017-43491d9c5e67",
+      "label": "21-30",
+      "parentId": "35421910-2d4b-4225-8561-c6f2463fc337",
+      "order": 0
+    },
+    {
+      "id": "9aaa51ad-b2ba-4c3e-b9b6-de17789d9cab",
+      "label": "10个文件",
+      "parentId": "f403760a-6209-45d1-9017-43491d9c5e67",
+      "order": 0
+    },
+    {
+      "id": "5da95758-bfae-48db-8d7a-657a67eb0b7f",
+      "label": "第4批",
+      "parentId": "3ff43d79-ae6c-4292-839d-b7b6437fa4d7",
+      "order": 4
+    },
+    {
+      "id": "eb4248ee-b1df-40f1-a3db-cfce8224f190",
+      "label": "31-40",
+      "parentId": "5da95758-bfae-48db-8d7a-657a67eb0b7f",
+      "order": 0
+    },
+    {
+      "id": "f152fbf0-468c-4ab4-bbda-00ad0134cddb",
+      "label": "10个文件",
+      "parentId": "eb4248ee-b1df-40f1-a3db-cfce8224f190",
+      "order": 0
+    },
+    {
+      "id": "ee99d7a1-207a-4779-bf44-4d615db79fa8",
+      "label": "第5批",
+      "parentId": "3ff43d79-ae6c-4292-839d-b7b6437fa4d7",
+      "order": 5
+    },
+    {
+      "id": "cf58c821-4d76-4024-bed4-fe59807825cd",
+      "label": "41-45",
+      "parentId": "ee99d7a1-207a-4779-bf44-4d615db79fa8",
+      "order": 0
+    },
+    {
+      "id": "bca01785-c06e-48a2-8197-75f202ad2669",
+      "label": "5个文件",
+      "parentId": "cf58c821-4d76-4024-bed4-fe59807825cd",
+      "order": 0
+    }
+  ],
+  "mmLayout": "right",
+  "mmNodeStyle": "plain",
+  "mmBgPattern": "none",
+  "mmEdgeStyle": "curve",
+  "mmTheme": "default",
+  "mmSlotOverrides": {},
+  "mermaidCode": "mindmap\n  危大工程提升\n    核心文档\n      危大需求.md\n        项目总览 / 质量标准 / 进度 / 工具 / 偏好\n      危大工程大纲.md\n        A-J 10套模板，AI自动匹配\n      危大工程插图提示词.md\n        统一风格（工程图·稳重简洁·去AI化）\n        暗标细节导向（禁止总平面/鸟瞰/全貌）\n        6大类型 + 拼图优先 + 统一色板\n        4K分辨率 + 统一风格尾句模板\n      危大工程清单.md\n        46项危大内容（编号-分类-名称）\n      危大 格式.docx\n        标题1-6 / 正文 / 顶格表格 / 居中图片\n      API密钥、模型及地址.txt\n        sharkmagic.top → gpt-image-2\n    工作目录\n      素材原始素材\n        45个原始HTML（待提升）\n      素材半成品\n        扩写后HTML（含图片占位符+提示词）\n      素材提升\n        最终HTML（已嵌入实际图片）\n      prompt_md\n        图片提示词MD（每5个HTML汇总1份）\n      素材image\n        AI生成PNG（4K·拼图格式·暗标安全）\n    流程\n      第零步\n        准备\n          复制原始HTML → 素材原始素材\n          确认大纲模板（A-J匹配）\n      第一步\n        扩写\n          删除编制依据 / 工程概况\n          标题具体化（对齐大纲模板）\n          补足字数至≥20000\n          生成图片占位符+中文提示词\n          输出 → 素材半成品\n      第二步\n        提取提示词\n          从HTML占位符提取\n          5个文件汇总为1个MD\n          输出 → prompt_md\n      第三步\n        生图\n          读取 prompt_md\n          调用 API（并发≤20）\n          4K拼图·工程风·去AI化·暗标安全\n          输出 → 素材image\n      第四步\n        嵌入\n          占位符 → img标签\n          相对路径 ../素材image/\n          输出 → 素材提升\n      第五步\n        验证\n          final_check.py\n          字数≥20000 / H1≥7 / 表格≥5 / 实图≥3\n          暗标审查（无总平面/无logo/无人脸）\n    批次计划\n      测试\n        02 号\n          扩写 ✅\n          提示词 ✅\n          生图 ✅\n          嵌入 ✅\n          全部跑通\n      第1批\n        03-10\n          8个文件\n      第2批\n        11-20\n          10个文件\n      第3批\n        21-30\n          10个文件\n      第4批\n        31-40\n          10个文件\n      第5批\n        41-45\n          5个文件\n"
+}

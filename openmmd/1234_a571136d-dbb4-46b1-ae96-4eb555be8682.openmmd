@@ -1,0 +1,157 @@
+{
+  "nodes": [
+    {
+      "id": "10c8b6e5-cc62-47d6-977a-a97b3566b8ab",
+      "label": "危大提升",
+      "parentId": null,
+      "order": 0
+    },
+    {
+      "id": "6ac85167-3a18-4e3b-b164-a3f758d77448",
+      "label": "文件",
+      "parentId": "10c8b6e5-cc62-47d6-977a-a97b3566b8ab",
+      "order": 0,
+      "collapsed": false
+    },
+    {
+      "id": "a1553ace-becb-4bf1-bf1d-8551db9a452d",
+      "label": "流程",
+      "parentId": "10c8b6e5-cc62-47d6-977a-a97b3566b8ab",
+      "order": 1
+    },
+    {
+      "id": "0bb38dea-4714-45b9-8809-ec6ee3bdc85e",
+      "label": "危大工程大纲.MD",
+      "parentId": "6ac85167-3a18-4e3b-b164-a3f758d77448",
+      "order": 0
+    },
+    {
+      "id": "90bca508-b41a-43a4-8e33-e0170bddff3a",
+      "label": "用来规范提危大工程的大纲，作为参考",
+      "parentId": "0bb38dea-4714-45b9-8809-ec6ee3bdc85e",
+      "order": 0
+    },
+    {
+      "id": "53be6082-6444-42a4-8875-00e33eb9627d",
+      "label": "提升总结.md",
+      "parentId": "6ac85167-3a18-4e3b-b164-a3f758d77448",
+      "order": 1
+    },
+    {
+      "id": "5476b5c4-6ecc-41aa-acad-b904a53a4350",
+      "label": "危大HTML提升工作过程汇总",
+      "parentId": "53be6082-6444-42a4-8875-00e33eb9627d",
+      "order": 0
+    },
+    {
+      "id": "0c20f8e9-8980-4832-8b96-a5703853431c",
+      "label": "危大工程插图提示词.md",
+      "parentId": "6ac85167-3a18-4e3b-b164-a3f758d77448",
+      "order": 2
+    },
+    {
+      "id": "c0ccb8c0-6410-418f-9128-3ec8bec752f3",
+      "label": "用语规范提示词",
+      "parentId": "0c20f8e9-8980-4832-8b96-a5703853431c",
+      "order": 0
+    },
+    {
+      "id": "d707bc17-929d-4862-ad24-edc3a366b4a0",
+      "label": "危大工程清单.md",
+      "parentId": "6ac85167-3a18-4e3b-b164-a3f758d77448",
+      "order": 3
+    },
+    {
+      "id": "334f8447-c522-42df-a5e6-60d5e10cf69a",
+      "label": "所有需要编制提升的危大内容",
+      "parentId": "d707bc17-929d-4862-ad24-edc3a366b4a0",
+      "order": 0
+    },
+    {
+      "id": "5447bd88-68c1-40a9-949b-3cb2704d94cb",
+      "label": "危大 格式.docx",
+      "parentId": "6ac85167-3a18-4e3b-b164-a3f758d77448",
+      "order": 4
+    },
+    {
+      "id": "736c5f1e-946f-48af-9dc7-62392f085c0e",
+      "label": "在docx的样式表，标题1-6，正文，顶格表格，表格居中，图片居中等等",
+      "parentId": "5447bd88-68c1-40a9-949b-3cb2704d94cb",
+      "order": 0
+    },
+    {
+      "id": "149138c8-bce6-419f-ad6c-f3016e1378d8",
+      "label": "文件夹",
+      "parentId": "6ac85167-3a18-4e3b-b164-a3f758d77448",
+      "order": 5,
+      "collapsed": false
+    },
+    {
+      "id": "f5390b34-a859-4093-b7f6-ad9471201f62",
+      "label": "素材提升",
+      "parentId": "149138c8-bce6-419f-ad6c-f3016e1378d8",
+      "order": 0
+    },
+    {
+      "id": "2d94a641-d305-455f-9d81-5b17566c76f5",
+      "label": "用于存放最后的提升的html文件",
+      "parentId": "f5390b34-a859-4093-b7f6-ad9471201f62",
+      "order": 0
+    },
+    {
+      "id": "b2308204-b4e6-45aa-a835-7ad74d52278b",
+      "label": "prompt_md",
+      "parentId": "149138c8-bce6-419f-ad6c-f3016e1378d8",
+      "order": 1
+    },
+    {
+      "id": "be2a10cf-d6c6-400b-9753-a7289df8f534",
+      "label": "存放 由gpt-imag-2 生成的提示词，5个html文件汇总在一起，不要一个html一个提示词MD文件",
+      "parentId": "b2308204-b4e6-45aa-a835-7ad74d52278b",
+      "order": 0
+    },
+    {
+      "id": "de8e22dc-b53a-415c-a5ea-eb9b46b8fbfb",
+      "label": "素材image",
+      "parentId": "149138c8-bce6-419f-ad6c-f3016e1378d8",
+      "order": 2
+    },
+    {
+      "id": "0d020597-ee5e-4720-ae78-f7335ced7600",
+      "label": "存放 由gpt-imag-2 生成的图片",
+      "parentId": "de8e22dc-b53a-415c-a5ea-eb9b46b8fbfb",
+      "order": 0
+    },
+    {
+      "id": "9f4861fd-dd8b-4690-8c72-eb2b127a2012",
+      "label": "对02进行扩写，参考危大工程大纲.MD，字数达到15000-20000字，并在prompt_md生成提示词",
+      "parentId": "a1553ace-becb-4bf1-bf1d-8551db9a452d",
+      "order": 0
+    },
+    {
+      "id": "cddd74d6-362b-4c15-826e-fe82c54625d3",
+      "label": "测试清单中的02，给你API，和连接地址，尝试能不能生成图片",
+      "parentId": "9f4861fd-dd8b-4690-8c72-eb2b127a2012",
+      "order": 0
+    },
+    {
+      "id": "1d4efb01-fea5-4f33-a59e-bb6495fc59cf",
+      "label": "生成02图片，把prompt_md图片嵌入02，并生成最终的HTML文件",
+      "parentId": "9f4861fd-dd8b-4690-8c72-eb2b127a2012",
+      "order": 1
+    },
+    {
+      "id": "c4df00ae-1808-4375-a341-f3123766e1db",
+      "label": "流程跑顺，开始扩写03-10，以此类推分几批，11-20,21-30,31-40,41-45",
+      "parentId": "1d4efb01-fea5-4f33-a59e-bb6495fc59cf",
+      "order": 0
+    }
+  ],
+  "mmLayout": "right",
+  "mmNodeStyle": "plain",
+  "mmBgPattern": "none",
+  "mmEdgeStyle": "curve",
+  "mmTheme": "default",
+  "mmSlotOverrides": {},
+  "mermaidCode": "mindmap\n  危大提升\n    文件\n      危大工程大纲.MD\n        用来规范提危大工程的大纲，作为参考\n      提升总结.md\n        危大HTML提升工作过程汇总\n      危大工程插图提示词.md\n        用语规范提示词\n      危大工程清单.md\n        所有需要编制提升的危大内容\n      危大 格式.docx\n        在docx的样式表，标题1-6，正文，顶格表格，表格居中，图片居中等等\n      文件夹\n        素材提升\n          用于存放最后的提升的html文件\n        prompt_md\n          存放 由gpt-imag-2 生成的提示词，5个html文件汇总在一起，不要一个html一个提示词MD文件\n        素材image\n          存放 由gpt-imag-2 生成的图片\n    流程\n      对02进行扩写，参考危大工程大纲.MD，字数达到15000-20000字，并在prompt_md生成提示词\n        测试清单中的02，给你API，和连接地址，尝试能不能生成图片\n        生成02图片，把prompt_md图片嵌入02，并生成最终的HTML文件\n          流程跑顺，开始扩写03-10，以此类推分几批，11-20,21-30,31-40,41-45\n"
+}

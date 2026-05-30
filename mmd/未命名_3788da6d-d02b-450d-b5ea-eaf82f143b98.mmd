@@ -1,0 +1,105 @@
+mindmap
+  root((make-docx<br/>DOCX 全功能工具包))
+    格式模板.docx
+      Normal 正文 / H1-H6 标题
+      页面边距 / 字体 / 字号
+      品牌配置页::icon(fa fa-paint-brush)
+        品牌模板配置 H1
+          全局默认值 H2
+          北京建工 H2
+          中建八局 H2
+          中建三局 H2
+          新增品牌 H2
+        色块参数 ■■■■
+          表头底色
+          表头文字色
+          首列底色
+          隔行底色
+          边框色
+        开关参数
+          是否启用首列底色 = 是/否
+          是否启用隔行底色 = 是/否
+        操作
+          选中色块 → 字体颜色 → 保存
+          python build_templates.py
+    build_templates.py
+      读取 H2 配置
+      色块字体色 → hex
+      注入 Table Grid 样式
+        wholeTable 边框
+        firstRow 表头色
+        firstCol 首列色
+        band1Horz 奇数行
+        band2Horz 斑马纹
+      修复 tblLook
+        noHBand → 0
+        firstColumn → 1
+      删除配置页
+      输出 模板-品牌.docx
+    html_to_docx.py
+      HTML → DOCX 核心转换
+      inject_table_style_from_template
+        copy.deepcopy Table Grid
+        replace 输出中的旧样式
+      表格保险代码
+        row.height = Cm 0.7
+        row.height_rule = AT_LEAST
+        cell.vertical_alignment = CENTER
+      自动列宽计算
+      图片嵌入 img-dir
+    docx_tool.py
+      26 命令 CLI
+        create 新建
+        read 读取
+        add-p 追加段落
+        add-h 追加标题
+        add-table 追加表格
+        replace 全文替换
+        merge-cells 合并单元格
+        count 统计
+        dump 全文提取
+    工作流
+      从零创建
+        create → add-h → add-p → add-table
+      MD → DOCX
+        md_to_docx.py → 自动管道
+      HTML → DOCX
+        html_to_docx.py → 格式化输出
+      DOCX 审阅
+        用户Word修订
+        read_revisions.py 读取
+        AI同步改MD/HTML
+        重建DOCX
+      DOCX ↔ HTML
+        docx_to_html.py 提取
+        编辑HTML
+        html_to_docx.py 回写
+    转换映射
+      h1-h6 → Heading 1-6
+      p → Normal 仿宋14pt
+      table → Table Grid 品牌配色
+      img → 居中图片15cm
+      ul/ol → 缩进段落
+    质量检查
+      docx_count.py
+        中文字数
+        H1/H2 数量
+        表格数
+        图片数
+    品牌模板
+      模板-北京建工.docx
+      模板-中建八局.docx
+      模板-中建三局.docx
+      --template 模板-品牌.docx
+    辅助脚本
+      make-chatu AI配图
+      make-ziliaotiqu 资料提取
+      read_revisions 修订读取
+      add_comment 批注注入
+      ai_comments_to_docx AI注释转批注
+    版本管理
+      新建 V1.0
+      小修 +0.1
+      大修 +1.0
+      旧版不删
+      AI输出/ 为唯一可写目录

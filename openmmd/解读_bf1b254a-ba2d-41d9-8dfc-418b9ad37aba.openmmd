@@ -1,0 +1,251 @@
+{
+  "nodes": [
+    {
+      "id": "47fc9dca-5d19-4b45-9956-35666f9051f9",
+      "label": "危大工程提升",
+      "parentId": null,
+      "order": 0
+    },
+    {
+      "id": "ada1da75-04bf-46c1-b67b-f4b7c0bbd281",
+      "label": "核心文档",
+      "parentId": "47fc9dca-5d19-4b45-9956-35666f9051f9",
+      "order": 0
+    },
+    {
+      "id": "090d7416-e167-41f7-893b-b52fabffbbd1",
+      "label": "危大需求.md",
+      "parentId": "ada1da75-04bf-46c1-b67b-f4b7c0bbd281",
+      "order": 0
+    },
+    {
+      "id": "4495636d-a6c3-4083-8086-0e6b98348b2a",
+      "label": "项目总览 / 质量标准 / 进度 / 工具 / 偏好",
+      "parentId": "090d7416-e167-41f7-893b-b52fabffbbd1",
+      "order": 0
+    },
+    {
+      "id": "57064b8c-db2b-4053-bdaf-72ba9f91b5ba",
+      "label": "危大工程大纲.md",
+      "parentId": "ada1da75-04bf-46c1-b67b-f4b7c0bbd281",
+      "order": 1
+    },
+    {
+      "id": "ce97e189-705e-4ec2-9095-40d22b67ef6f",
+      "label": "A-J 共10套模板，AI自动匹配",
+      "parentId": "57064b8c-db2b-4053-bdaf-72ba9f91b5ba",
+      "order": 0
+    },
+    {
+      "id": "24a7140e-27a2-41c4-ae26-011c682e0fce",
+      "label": "危大工程插图提示词.md",
+      "parentId": "ada1da75-04bf-46c1-b67b-f4b7c0bbd281",
+      "order": 2
+    },
+    {
+      "id": "afdb30bb-400f-48f1-b4cf-816698e07882",
+      "label": "6大插图类型 + 暗标禁令 + 提示词公式",
+      "parentId": "24a7140e-27a2-41c4-ae26-011c682e0fce",
+      "order": 0
+    },
+    {
+      "id": "6be4524c-7137-406c-b049-ffe9152aae93",
+      "label": "危大工程清单.md",
+      "parentId": "ada1da75-04bf-46c1-b67b-f4b7c0bbd281",
+      "order": 3
+    },
+    {
+      "id": "cf883ffb-9196-4bcd-9219-48ceb084cd25",
+      "label": "46项危大内容清单（编号-分类-名称）",
+      "parentId": "6be4524c-7137-406c-b049-ffe9152aae93",
+      "order": 0
+    },
+    {
+      "id": "d52210bd-2fe6-4985-beaa-da6945777ded",
+      "label": "危大 格式.docx",
+      "parentId": "ada1da75-04bf-46c1-b67b-f4b7c0bbd281",
+      "order": 4
+    },
+    {
+      "id": "e5def2a4-1460-45ac-bbca-a3de4266aa82",
+      "label": "标题1-6 / 正文 / 顶格表格 / 居中图片",
+      "parentId": "d52210bd-2fe6-4985-beaa-da6945777ded",
+      "order": 0
+    },
+    {
+      "id": "c69891e6-cb44-4d4e-828d-ef969f2ccee7",
+      "label": "工作目录",
+      "parentId": "47fc9dca-5d19-4b45-9956-35666f9051f9",
+      "order": 1
+    },
+    {
+      "id": "4abfa26a-25c5-4851-abb6-015f6f029230",
+      "label": "素材提升",
+      "parentId": "c69891e6-cb44-4d4e-828d-ef969f2ccee7",
+      "order": 0
+    },
+    {
+      "id": "2cd68b7c-abbc-4602-a7e3-c744abab8bb2",
+      "label": "最终达标的HTML文件（46份）",
+      "parentId": "4abfa26a-25c5-4851-abb6-015f6f029230",
+      "order": 0
+    },
+    {
+      "id": "040a6a6f-5914-471d-8ffc-a1909afdc0ec",
+      "label": "prompt_md",
+      "parentId": "c69891e6-cb44-4d4e-828d-ef969f2ccee7",
+      "order": 1
+    },
+    {
+      "id": "0910c704-1c7c-4ef9-b353-30e7aaf39eb6",
+      "label": "图片提示词MD（每5个HTML汇总1份）",
+      "parentId": "040a6a6f-5914-471d-8ffc-a1909afdc0ec",
+      "order": 0
+    },
+    {
+      "id": "ab19c7b5-a1e2-4876-a02a-3243bc06d9af",
+      "label": "素材image",
+      "parentId": "c69891e6-cb44-4d4e-828d-ef969f2ccee7",
+      "order": 2
+    },
+    {
+      "id": "825f36e0-cc95-4629-9c4a-6cb95602b31f",
+      "label": "GPT-IMAGE-2生成的PNG（XX_img_N.png）",
+      "parentId": "ab19c7b5-a1e2-4876-a02a-3243bc06d9af",
+      "order": 0
+    },
+    {
+      "id": "a4fae5a6-fc66-4272-9182-a59121c87a80",
+      "label": "流程",
+      "parentId": "47fc9dca-5d19-4b45-9956-35666f9051f9",
+      "order": 2
+    },
+    {
+      "id": "4cd4e48e-ea8a-4ed4-a0ba-c1507ea2ae80",
+      "label": "测试",
+      "parentId": "a4fae5a6-fc66-4272-9182-a59121c87a80",
+      "order": 0
+    },
+    {
+      "id": "dd1ea50a-466d-4262-b23f-b344877c95f3",
+      "label": "02号文件首份跑通全流程",
+      "parentId": "4cd4e48e-ea8a-4ed4-a0ba-c1507ea2ae80",
+      "order": 0
+    },
+    {
+      "id": "3e4bf314-635c-45ff-ad85-4daeda0a64f4",
+      "label": "扩写（参考大纲模板，≥15000字）",
+      "parentId": "dd1ea50a-466d-4262-b23f-b344877c95f3",
+      "order": 0
+    },
+    {
+      "id": "c894e293-9ebf-4240-b46f-58a945813136",
+      "label": "生成提示词 → prompt_md",
+      "parentId": "dd1ea50a-466d-4262-b23f-b344877c95f3",
+      "order": 1
+    },
+    {
+      "id": "5fd4b5ee-9cfd-4279-b0c6-9cecd11220f5",
+      "label": "调用API生图 → 素材image",
+      "parentId": "dd1ea50a-466d-4262-b23f-b344877c95f3",
+      "order": 2
+    },
+    {
+      "id": "1bd23f1e-8278-4e38-a6c0-0ea2a12a070a",
+      "label": "嵌入图片 → 素材提升/02.html",
+      "parentId": "dd1ea50a-466d-4262-b23f-b344877c95f3",
+      "order": 3
+    },
+    {
+      "id": "cf799132-28f5-4334-b2e2-09bd1757cdf4",
+      "label": "验证 final_check.py → PASS",
+      "parentId": "dd1ea50a-466d-4262-b23f-b344877c95f3",
+      "order": 4
+    },
+    {
+      "id": "e080ec2d-9e18-4b76-a462-0dd634558e4b",
+      "label": "第1批",
+      "parentId": "a4fae5a6-fc66-4272-9182-a59121c87a80",
+      "order": 1
+    },
+    {
+      "id": "e0bc08d6-ecc5-4c8a-aa41-8ad9b2aa1e3f",
+      "label": "03-10（8个文件）按流程批量",
+      "parentId": "e080ec2d-9e18-4b76-a462-0dd634558e4b",
+      "order": 0
+    },
+    {
+      "id": "d51dac9e-116b-4636-9680-b22f4d66b615",
+      "label": "第2批",
+      "parentId": "a4fae5a6-fc66-4272-9182-a59121c87a80",
+      "order": 2
+    },
+    {
+      "id": "0a006c28-bdd3-4438-8d48-3911903b0638",
+      "label": "11-20（10个文件）按流程批量",
+      "parentId": "d51dac9e-116b-4636-9680-b22f4d66b615",
+      "order": 0
+    },
+    {
+      "id": "e6f43016-d605-4d57-97ec-2069cf3224ab",
+      "label": "第3批",
+      "parentId": "a4fae5a6-fc66-4272-9182-a59121c87a80",
+      "order": 3
+    },
+    {
+      "id": "7fb324e7-a1e2-4f47-9ff7-5c831a3b6424",
+      "label": "21-30（10个文件）按流程批量",
+      "parentId": "e6f43016-d605-4d57-97ec-2069cf3224ab",
+      "order": 0
+    },
+    {
+      "id": "8ac81879-1403-47f1-ab20-1e2e78a407d4",
+      "label": "第4批",
+      "parentId": "a4fae5a6-fc66-4272-9182-a59121c87a80",
+      "order": 4
+    },
+    {
+      "id": "0d793405-74c7-43fb-9351-05c82382cf21",
+      "label": "31-40（10个文件）按流程批量",
+      "parentId": "8ac81879-1403-47f1-ab20-1e2e78a407d4",
+      "order": 0
+    },
+    {
+      "id": "25b779f9-7320-416b-adf4-99764334adc5",
+      "label": "第5批",
+      "parentId": "a4fae5a6-fc66-4272-9182-a59121c87a80",
+      "order": 5
+    },
+    {
+      "id": "47b5609d-51e8-4ec8-bec7-4fa85e272379",
+      "label": "41-45（5个文件）按流程批量",
+      "parentId": "25b779f9-7320-416b-adf4-99764334adc5",
+      "order": 0
+    },
+    {
+      "id": "dd0ae654-e45f-401e-8e35-e0f5838cfc49",
+      "label": "最终输出",
+      "parentId": "47fc9dca-5d19-4b45-9956-35666f9051f9",
+      "order": 3
+    },
+    {
+      "id": "1888c0cc-ae83-420b-8d84-a9deb82072bf",
+      "label": "generate_styled_docx.py + 模板",
+      "parentId": "dd0ae654-e45f-401e-8e35-e0f5838cfc49",
+      "order": 0
+    },
+    {
+      "id": "d31f0233-5c37-48f3-affb-7082234c1c36",
+      "label": "→ 暗标投标 DOCX",
+      "parentId": "dd0ae654-e45f-401e-8e35-e0f5838cfc49",
+      "order": 1
+    }
+  ],
+  "mmLayout": "right",
+  "mmNodeStyle": "plain",
+  "mmBgPattern": "none",
+  "mmEdgeStyle": "curve",
+  "mmTheme": "default",
+  "mmSlotOverrides": {},
+  "mermaidCode": "mindmap\n  危大工程提升\n    核心文档\n      危大需求.md\n        项目总览 / 质量标准 / 进度 / 工具 / 偏好\n      危大工程大纲.md\n        A-J 共10套模板，AI自动匹配\n      危大工程插图提示词.md\n        6大插图类型 + 暗标禁令 + 提示词公式\n      危大工程清单.md\n        46项危大内容清单（编号-分类-名称）\n      危大 格式.docx\n        标题1-6 / 正文 / 顶格表格 / 居中图片\n    工作目录\n      素材提升\n        最终达标的HTML文件（46份）\n      prompt_md\n        图片提示词MD（每5个HTML汇总1份）\n      素材image\n        GPT-IMAGE-2生成的PNG（XX_img_N.png）\n    流程\n      测试\n        02号文件首份跑通全流程\n          扩写（参考大纲模板，≥15000字）\n          生成提示词 → prompt_md\n          调用API生图 → 素材image\n          嵌入图片 → 素材提升/02.html\n          验证 final_check.py → PASS\n      第1批\n        03-10（8个文件）按流程批量\n      第2批\n        11-20（10个文件）按流程批量\n      第3批\n        21-30（10个文件）按流程批量\n      第4批\n        31-40（10个文件）按流程批量\n      第5批\n        41-45（5个文件）按流程批量\n    最终输出\n      generate_styled_docx.py + 模板\n      → 暗标投标 DOCX\n"
+}
