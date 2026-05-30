@@ -1,0 +1,125 @@
+{
+  "nodes": [
+    {
+      "id": "30f582ea-4c3c-4082-bb2b-0465dce62df5",
+      "label": "设置的AI工作空间",
+      "parentId": null,
+      "order": 0
+    },
+    {
+      "id": "3c3a93e5-afd0-4d48-aa10-870ab5388373",
+      "label": "日期+ 项目名称  文件夹",
+      "parentId": "30f582ea-4c3c-4082-bb2b-0465dce62df5",
+      "order": 0
+    },
+    {
+      "id": "49558a08-8522-437b-a8cc-a8c00687c00a",
+      "label": "01成果--文件夹",
+      "parentId": "3c3a93e5-afd0-4d48-aa10-870ab5388373",
+      "order": 0
+    },
+    {
+      "id": "7669c05c-1c79-40ac-abb7-18d451c0ef62",
+      "label": "用于我存放最终资料的地方",
+      "parentId": "49558a08-8522-437b-a8cc-a8c00687c00a",
+      "order": 0
+    },
+    {
+      "id": "71964c6f-4e08-4834-87f1-2a452528e945",
+      "label": "02过程文件--文件夹",
+      "parentId": "3c3a93e5-afd0-4d48-aa10-870ab5388373",
+      "order": 1
+    },
+    {
+      "id": "01da8720-38b7-45da-8adc-13b2d5757f60",
+      "label": "用于存放我过程资料的地方",
+      "parentId": "71964c6f-4e08-4834-87f1-2a452528e945",
+      "order": 0
+    },
+    {
+      "id": "8dad9cbe-7606-41c3-b351-ca3670624562",
+      "label": "03资料--文件夹",
+      "parentId": "3c3a93e5-afd0-4d48-aa10-870ab5388373",
+      "order": 2
+    },
+    {
+      "id": "d4c93e76-bcd9-49cd-8447-a55c6c470784",
+      "label": "项目的一些资料",
+      "parentId": "8dad9cbe-7606-41c3-b351-ca3670624562",
+      "order": 0
+    },
+    {
+      "id": "b33a8a57-89af-44c6-9447-0092ae41176b",
+      "label": "AI空间--文件夹",
+      "parentId": "3c3a93e5-afd0-4d48-aa10-870ab5388373",
+      "order": 3
+    },
+    {
+      "id": "89748f5c-425b-42f8-bb0f-9f4c9e10c3f9",
+      "label": "prompt_md--文件夹",
+      "parentId": "b33a8a57-89af-44c6-9447-0092ae41176b",
+      "order": 0
+    },
+    {
+      "id": "448ca538-5995-4793-a305-cdce0cef827d",
+      "label": "make-chatu skill，提示词文件夹",
+      "parentId": "89748f5c-425b-42f8-bb0f-9f4c9e10c3f9",
+      "order": 0
+    },
+    {
+      "id": "1acd9bee-18b3-4c82-90a9-0cc2283d5b63",
+      "label": "素材image--文件夹",
+      "parentId": "b33a8a57-89af-44c6-9447-0092ae41176b",
+      "order": 1
+    },
+    {
+      "id": "1f7985d7-9f2c-4221-b740-b3ce82572a7f",
+      "label": "make-chatu skill，用于放生成的AI图的文件夹",
+      "parentId": "1acd9bee-18b3-4c82-90a9-0cc2283d5b63",
+      "order": 0
+    },
+    {
+      "id": "ae2bfb8f-4483-4332-b1da-f15b78f82e89",
+      "label": "过程文件及成果--文件夹",
+      "parentId": "b33a8a57-89af-44c6-9447-0092ae41176b",
+      "order": 2
+    },
+    {
+      "id": "9d7c2996-ab17-499d-8892-bd44de5ea03b",
+      "label": "Ai生成的过程文件及成果",
+      "parentId": "ae2bfb8f-4483-4332-b1da-f15b78f82e89",
+      "order": 0
+    },
+    {
+      "id": "851befab-cc8f-4abf-8b7a-e4d9dae18a4e",
+      "label": "素材分析汇总--文件夹",
+      "parentId": "b33a8a57-89af-44c6-9447-0092ae41176b",
+      "order": 3
+    },
+    {
+      "id": "07cf9be9-fc3c-463e-bf1b-cd8a241454b2",
+      "label": "make-sucaitiqu，提取的图片和资料阅读理解汇总的文件夹",
+      "parentId": "851befab-cc8f-4abf-8b7a-e4d9dae18a4e",
+      "order": 0
+    },
+    {
+      "id": "b4bee579-7969-47c9-a368-97a34570f504",
+      "label": "其余资料",
+      "parentId": "3c3a93e5-afd0-4d48-aa10-870ab5388373",
+      "order": 4
+    },
+    {
+      "id": "d5bb396b-c6b9-4105-96d4-943a3d67e60a",
+      "label": "其他一些杂七杂八的资料",
+      "parentId": "b4bee579-7969-47c9-a368-97a34570f504",
+      "order": 0
+    }
+  ],
+  "mmLayout": "right",
+  "mmNodeStyle": "plain",
+  "mmBgPattern": "none",
+  "mmEdgeStyle": "curve",
+  "mmTheme": "default",
+  "mmSlotOverrides": {},
+  "mermaidCode": "mindmap\n  设置的AI工作空间\n    日期+ 项目名称  文件夹\n      01成果--文件夹\n        用于我存放最终资料的地方\n      02过程文件--文件夹\n        用于存放我过程资料的地方\n      03资料--文件夹\n        项目的一些资料\n      AI空间--文件夹\n        prompt_md--文件夹\n          make-chatu skill，提示词文件夹\n        素材image--文件夹\n          make-chatu skill，用于放生成的AI图的文件夹\n        过程文件及成果--文件夹\n          Ai生成的过程文件及成果\n        素材分析汇总--文件夹\n          make-sucaitiqu，提取的图片和资料阅读理解汇总的文件夹\n      其余资料\n        其他一些杂七杂八的资料\n"
+}

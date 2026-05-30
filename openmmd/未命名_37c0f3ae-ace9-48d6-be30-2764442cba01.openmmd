@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "id": "root",
+      "label": "MD、HTML转DOCX",
+      "parentId": null,
+      "order": 0,
+      "shape": "circle"
+    },
+    {
+      "id": "n1",
+      "label": "格式模板.docx 作为原版",
+      "parentId": "root",
+      "order": 0,
+      "shape": "default",
+      "collapsed": false
+    },
+    {
+      "id": "n2",
+      "label": "初稿是MD格式",
+      "parentId": "root",
+      "order": 1,
+      "shape": "default"
+    },
+    {
+      "id": "n3",
+      "label": "迭代阶段 采用html",
+      "parentId": "root",
+      "order": 2,
+      "shape": "default"
+    },
+    {
+      "id": "n1a",
+      "label": "中建八局 模板A",
+      "parentId": "n1",
+      "order": 0,
+      "shape": "default"
+    },
+    {
+      "id": "01dffba0-8b21-4e8c-accb-2247828006e7",
+      "label": "北京建工 模板B",
+      "parentId": "n1",
+      "order": 1
+    },
+    {
+      "id": "bd31bb80-c380-4405-bfc6-e4d5b7333eec",
+      "label": "中建八局 模板C",
+      "parentId": "n1",
+      "order": 2
+    },
+    {
+      "id": "2c5541a6-f691-46c6-9769-6e0717884618",
+      "label": "md_to_docx脚本",
+      "parentId": "n2",
+      "order": 0
+    },
+    {
+      "id": "73d365fa-0d6c-462f-9233-337c32bc0836",
+      "label": "html_to_docx脚本",
+      "parentId": "n3",
+      "order": 0
+    },
+    {
+      "id": "289f2059-af49-45de-bfeb-00d6fa920755",
+      "label": "根据我选择 模板ABC",
+      "parentId": "2c5541a6-f691-46c6-9769-6e0717884618",
+      "order": 1
+    },
+    {
+      "id": "0e4df599-646d-451f-9f8b-0c910dc2459e",
+      "label": "根据我选择 模板输出的docx",
+      "parentId": "289f2059-af49-45de-bfeb-00d6fa920755",
+      "order": 0
+    },
+    {
+      "id": "50ff2720-66a0-4ee2-9494-a5b451371243",
+      "label": "根据我选择 模板ABC",
+      "parentId": "73d365fa-0d6c-462f-9233-337c32bc0836",
+      "order": 1
+    },
+    {
+      "id": "29ecc627-c7c3-4057-90d9-5697d183cf00",
+      "label": "H1-H8，图片居中 一样，表格文字顶格，表格样式不一样（着色在表格样式 1f1（网格型1））",
+      "parentId": "n1",
+      "order": 3
+    },
+    {
+      "id": "e174c7cf-91a5-4c3f-8005-1b8d22983941",
+      "label": "docx",
+      "parentId": "50ff2720-66a0-4ee2-9494-a5b451371243",
+      "order": 0
+    }
+  ],
+  "mmLayout": "right",
+  "mmNodeStyle": "plain",
+  "mmBgPattern": "none",
+  "mmEdgeStyle": "curve",
+  "mmTheme": "default",
+  "mmSlotOverrides": {},
+  "mermaidCode": "mindmap\n  MD、HTML转DOCX\n    格式模板.docx 作为原版\n      中建八局 模板A\n      北京建工 模板B\n      中建八局 模板C\n      H1-H8，图片居中 一样，表格文字顶格，表格样式不一样（着色在表格样式 1f1（网格型1））\n    初稿是MD格式\n      md_to_docx脚本\n        根据我选择 模板ABC\n          根据我选择 模板输出的docx\n    迭代阶段 采用html\n      html_to_docx脚本\n        根据我选择 模板ABC\n          docx\n"
+}
