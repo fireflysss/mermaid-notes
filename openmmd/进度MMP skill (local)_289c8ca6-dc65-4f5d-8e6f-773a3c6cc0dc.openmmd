@@ -200,6 +200,81 @@
         "height": 56
       },
       "selected": false
+    },
+    {
+      "id": "330335aa-d4fd-403b-a329-b8224a4d58b8",
+      "type": "flow-process",
+      "position": {
+        "x": 5,
+        "y": 549
+      },
+      "data": {
+        "label": "给你表格大纲",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "d3df4a1c-fe31-4f97-a1ad-f739b46cf4cb",
+      "type": "flow-process",
+      "position": {
+        "x": 7,
+        "y": 653
+      },
+      "data": {
+        "label": "给你关键节点",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "8564f5f1-df72-466a-827f-bf065a7ef542",
+      "type": "flow-process",
+      "position": {
+        "x": 6,
+        "y": 767
+      },
+      "data": {
+        "label": "结合工程资料",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
     }
   ],
   "edges": [
@@ -295,7 +370,7 @@
       "id": "xy-edge__2eaef621-5cff-44fa-ac6c-d8944add2f69right-source-aa93e0ea-b25c-4aa4-8aba-8b634592364bleft-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"读取MPP模板\")\n  n_7(\"Process 8\")\n  n_1 --> n_3\n  n_1 --> n_4\n  n_2 --> n_0\n  n_3 --> n_0\n  n_4 --> n_0\n  n_0 --> n_6\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"读取MPP模板\")\n  n_7(\"Process 8\")\n  n_8(\"给你表格大纲\")\n  n_9(\"给你关键节点\")\n  n_10(\"结合工程资料\")\n  n_1 --> n_3\n  n_1 --> n_4\n  n_2 --> n_0\n  n_3 --> n_0\n  n_4 --> n_0\n  n_0 --> n_6\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD"
 }
