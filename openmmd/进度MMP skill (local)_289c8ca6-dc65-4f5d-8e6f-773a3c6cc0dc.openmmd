@@ -4,13 +4,15 @@
       "id": "602c0e61-f8bf-46f6-b0ff-2871574730da",
       "type": "flow-terminator",
       "position": {
-        "x": 250,
-        "y": 50
+        "x": 66,
+        "y": 12
       },
       "data": {
-        "label": "MD (初稿)",
+        "label": "msproject SKILL",
         "width": 160,
-        "height": 56
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
       },
       "style": {
         "width": 160,
@@ -22,11 +24,37 @@
         "width": 160,
         "height": 56
       },
-      "selected": false
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "1709f709-59b0-4933-9e33-2843990e8fbc",
+      "type": "flow-terminator",
+      "position": {
+        "x": 58,
+        "y": -94
+      },
+      "data": {
+        "label": "MPP SKILL",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true,
+      "dragging": false
     }
   ],
   "edges": [],
-  "mermaidCode": "flowchart TD\n  n_0([\"MD (初稿)\"])\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"msproject SKILL\"])\n  n_1([\"MPP SKILL\"])\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD"
 }

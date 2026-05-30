@@ -2,6 +2,7 @@
 
 ```mermaid
 flowchart TD
-  n_0(["MD (初稿)"])
+  n_0(["msproject SKILL"])
+  n_1(["MPP SKILL"])
 
 ```
