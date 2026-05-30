@@ -29,8 +29,8 @@
       "id": "b6601fa5-d598-4e9a-a407-998c143c17ac",
       "type": "flow-process",
       "position": {
-        "x": -202.75,
-        "y": 257
+        "x": -297.75,
+        "y": 305
       },
       "data": {
         "label": "数据来源",
@@ -48,7 +48,9 @@
       "measured": {
         "width": 160,
         "height": 56
-      }
+      },
+      "selected": false,
+      "dragging": false
     },
     {
       "id": "be13c8fd-60c7-44a2-bbe8-26b5a1479e61",
@@ -98,14 +100,15 @@
       "measured": {
         "width": 160,
         "height": 56
-      }
+      },
+      "selected": true
     },
     {
       "id": "445cbe39-76c9-4527-a991-a1f86dd0fbb2",
       "type": "flow-process",
       "position": {
-        "x": 67.74699310527444,
-        "y": 370.50073940034235
+        "x": 70.74699310527444,
+        "y": 257.50073940034235
       },
       "data": {
         "label": "表格数据",
@@ -123,7 +126,9 @@
       "measured": {
         "width": 160,
         "height": 56
-      }
+      },
+      "selected": true,
+      "dragging": false
     },
     {
       "id": "72941ad9-0091-47a1-b480-d59ef1c7b124",
@@ -205,8 +210,8 @@
       "id": "330335aa-d4fd-403b-a329-b8224a4d58b8",
       "type": "flow-process",
       "position": {
-        "x": 5,
-        "y": 549
+        "x": 69,
+        "y": 367
       },
       "data": {
         "label": "给你表格大纲",
@@ -223,15 +228,15 @@
         "width": 160,
         "height": 56
       },
-      "selected": false,
+      "selected": true,
       "dragging": false
     },
     {
       "id": "d3df4a1c-fe31-4f97-a1ad-f739b46cf4cb",
       "type": "flow-process",
       "position": {
-        "x": 7,
-        "y": 653
+        "x": 70,
+        "y": 474
       },
       "data": {
         "label": "给你关键节点",
@@ -248,15 +253,15 @@
         "width": 160,
         "height": 56
       },
-      "selected": false,
+      "selected": true,
       "dragging": false
     },
     {
       "id": "8564f5f1-df72-466a-827f-bf065a7ef542",
       "type": "flow-process",
       "position": {
-        "x": 6,
-        "y": 767
+        "x": 263,
+        "y": 678
       },
       "data": {
         "label": "结合工程资料",
@@ -279,36 +284,6 @@
   ],
   "edges": [
     {
-      "id": "e-0",
-      "source": "b6601fa5-d598-4e9a-a407-998c143c17ac",
-      "target": "b8aa942e-16f2-497f-8ac6-a706676b647e",
-      "data": {
-        "lineStyle": "solid",
-        "arrowHead": "arrow",
-        "color": "#6366f1"
-      },
-      "markerEnd": {
-        "type": "arrowclosed"
-      },
-      "sourceHandle": "right-source",
-      "targetHandle": "left-target"
-    },
-    {
-      "id": "e-1",
-      "source": "b6601fa5-d598-4e9a-a407-998c143c17ac",
-      "target": "445cbe39-76c9-4527-a991-a1f86dd0fbb2",
-      "data": {
-        "lineStyle": "solid",
-        "arrowHead": "arrow",
-        "color": "#6366f1"
-      },
-      "markerEnd": {
-        "type": "arrowclosed"
-      },
-      "sourceHandle": "right-source",
-      "targetHandle": "left-target"
-    },
-    {
       "id": "e-2",
       "source": "be13c8fd-60c7-44a2-bbe8-26b5a1479e61",
       "target": "2eaef621-5cff-44fa-ac6c-d8944add2f69",
@@ -322,36 +297,6 @@
       },
       "sourceHandle": "bottom-source",
       "targetHandle": "top-target"
-    },
-    {
-      "id": "e-3",
-      "source": "b8aa942e-16f2-497f-8ac6-a706676b647e",
-      "target": "2eaef621-5cff-44fa-ac6c-d8944add2f69",
-      "data": {
-        "lineStyle": "solid",
-        "arrowHead": "arrow",
-        "color": "#6366f1"
-      },
-      "markerEnd": {
-        "type": "arrowclosed"
-      },
-      "sourceHandle": "right-source",
-      "targetHandle": "left-target"
-    },
-    {
-      "id": "e-4",
-      "source": "445cbe39-76c9-4527-a991-a1f86dd0fbb2",
-      "target": "2eaef621-5cff-44fa-ac6c-d8944add2f69",
-      "data": {
-        "lineStyle": "solid",
-        "arrowHead": "arrow",
-        "color": "#6366f1"
-      },
-      "markerEnd": {
-        "type": "arrowclosed"
-      },
-      "sourceHandle": "right-source",
-      "targetHandle": "left-target"
     },
     {
       "source": "2eaef621-5cff-44fa-ac6c-d8944add2f69",
@@ -370,7 +315,7 @@
       "id": "xy-edge__2eaef621-5cff-44fa-ac6c-d8944add2f69right-source-aa93e0ea-b25c-4aa4-8aba-8b634592364bleft-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"读取MPP模板\")\n  n_7(\"Process 8\")\n  n_8(\"给你表格大纲\")\n  n_9(\"给你关键节点\")\n  n_10(\"结合工程资料\")\n  n_1 --> n_3\n  n_1 --> n_4\n  n_2 --> n_0\n  n_3 --> n_0\n  n_4 --> n_0\n  n_0 --> n_6\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"读取MPP模板\")\n  n_7(\"Process 8\")\n  n_8(\"给你表格大纲\")\n  n_9(\"给你关键节点\")\n  n_10(\"结合工程资料\")\n  n_2 --> n_0\n  n_0 --> n_6\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD"
 }
