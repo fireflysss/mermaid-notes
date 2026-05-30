@@ -29,11 +29,11 @@
       "id": "6a5fb186-63d2-47d3-a1b2-af2604d2016a",
       "type": "flow-process",
       "position": {
-        "x": 56,
-        "y": 35
+        "x": -592.875,
+        "y": 154
       },
       "data": {
-        "label": "Process 3",
+        "label": "数据来源",
         "width": 160,
         "height": 56,
         "selectedCount": 1,
@@ -74,6 +74,31 @@
       },
       "selected": false,
       "dragging": false
+    },
+    {
+      "id": "aaeca53e-272e-4e93-a5f5-25381c146531",
+      "type": "flow-process",
+      "position": {
+        "x": -319,
+        "y": 69
+      },
+      "data": {
+        "label": "Ai自己编数据",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
     }
   ],
   "edges": [
@@ -94,7 +119,7 @@
       "id": "xy-edge__3d2d5ef4-7485-4104-9f16-1f0e1fb5f968left-source-1709f709-59b0-4933-9e33-2843990e8fbcright-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"Process 3\")\n  n_2(\"skill  creata 要求创建\")\n  n_2 --> n_0\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_2 --> n_0\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD"
 }
