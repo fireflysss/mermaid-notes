@@ -181,33 +181,6 @@
       "dragging": false
     },
     {
-      "id": "348a719c-9055-4e5a-afa5-979087e721c6",
-      "type": "flow-process",
-      "position": {
-        "x": 1086,
-        "y": 303
-      },
-      "data": {
-        "label": "Python COM 脚本",
-        "width": 160,
-        "height": 56,
-        "selectedCount": 1,
-        "isMultiSelectAnchor": false
-      },
-      "style": {
-        "width": 160,
-        "height": 56
-      },
-      "width": 160,
-      "height": 56,
-      "measured": {
-        "width": 160,
-        "height": 56
-      },
-      "selected": false,
-      "dragging": false
-    },
-    {
       "id": "42bbce29-1921-4bb4-bb93-ba9e35aba09e",
       "type": "flow-process",
       "position": {
@@ -333,11 +306,11 @@
       "dragging": false
     },
     {
-      "id": "dab3ba8a-ba28-45f0-85ab-123fc333d2df",
-      "type": "flow-process",
+      "id": "431339e6-45d4-47f9-9503-73a2b69894ac",
+      "type": "flow-note",
       "position": {
-        "x": 864,
-        "y": 562
+        "x": 865,
+        "y": 537
       },
       "data": {
         "label": "过程检查交互",
@@ -356,69 +329,6 @@
       },
       "selected": false,
       "dragging": false
-    },
-    {
-      "id": "000ce8c4-b8ab-41dd-9abe-f43d9db13d79",
-      "type": "flow-decision",
-      "position": {
-        "x": 702,
-        "y": 689
-      },
-      "data": {
-        "label": "Decision 15",
-        "width": 160,
-        "height": 56
-      },
-      "style": {
-        "width": 160,
-        "height": 56
-      },
-      "measured": {
-        "width": 160,
-        "height": 56
-      }
-    },
-    {
-      "id": "6d18990b-f376-47a2-957f-57bc8554f79a",
-      "type": "flow-database",
-      "position": {
-        "x": 1114,
-        "y": 626
-      },
-      "data": {
-        "label": "Database 16",
-        "width": 160,
-        "height": 56
-      },
-      "style": {
-        "width": 160,
-        "height": 56
-      },
-      "measured": {
-        "width": 160,
-        "height": 56
-      }
-    },
-    {
-      "id": "a9c96548-4baa-4338-b11a-29b4a8d90f30",
-      "type": "flow-manual",
-      "position": {
-        "x": 1146,
-        "y": 519
-      },
-      "data": {
-        "label": "Input/Output 17",
-        "width": 160,
-        "height": 56
-      },
-      "style": {
-        "width": 160,
-        "height": 56
-      },
-      "measured": {
-        "width": 160,
-        "height": 56
-      }
     }
   ],
   "edges": [
@@ -622,7 +532,7 @@
     {
       "source": "bd36977a-8105-4c2a-9bc2-25d4f74753a5",
       "sourceHandle": "bottom-source",
-      "target": "dab3ba8a-ba28-45f0-85ab-123fc333d2df",
+      "target": "431339e6-45d4-47f9-9503-73a2b69894ac",
       "targetHandle": "top-target",
       "animated": false,
       "style": {
@@ -633,10 +543,26 @@
         "type": "arrowclosed",
         "color": "#6366f1"
       },
-      "id": "xy-edge__bd36977a-8105-4c2a-9bc2-25d4f74753a5bottom-source-dab3ba8a-ba28-45f0-85ab-123fc333d2dftop-target"
+      "id": "xy-edge__bd36977a-8105-4c2a-9bc2-25d4f74753a5bottom-source-431339e6-45d4-47f9-9503-73a2b69894actop-target"
+    },
+    {
+      "source": "fcb7ee88-3035-4733-a4dd-b7570e06cd20",
+      "sourceHandle": "right-source",
+      "target": "fcb7ee88-3035-4733-a4dd-b7570e06cd20",
+      "targetHandle": "right-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__fcb7ee88-3035-4733-a4dd-b7570e06cd20right-source-fcb7ee88-3035-4733-a4dd-b7570e06cd20right-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"读取MPP模板\")\n  n_7(\"Python COM 脚本\")\n  n_8(\"给你表格大纲\")\n  n_9(\"给你关键节点\")\n  n_10(\"结合工程资料\")\n  n_11(\"excel 过程文件\")\n  n_12(\"根据数据编辑进度计划\")\n  n_13(\"过程检查交互\")\n  n_14{\"Decision 15\"}\n  n_15[(\"Database 16\")]\n  n_16[/\"Input/Output 17\"/]\n  n_2 --> n_0\n  n_0 --> n_6\n  n_1 --> n_3\n  n_1 --> n_4\n  n_1 --> n_8\n  n_1 --> n_9\n  n_3 --> n_10\n  n_4 --> n_10\n  n_8 --> n_10\n  n_9 --> n_10\n  n_10 --> n_0\n  n_0 --> n_12\n  n_12 --> n_11\n  n_11 --> n_13\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"读取MPP模板\")\n  n_7(\"给你表格大纲\")\n  n_8(\"给你关键节点\")\n  n_9(\"结合工程资料\")\n  n_10(\"excel 过程文件\")\n  n_11(\"根据数据编辑进度计划\")\n  n_12>\"过程检查交互\"]\n  n_2 --> n_0\n  n_0 --> n_6\n  n_1 --> n_3\n  n_1 --> n_4\n  n_1 --> n_7\n  n_1 --> n_8\n  n_3 --> n_9\n  n_4 --> n_9\n  n_7 --> n_9\n  n_8 --> n_9\n  n_9 --> n_0\n  n_0 --> n_11\n  n_11 --> n_10\n  n_10 --> n_12\n  n_6 --> n_6\n",
   "flowEdgeStyle": "curve",
   "flowDirection": "TD"
 }
