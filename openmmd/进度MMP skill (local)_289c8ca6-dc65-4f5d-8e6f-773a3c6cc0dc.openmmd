@@ -156,8 +156,8 @@
       "id": "aa93e0ea-b25c-4aa4-8aba-8b634592364b",
       "type": "flow-process",
       "position": {
-        "x": 677,
-        "y": 308
+        "x": 691,
+        "y": 290
       },
       "data": {
         "label": "读取MPP模板",
@@ -176,6 +176,30 @@
       },
       "selected": false,
       "dragging": false
+    },
+    {
+      "id": "0307768b-e5b8-4a75-8539-311cd24a56b5",
+      "type": "flow-process",
+      "position": {
+        "x": 947,
+        "y": 438
+      },
+      "data": {
+        "label": "Process 8",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true
     }
   ],
   "edges": [
@@ -271,7 +295,7 @@
       "id": "xy-edge__2eaef621-5cff-44fa-ac6c-d8944add2f69right-source-aa93e0ea-b25c-4aa4-8aba-8b634592364bleft-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"读取MPP模板\")\n  n_1 --> n_3\n  n_1 --> n_4\n  n_2 --> n_0\n  n_3 --> n_0\n  n_4 --> n_0\n  n_0 --> n_6\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"读取MPP模板\")\n  n_7(\"Process 8\")\n  n_1 --> n_3\n  n_1 --> n_4\n  n_2 --> n_0\n  n_3 --> n_0\n  n_4 --> n_0\n  n_0 --> n_6\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD"
 }
