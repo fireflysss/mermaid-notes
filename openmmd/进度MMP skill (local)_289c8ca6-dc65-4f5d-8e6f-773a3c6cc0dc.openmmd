@@ -187,15 +187,18 @@
       "id": "0307768b-e5b8-4a75-8539-311cd24a56b5",
       "type": "flow-process",
       "position": {
-        "x": 947,
-        "y": 438
+        "x": 911,
+        "y": 289
       },
       "data": {
         "label": "Python COM 脚本",
         "width": 160,
         "height": 56,
         "selectedCount": 1,
-        "isMultiSelectAnchor": false
+        "isMultiSelectAnchor": false,
+        "customColors": {
+          "bg": "#eab308"
+        }
       },
       "style": {
         "width": 160,
@@ -205,7 +208,8 @@
         "width": 160,
         "height": 56
       },
-      "selected": true
+      "selected": false,
+      "dragging": false
     },
     {
       "id": "330335aa-d4fd-403b-a329-b8224a4d58b8",
