@@ -4,8 +4,8 @@
       "id": "start",
       "type": "flow-terminator",
       "position": {
-        "x": 250,
-        "y": 50
+        "x": 346,
+        "y": -27
       },
       "data": {
         "label": "ocr识别",
@@ -22,7 +22,8 @@
         "width": 160,
         "height": 56
       },
-      "selected": false
+      "selected": false,
+      "dragging": false
     },
     {
       "id": "1",
@@ -78,8 +79,8 @@
       "id": "9f7e0f8c-4c23-4991-9593-997a6e4207ec",
       "type": "flow-process",
       "position": {
-        "x": 234,
-        "y": 303
+        "x": 346,
+        "y": 336
       },
       "data": {
         "label": "docker ocr\n或者SKILL API",
@@ -128,8 +129,8 @@
       "id": "dd2108b1-8b53-478e-b678-c91a6b11c087",
       "type": "flow-process",
       "position": {
-        "x": 493,
-        "y": 443
+        "x": 166,
+        "y": 456
       },
       "data": {
         "label": "能识别H1-H6 这样的标题",
@@ -153,8 +154,8 @@
       "id": "afa8bb03-0200-4648-9543-930ec1e0210f",
       "type": "flow-process",
       "position": {
-        "x": 785,
-        "y": 549
+        "x": 384,
+        "y": 456
       },
       "data": {
         "label": "正文表格能识别",
@@ -178,8 +179,8 @@
       "id": "e7c6cb77-61d1-4ae5-9bce-d80ffabb2235",
       "type": "flow-process",
       "position": {
-        "x": 670,
-        "y": 325
+        "x": 590,
+        "y": 456
       },
       "data": {
         "label": "图片能识别",
@@ -203,8 +204,8 @@
       "id": "db1bde12-1373-4a99-8731-b53588dc286e",
       "type": "flow-process",
       "position": {
-        "x": 1015,
-        "y": 423
+        "x": 346,
+        "y": 667
       },
       "data": {
         "label": "按照docx模板",
@@ -253,8 +254,8 @@
       "id": "23c5aa09-7850-41ec-b094-4f34108d0296",
       "type": "flow-process",
       "position": {
-        "x": 1229,
-        "y": 423
+        "x": 346,
+        "y": 775
       },
       "data": {
         "label": "docx成果",
@@ -342,7 +343,7 @@
     }
   ],
   "mermaidCode": "flowchart TD\n  n_0([\"ocr识别\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者SKILL API\")\n  n_4(\"图片\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"再识别\")\n  n_10(\"docx成果\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n  n_0 --> n_4\n",
-  "flowEdgeStyle": "smooth",
+  "flowEdgeStyle": "curve",
   "flowDirection": "TD",
-  "flowEdgeSpacing": true
+  "flowEdgeSpacing": false
 }
