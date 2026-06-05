@@ -96,15 +96,15 @@
         "width": 160,
         "height": 56
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     },
     {
       "id": "c753af33-61b1-4abb-adee-44e849daa805",
       "type": "flow-process",
       "position": {
-        "x": 394,
-        "y": 539
+        "x": 12,
+        "y": 549
       },
       "data": {
         "label": "目的是什么",
@@ -121,14 +121,15 @@
         "width": 160,
         "height": 56
       },
-      "selected": false
+      "selected": false,
+      "dragging": false
     },
     {
       "id": "dd2108b1-8b53-478e-b678-c91a6b11c087",
       "type": "flow-process",
       "position": {
-        "x": 785,
-        "y": 429
+        "x": 493,
+        "y": 443
       },
       "data": {
         "label": "能识别H1-H6 这样的标题",
@@ -145,7 +146,8 @@
         "width": 160,
         "height": 56
       },
-      "selected": false
+      "selected": false,
+      "dragging": false
     },
     {
       "id": "afa8bb03-0200-4648-9543-930ec1e0210f",
@@ -176,8 +178,8 @@
       "id": "e7c6cb77-61d1-4ae5-9bce-d80ffabb2235",
       "type": "flow-process",
       "position": {
-        "x": 785,
-        "y": 303
+        "x": 670,
+        "y": 325
       },
       "data": {
         "label": "图片能识别",
