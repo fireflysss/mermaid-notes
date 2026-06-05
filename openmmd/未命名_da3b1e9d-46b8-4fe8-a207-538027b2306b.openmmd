@@ -83,7 +83,7 @@
         "y": 336
       },
       "data": {
-        "label": "docker ocr\n或者SKILL API",
+        "label": "docker ocr\n或者云端 API",
         "width": 160,
         "height": 56,
         "selectedCount": 1,
@@ -179,8 +179,8 @@
       "id": "e7c6cb77-61d1-4ae5-9bce-d80ffabb2235",
       "type": "flow-process",
       "position": {
-        "x": 590,
-        "y": 456
+        "x": 601,
+        "y": 450
       },
       "data": {
         "label": "图片能识别",
@@ -204,8 +204,8 @@
       "id": "db1bde12-1373-4a99-8731-b53588dc286e",
       "type": "flow-process",
       "position": {
-        "x": 384,
-        "y": 629
+        "x": 397,
+        "y": 936
       },
       "data": {
         "label": "按照docx模板",
@@ -222,7 +222,7 @@
         "width": 160,
         "height": 56
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     },
     {
@@ -254,8 +254,8 @@
       "id": "23c5aa09-7850-41ec-b094-4f34108d0296",
       "type": "flow-process",
       "position": {
-        "x": 346,
-        "y": 775
+        "x": 406,
+        "y": 1071
       },
       "data": {
         "label": "docx成果",
@@ -274,6 +274,55 @@
       },
       "selected": false,
       "dragging": false
+    },
+    {
+      "id": "8310f07e-a620-499c-a63b-7f2dd000ed83",
+      "type": "flow-process",
+      "position": {
+        "x": 384,
+        "y": 610
+      },
+      "data": {
+        "label": "中间格式MD",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "c49366be-7da2-4206-9e19-b3e483175c5d",
+      "type": "flow-process",
+      "position": {
+        "x": 473,
+        "y": 797
+      },
+      "data": {
+        "label": "HTML格式",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false
     }
   ],
   "edges": [
@@ -342,7 +391,7 @@
       "id": "xy-edge__startbottom-source-c753af33-61b1-4abb-adee-44e849daa805top-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make-ocr\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者SKILL API\")\n  n_4(\"图片\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"再识别\")\n  n_10(\"docx成果\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n  n_0 --> n_4\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make-ocr\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者云端 API\")\n  n_4(\"图片\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"再识别\")\n  n_10(\"docx成果\")\n  n_11(\"中间格式MD\")\n  n_12(\"HTML格式\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n  n_0 --> n_4\n",
   "flowEdgeStyle": "curve",
   "flowDirection": "TD",
   "flowEdgeSpacing": false
