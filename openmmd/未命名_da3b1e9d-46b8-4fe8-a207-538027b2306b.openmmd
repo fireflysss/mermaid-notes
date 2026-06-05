@@ -304,8 +304,8 @@
       "id": "c49366be-7da2-4206-9e19-b3e483175c5d",
       "type": "flow-process",
       "position": {
-        "x": 456.3026361044469,
-        "y": 808
+        "x": 460,
+        "y": 818
       },
       "data": {
         "label": "HTML格式",
@@ -329,8 +329,8 @@
       "id": "43b59685-c3f1-4ba1-97ea-8497dcba9d40",
       "type": "flow-process",
       "position": {
-        "x": 315,
-        "y": 360
+        "x": 830,
+        "y": 361
       },
       "data": {
         "label": "docker ocr\n或者云端 API",
@@ -347,15 +347,15 @@
         "width": 160,
         "height": 56
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     },
     {
       "id": "c7ea263e-b2af-45fe-bf2b-687655d6aa23",
       "type": "flow-process",
       "position": {
-        "x": 103.30263610444689,
-        "y": 488
+        "x": 794,
+        "y": 458
       },
       "data": {
         "label": "能识别H1-H6 这样的标题",
@@ -372,15 +372,15 @@
         "width": 160,
         "height": 56
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     },
     {
       "id": "f6d95803-71fa-43d1-ad6f-e56ee85da3b9",
       "type": "flow-process",
       "position": {
-        "x": 321.3026361044469,
-        "y": 488
+        "x": 1015,
+        "y": 458
       },
       "data": {
         "label": "正文表格能识别",
@@ -397,40 +397,15 @@
         "width": 160,
         "height": 56
       },
-      "selected": true,
-      "dragging": false
-    },
-    {
-      "id": "2469b915-1b74-474f-b45e-7c639c9c5e06",
-      "type": "flow-process",
-      "position": {
-        "x": 538.302636104447,
-        "y": 482
-      },
-      "data": {
-        "label": "图片能识别",
-        "width": 160,
-        "height": 56,
-        "selectedCount": 1,
-        "isMultiSelectAnchor": false
-      },
-      "style": {
-        "width": 160,
-        "height": 56
-      },
-      "measured": {
-        "width": 160,
-        "height": 56
-      },
-      "selected": true,
+      "selected": false,
       "dragging": false
     },
     {
       "id": "fc3e89d7-c854-4643-ab1f-a02128b3330d",
       "type": "flow-process",
       "position": {
-        "x": 199.3026361044469,
-        "y": 848
+        "x": 775,
+        "y": 856
       },
       "data": {
         "label": "按照docx模板",
@@ -447,15 +422,15 @@
         "width": 160,
         "height": 56
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     },
     {
       "id": "8000c367-8a91-417c-b44f-46e8bd2ef6b2",
       "type": "flow-process",
       "position": {
-        "x": 208.3026361044469,
-        "y": 1117
+        "x": 830,
+        "y": 1122
       },
       "data": {
         "label": "里面图片再识别",
@@ -479,7 +454,7 @@
       "id": "d8edaaec-5c2c-4dfd-9fe5-95aac6e56939",
       "type": "flow-process",
       "position": {
-        "x": 208.3026361044469,
+        "x": 830,
         "y": 983
       },
       "data": {
@@ -497,15 +472,15 @@
         "width": 160,
         "height": 56
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     },
     {
       "id": "af3f48be-270e-44a0-8f66-1e459bd4a474",
       "type": "flow-process",
       "position": {
-        "x": 317.3026361044469,
-        "y": 643
+        "x": 925,
+        "y": 677
       },
       "data": {
         "label": "中间格式MD",
@@ -522,15 +497,15 @@
         "width": 160,
         "height": 56
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     },
     {
       "id": "a05402f8-8ccd-4e7a-8a58-876100caba82",
       "type": "flow-process",
       "position": {
-        "x": 486.3026361044469,
-        "y": 838
+        "x": 1113,
+        "y": 856
       },
       "data": {
         "label": "HTML格式",
@@ -547,7 +522,7 @@
         "width": 160,
         "height": 56
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     }
   ],
@@ -785,9 +760,185 @@
       },
       "id": "4d6a56d1-55da-444e-a537-bd1f5411d127",
       "selected": false
+    },
+    {
+      "source": "c753af33-61b1-4abb-adee-44e849daa805",
+      "sourceHandle": "bottom-source",
+      "target": "9f7e0f8c-4c23-4991-9593-997a6e4207ec",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__c753af33-61b1-4abb-adee-44e849daa805bottom-source-9f7e0f8c-4c23-4991-9593-997a6e4207ectop-target"
+    },
+    {
+      "source": "1",
+      "sourceHandle": "bottom-source",
+      "target": "9f7e0f8c-4c23-4991-9593-997a6e4207ec",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__1bottom-source-9f7e0f8c-4c23-4991-9593-997a6e4207ectop-target"
+    },
+    {
+      "source": "3f44ff1f-743b-47b5-a222-521d233f864a",
+      "sourceHandle": "bottom-source",
+      "target": "43b59685-c3f1-4ba1-97ea-8497dcba9d40",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__3f44ff1f-743b-47b5-a222-521d233f864abottom-source-43b59685-c3f1-4ba1-97ea-8497dcba9d40top-target"
+    },
+    {
+      "source": "43b59685-c3f1-4ba1-97ea-8497dcba9d40",
+      "sourceHandle": "bottom-source",
+      "target": "c7ea263e-b2af-45fe-bf2b-687655d6aa23",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__43b59685-c3f1-4ba1-97ea-8497dcba9d40bottom-source-c7ea263e-b2af-45fe-bf2b-687655d6aa23top-target"
+    },
+    {
+      "source": "43b59685-c3f1-4ba1-97ea-8497dcba9d40",
+      "sourceHandle": "bottom-source",
+      "target": "f6d95803-71fa-43d1-ad6f-e56ee85da3b9",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__43b59685-c3f1-4ba1-97ea-8497dcba9d40bottom-source-f6d95803-71fa-43d1-ad6f-e56ee85da3b9top-target"
+    },
+    {
+      "source": "f6d95803-71fa-43d1-ad6f-e56ee85da3b9",
+      "sourceHandle": "bottom-source",
+      "target": "af3f48be-270e-44a0-8f66-1e459bd4a474",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__f6d95803-71fa-43d1-ad6f-e56ee85da3b9bottom-source-af3f48be-270e-44a0-8f66-1e459bd4a474top-target"
+    },
+    {
+      "source": "c7ea263e-b2af-45fe-bf2b-687655d6aa23",
+      "sourceHandle": "bottom-source",
+      "target": "af3f48be-270e-44a0-8f66-1e459bd4a474",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__c7ea263e-b2af-45fe-bf2b-687655d6aa23bottom-source-af3f48be-270e-44a0-8f66-1e459bd4a474top-target"
+    },
+    {
+      "source": "e7c6cb77-61d1-4ae5-9bce-d80ffabb2235",
+      "sourceHandle": "bottom-source",
+      "target": "8310f07e-a620-499c-a63b-7f2dd000ed83",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__e7c6cb77-61d1-4ae5-9bce-d80ffabb2235bottom-source-8310f07e-a620-499c-a63b-7f2dd000ed83top-target"
+    },
+    {
+      "source": "afa8bb03-0200-4648-9543-930ec1e0210f",
+      "sourceHandle": "bottom-source",
+      "target": "8310f07e-a620-499c-a63b-7f2dd000ed83",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__afa8bb03-0200-4648-9543-930ec1e0210fbottom-source-8310f07e-a620-499c-a63b-7f2dd000ed83top-target"
+    },
+    {
+      "source": "dd2108b1-8b53-478e-b678-c91a6b11c087",
+      "sourceHandle": "bottom-source",
+      "target": "8310f07e-a620-499c-a63b-7f2dd000ed83",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__dd2108b1-8b53-478e-b678-c91a6b11c087bottom-source-8310f07e-a620-499c-a63b-7f2dd000ed83top-target"
+    },
+    {
+      "source": "9f7e0f8c-4c23-4991-9593-997a6e4207ec",
+      "sourceHandle": "bottom-source",
+      "target": "afa8bb03-0200-4648-9543-930ec1e0210f",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__9f7e0f8c-4c23-4991-9593-997a6e4207ecbottom-source-afa8bb03-0200-4648-9543-930ec1e0210ftop-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make-ocr\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者云端 API\")\n  n_4(\"图片\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"里面图片再识别\")\n  n_10(\"docx成果\")\n  n_11(\"中间格式MD\")\n  n_12(\"HTML格式\")\n  n_13(\"docker ocr<br/>或者云端 API\")\n  n_14(\"能识别H1-H6 这样的标题\")\n  n_15(\"正文表格能识别\")\n  n_16(\"图片能识别\")\n  n_17(\"按照docx模板\")\n  n_18(\"里面图片再识别\")\n  n_19(\"docx成果\")\n  n_20(\"中间格式MD\")\n  n_21(\"HTML格式\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n  n_0 --> n_4\n  n_11 --> n_8\n  n_11 --> n_12\n  n_12 --> n_8\n  n_8 --> n_10\n  n_10 --> n_9\n  n_20 --> n_17\n  n_20 --> n_21\n  n_21 --> n_17\n  n_17 --> n_19\n  n_19 --> n_18\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make-ocr\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者云端 API\")\n  n_4(\"图片\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"里面图片再识别\")\n  n_10(\"docx成果\")\n  n_11(\"中间格式MD\")\n  n_12(\"HTML格式\")\n  n_13(\"docker ocr<br/>或者云端 API\")\n  n_14(\"能识别H1-H6 这样的标题\")\n  n_15(\"正文表格能识别\")\n  n_16(\"按照docx模板\")\n  n_17(\"里面图片再识别\")\n  n_18(\"docx成果\")\n  n_19(\"中间格式MD\")\n  n_20(\"HTML格式\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n  n_0 --> n_4\n  n_11 --> n_8\n  n_11 --> n_12\n  n_12 --> n_8\n  n_8 --> n_10\n  n_10 --> n_9\n  n_19 --> n_16\n  n_19 --> n_20\n  n_20 --> n_16\n  n_16 --> n_18\n  n_18 --> n_17\n  n_4 --> n_3\n  n_1 --> n_3\n  n_2 --> n_13\n  n_13 --> n_14\n  n_13 --> n_15\n  n_15 --> n_19\n  n_14 --> n_19\n  n_7 --> n_11\n  n_6 --> n_11\n  n_5 --> n_11\n  n_3 --> n_6\n",
   "flowEdgeStyle": "curve",
   "flowDirection": "TD",
   "flowEdgeSpacing": false
