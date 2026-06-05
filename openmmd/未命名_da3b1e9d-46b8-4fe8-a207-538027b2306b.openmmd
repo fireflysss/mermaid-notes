@@ -82,7 +82,7 @@
         "y": 303
       },
       "data": {
-        "label": "Process 4",
+        "label": "docker ocr\n或者SKILL API",
         "width": 160,
         "height": 56,
         "selectedCount": 1,
@@ -323,7 +323,7 @@
       "id": "xy-edge__startbottom-source-3f44ff1f-743b-47b5-a222-521d233f864atop-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"ocr识别\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"Process 4\")\n  n_4(\"目的是什么\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"再识别\")\n  n_10(\"docx成果\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"ocr识别\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者SKILL API\")\n  n_4(\"目的是什么\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"再识别\")\n  n_10(\"docx成果\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD",
   "flowEdgeSpacing": true
