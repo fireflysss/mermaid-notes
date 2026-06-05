@@ -507,11 +507,36 @@
       "dragging": false
     },
     {
-      "id": "375e598e-c145-4c31-b048-f6e3ab263144",
+      "id": "b728c74e-6c90-4856-959a-6185b532a03f",
+      "type": "flow-decision",
+      "position": {
+        "x": 830,
+        "y": 1113
+      },
+      "data": {
+        "label": "",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "f2e5e011-bbe2-4fc3-a2e8-67feb40e3396",
       "type": "flow-process",
       "position": {
         "x": 830,
-        "y": 1227
+        "y": 1342
       },
       "data": {
         "label": "最终docx",
@@ -532,14 +557,14 @@
       "dragging": false
     },
     {
-      "id": "b728c74e-6c90-4856-959a-6185b532a03f",
-      "type": "flow-decision",
+      "id": "3f8ad3ec-fa47-4ace-8d93-5979b745960e",
+      "type": "flow-process",
       "position": {
         "x": 830,
-        "y": 1115
+        "y": 1229
       },
       "data": {
-        "label": "里面图片再识别",
+        "label": "Process 23",
         "width": 160,
         "height": 56,
         "selectedCount": 1,
@@ -971,9 +996,9 @@
       "id": "xy-edge__d8edaaec-5c2c-4dfd-9fe5-95aac6e56939bottom-source-b728c74e-6c90-4856-959a-6185b532a03ftop-target"
     },
     {
-      "source": "b728c74e-6c90-4856-959a-6185b532a03f",
+      "source": "3f8ad3ec-fa47-4ace-8d93-5979b745960e",
       "sourceHandle": "bottom-source",
-      "target": "375e598e-c145-4c31-b048-f6e3ab263144",
+      "target": "f2e5e011-bbe2-4fc3-a2e8-67feb40e3396",
       "targetHandle": "top-target",
       "animated": false,
       "style": {
@@ -984,10 +1009,43 @@
         "type": "arrowclosed",
         "color": "#6366f1"
       },
-      "id": "xy-edge__b728c74e-6c90-4856-959a-6185b532a03fbottom-source-375e598e-c145-4c31-b048-f6e3ab263144top-target"
+      "id": "xy-edge__3f8ad3ec-fa47-4ace-8d93-5979b745960ebottom-source-f2e5e011-bbe2-4fc3-a2e8-67feb40e3396top-target",
+      "selected": false
+    },
+    {
+      "source": "b728c74e-6c90-4856-959a-6185b532a03f",
+      "sourceHandle": "bottom-source",
+      "target": "b728c74e-6c90-4856-959a-6185b532a03f",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__b728c74e-6c90-4856-959a-6185b532a03fbottom-source-b728c74e-6c90-4856-959a-6185b532a03ftop-target"
+    },
+    {
+      "source": "b728c74e-6c90-4856-959a-6185b532a03f",
+      "sourceHandle": "right-source",
+      "target": "b728c74e-6c90-4856-959a-6185b532a03f",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__b728c74e-6c90-4856-959a-6185b532a03fright-source-b728c74e-6c90-4856-959a-6185b532a03ftop-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make-ocr\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者云端 API\")\n  n_4(\"图片\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"里面图片再识别\")\n  n_10(\"docx成果\")\n  n_11(\"中间格式MD\")\n  n_12(\"HTML格式\")\n  n_13(\"docker ocr<br/>或者云端 API\")\n  n_14(\"能识别H1-H6 这样的标题\")\n  n_15(\"正文表格能识别\")\n  n_16(\"按照docx模板\")\n  n_17(\"docx成果\")\n  n_18(\"中间格式MD\")\n  n_19(\"HTML格式\")\n  n_20(\"最终docx\")\n  n_21{\"里面图片再识别\"}\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n  n_0 --> n_4\n  n_11 --> n_8\n  n_11 --> n_12\n  n_12 --> n_8\n  n_8 --> n_10\n  n_10 --> n_9\n  n_18 --> n_16\n  n_18 --> n_19\n  n_19 --> n_16\n  n_16 --> n_17\n  n_4 --> n_3\n  n_1 --> n_3\n  n_2 --> n_13\n  n_13 --> n_14\n  n_13 --> n_15\n  n_15 --> n_18\n  n_14 --> n_18\n  n_7 --> n_11\n  n_6 --> n_11\n  n_5 --> n_11\n  n_3 --> n_6\n  n_17 --> n_21\n  n_21 --> n_20\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make-ocr\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者云端 API\")\n  n_4(\"图片\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"里面图片再识别\")\n  n_10(\"docx成果\")\n  n_11(\"中间格式MD\")\n  n_12(\"HTML格式\")\n  n_13(\"docker ocr<br/>或者云端 API\")\n  n_14(\"能识别H1-H6 这样的标题\")\n  n_15(\"正文表格能识别\")\n  n_16(\"按照docx模板\")\n  n_17(\"docx成果\")\n  n_18(\"中间格式MD\")\n  n_19(\"HTML格式\")\n  n_20{\"Node\"}\n  n_21(\"最终docx\")\n  n_22(\"Process 23\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n  n_0 --> n_4\n  n_11 --> n_8\n  n_11 --> n_12\n  n_12 --> n_8\n  n_8 --> n_10\n  n_10 --> n_9\n  n_18 --> n_16\n  n_18 --> n_19\n  n_19 --> n_16\n  n_16 --> n_17\n  n_4 --> n_3\n  n_1 --> n_3\n  n_2 --> n_13\n  n_13 --> n_14\n  n_13 --> n_15\n  n_15 --> n_18\n  n_14 --> n_18\n  n_7 --> n_11\n  n_6 --> n_11\n  n_5 --> n_11\n  n_3 --> n_6\n  n_17 --> n_20\n  n_22 --> n_21\n  n_20 --> n_20\n  n_20 --> n_20\n",
   "flowEdgeStyle": "curve",
   "flowDirection": "TD",
   "flowEdgeSpacing": false
