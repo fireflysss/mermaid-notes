@@ -204,8 +204,8 @@
       "id": "db1bde12-1373-4a99-8731-b53588dc286e",
       "type": "flow-process",
       "position": {
-        "x": 346,
-        "y": 667
+        "x": 384,
+        "y": 629
       },
       "data": {
         "label": "按照docx模板",
@@ -222,7 +222,7 @@
         "width": 160,
         "height": 56
       },
-      "selected": false,
+      "selected": true,
       "dragging": false
     },
     {
