@@ -630,6 +630,31 @@
       },
       "selected": false,
       "dragging": false
+    },
+    {
+      "id": "f1e4d457-6fb9-4566-bc78-cb3c0c40502e",
+      "type": "flow-process-rect",
+      "position": {
+        "x": 546,
+        "y": 613
+      },
+      "data": {
+        "label": "可以输出MD格式",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true,
+      "dragging": false
     }
   ],
   "edges": [
@@ -1177,7 +1202,7 @@
       "id": "xy-edge__46abd76f-7e53-4a67-ba24-f281fe85f844bottom-source-af3f48be-270e-44a0-8f66-1e459bd4a474top-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make-ocr\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者云端 API\")\n  n_4(\"图片\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"里面图片再识别\")\n  n_10(\"docx成果\")\n  n_11(\"中间格式MD\")\n  n_12(\"HTML格式\")\n  n_13(\"docker ocr<br/>或者云端 API\")\n  n_14(\"能识别H1-H6 这样的标题\")\n  n_15(\"正文表格能识别\")\n  n_16(\"按照docx模板\")\n  n_17(\"docx成果\")\n  n_18(\"中间格式MD\")\n  n_19(\"HTML格式\")\n  n_20(\"最终docx\")\n  n_21(\"里面图片再识别\")\n  n_22{\"是否 里面图片再识别\"}\n  n_23(\"正确排版\")\n  n_24(\"正确排版\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n  n_0 --> n_4\n  n_11 --> n_8\n  n_11 --> n_12\n  n_12 --> n_8\n  n_8 --> n_10\n  n_10 --> n_9\n  n_18 --> n_16\n  n_18 --> n_19\n  n_19 --> n_16\n  n_16 --> n_17\n  n_4 --> n_3\n  n_1 --> n_3\n  n_2 --> n_13\n  n_13 --> n_14\n  n_13 --> n_15\n  n_15 --> n_18\n  n_14 --> n_18\n  n_7 --> n_11\n  n_6 --> n_11\n  n_5 --> n_11\n  n_3 --> n_6\n  n_21 --> n_20\n  n_17 --> n_22\n  n_22 --> n_21\n  n_3 --> n_5\n  n_3 --> n_7\n  n_3 --> n_23\n  n_23 --> n_11\n  n_13 --> n_24\n  n_24 --> n_18\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make-ocr\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者云端 API\")\n  n_4(\"图片\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"里面图片再识别\")\n  n_10(\"docx成果\")\n  n_11(\"中间格式MD\")\n  n_12(\"HTML格式\")\n  n_13(\"docker ocr<br/>或者云端 API\")\n  n_14(\"能识别H1-H6 这样的标题\")\n  n_15(\"正文表格能识别\")\n  n_16(\"按照docx模板\")\n  n_17(\"docx成果\")\n  n_18(\"中间格式MD\")\n  n_19(\"HTML格式\")\n  n_20(\"最终docx\")\n  n_21(\"里面图片再识别\")\n  n_22{\"是否 里面图片再识别\"}\n  n_23(\"正确排版\")\n  n_24(\"正确排版\")\n  n_25[\"可以输出MD格式\"]\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n  n_0 --> n_4\n  n_11 --> n_8\n  n_11 --> n_12\n  n_12 --> n_8\n  n_8 --> n_10\n  n_10 --> n_9\n  n_18 --> n_16\n  n_18 --> n_19\n  n_19 --> n_16\n  n_16 --> n_17\n  n_4 --> n_3\n  n_1 --> n_3\n  n_2 --> n_13\n  n_13 --> n_14\n  n_13 --> n_15\n  n_15 --> n_18\n  n_14 --> n_18\n  n_7 --> n_11\n  n_6 --> n_11\n  n_5 --> n_11\n  n_3 --> n_6\n  n_21 --> n_20\n  n_17 --> n_22\n  n_22 --> n_21\n  n_3 --> n_5\n  n_3 --> n_7\n  n_3 --> n_23\n  n_23 --> n_11\n  n_13 --> n_24\n  n_24 --> n_18\n",
   "flowEdgeStyle": "curve",
   "flowDirection": "TD",
   "flowEdgeSpacing": false
