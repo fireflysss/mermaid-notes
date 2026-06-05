@@ -54,7 +54,7 @@
       "id": "3f44ff1f-743b-47b5-a222-521d233f864a",
       "type": "flow-process",
       "position": {
-        "x": 346,
+        "x": 808,
         "y": 192
       },
       "data": {
@@ -79,8 +79,8 @@
       "id": "9f7e0f8c-4c23-4991-9593-997a6e4207ec",
       "type": "flow-process",
       "position": {
-        "x": 346,
-        "y": 336
+        "x": 285,
+        "y": 330
       },
       "data": {
         "label": "docker ocr\n或者云端 API",
@@ -104,7 +104,7 @@
       "id": "c753af33-61b1-4abb-adee-44e849daa805",
       "type": "flow-process",
       "position": {
-        "x": 544,
+        "x": 409,
         "y": 192
       },
       "data": {
@@ -129,8 +129,8 @@
       "id": "dd2108b1-8b53-478e-b678-c91a6b11c087",
       "type": "flow-process",
       "position": {
-        "x": 166,
-        "y": 456
+        "x": 73.30263610444689,
+        "y": 458
       },
       "data": {
         "label": "能识别H1-H6 这样的标题",
@@ -154,8 +154,8 @@
       "id": "afa8bb03-0200-4648-9543-930ec1e0210f",
       "type": "flow-process",
       "position": {
-        "x": 384,
-        "y": 456
+        "x": 291.3026361044469,
+        "y": 458
       },
       "data": {
         "label": "正文表格能识别",
@@ -179,8 +179,8 @@
       "id": "e7c6cb77-61d1-4ae5-9bce-d80ffabb2235",
       "type": "flow-process",
       "position": {
-        "x": 601,
-        "y": 450
+        "x": 508.3026361044469,
+        "y": 452
       },
       "data": {
         "label": "图片能识别",
@@ -204,8 +204,8 @@
       "id": "db1bde12-1373-4a99-8731-b53588dc286e",
       "type": "flow-process",
       "position": {
-        "x": 397,
-        "y": 936
+        "x": 169.3026361044469,
+        "y": 818
       },
       "data": {
         "label": "按照docx模板",
@@ -229,11 +229,11 @@
       "id": "2c323ef4-8333-468a-bab8-b9bbf82cd23b",
       "type": "flow-process",
       "position": {
-        "x": 1465,
-        "y": 524
+        "x": 178.3026361044469,
+        "y": 1087
       },
       "data": {
-        "label": "再识别",
+        "label": "里面图片再识别",
         "width": 160,
         "height": 56,
         "selectedCount": 1,
@@ -254,8 +254,8 @@
       "id": "23c5aa09-7850-41ec-b094-4f34108d0296",
       "type": "flow-process",
       "position": {
-        "x": 406,
-        "y": 1071
+        "x": 178.3026361044469,
+        "y": 953
       },
       "data": {
         "label": "docx成果",
@@ -279,8 +279,8 @@
       "id": "8310f07e-a620-499c-a63b-7f2dd000ed83",
       "type": "flow-process",
       "position": {
-        "x": 384,
-        "y": 610
+        "x": 287.3026361044469,
+        "y": 613
       },
       "data": {
         "label": "中间格式MD",
@@ -304,8 +304,8 @@
       "id": "c49366be-7da2-4206-9e19-b3e483175c5d",
       "type": "flow-process",
       "position": {
-        "x": 473,
-        "y": 797
+        "x": 456.3026361044469,
+        "y": 808
       },
       "data": {
         "label": "HTML格式",
@@ -322,7 +322,233 @@
         "width": 160,
         "height": 56
       },
-      "selected": false
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "43b59685-c3f1-4ba1-97ea-8497dcba9d40",
+      "type": "flow-process",
+      "position": {
+        "x": 315,
+        "y": 360
+      },
+      "data": {
+        "label": "docker ocr\n或者云端 API",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "c7ea263e-b2af-45fe-bf2b-687655d6aa23",
+      "type": "flow-process",
+      "position": {
+        "x": 103.30263610444689,
+        "y": 488
+      },
+      "data": {
+        "label": "能识别H1-H6 这样的标题",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "f6d95803-71fa-43d1-ad6f-e56ee85da3b9",
+      "type": "flow-process",
+      "position": {
+        "x": 321.3026361044469,
+        "y": 488
+      },
+      "data": {
+        "label": "正文表格能识别",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "2469b915-1b74-474f-b45e-7c639c9c5e06",
+      "type": "flow-process",
+      "position": {
+        "x": 538.302636104447,
+        "y": 482
+      },
+      "data": {
+        "label": "图片能识别",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "fc3e89d7-c854-4643-ab1f-a02128b3330d",
+      "type": "flow-process",
+      "position": {
+        "x": 199.3026361044469,
+        "y": 848
+      },
+      "data": {
+        "label": "按照docx模板",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "8000c367-8a91-417c-b44f-46e8bd2ef6b2",
+      "type": "flow-process",
+      "position": {
+        "x": 208.3026361044469,
+        "y": 1117
+      },
+      "data": {
+        "label": "里面图片再识别",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "d8edaaec-5c2c-4dfd-9fe5-95aac6e56939",
+      "type": "flow-process",
+      "position": {
+        "x": 208.3026361044469,
+        "y": 983
+      },
+      "data": {
+        "label": "docx成果",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "af3f48be-270e-44a0-8f66-1e459bd4a474",
+      "type": "flow-process",
+      "position": {
+        "x": 317.3026361044469,
+        "y": 643
+      },
+      "data": {
+        "label": "中间格式MD",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "a05402f8-8ccd-4e7a-8a58-876100caba82",
+      "type": "flow-process",
+      "position": {
+        "x": 486.3026361044469,
+        "y": 838
+      },
+      "data": {
+        "label": "HTML格式",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true,
+      "dragging": false
     }
   ],
   "edges": [
@@ -389,9 +615,179 @@
         "color": "#6366f1"
       },
       "id": "xy-edge__startbottom-source-c753af33-61b1-4abb-adee-44e849daa805top-target"
+    },
+    {
+      "source": "8310f07e-a620-499c-a63b-7f2dd000ed83",
+      "sourceHandle": "bottom-source",
+      "target": "db1bde12-1373-4a99-8731-b53588dc286e",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__8310f07e-a620-499c-a63b-7f2dd000ed83bottom-source-db1bde12-1373-4a99-8731-b53588dc286etop-target",
+      "selected": false
+    },
+    {
+      "source": "8310f07e-a620-499c-a63b-7f2dd000ed83",
+      "sourceHandle": "bottom-source",
+      "target": "c49366be-7da2-4206-9e19-b3e483175c5d",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__8310f07e-a620-499c-a63b-7f2dd000ed83bottom-source-c49366be-7da2-4206-9e19-b3e483175c5dtop-target",
+      "selected": false
+    },
+    {
+      "source": "c49366be-7da2-4206-9e19-b3e483175c5d",
+      "sourceHandle": "left-source",
+      "target": "db1bde12-1373-4a99-8731-b53588dc286e",
+      "targetHandle": "right-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__c49366be-7da2-4206-9e19-b3e483175c5dleft-source-db1bde12-1373-4a99-8731-b53588dc286eright-target",
+      "selected": false
+    },
+    {
+      "source": "db1bde12-1373-4a99-8731-b53588dc286e",
+      "sourceHandle": "bottom-source",
+      "target": "23c5aa09-7850-41ec-b094-4f34108d0296",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__db1bde12-1373-4a99-8731-b53588dc286ebottom-source-23c5aa09-7850-41ec-b094-4f34108d0296top-target",
+      "selected": false
+    },
+    {
+      "source": "23c5aa09-7850-41ec-b094-4f34108d0296",
+      "sourceHandle": "bottom-source",
+      "target": "2c323ef4-8333-468a-bab8-b9bbf82cd23b",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__23c5aa09-7850-41ec-b094-4f34108d0296bottom-source-2c323ef4-8333-468a-bab8-b9bbf82cd23btop-target",
+      "selected": false
+    },
+    {
+      "source": "af3f48be-270e-44a0-8f66-1e459bd4a474",
+      "sourceHandle": "bottom-source",
+      "target": "fc3e89d7-c854-4643-ab1f-a02128b3330d",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "6f712843-78f6-40d9-a0f8-427b49318b36",
+      "selected": false
+    },
+    {
+      "source": "af3f48be-270e-44a0-8f66-1e459bd4a474",
+      "sourceHandle": "bottom-source",
+      "target": "a05402f8-8ccd-4e7a-8a58-876100caba82",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "26cc8942-ade5-4015-beac-41a34f1f985c",
+      "selected": false
+    },
+    {
+      "source": "a05402f8-8ccd-4e7a-8a58-876100caba82",
+      "sourceHandle": "left-source",
+      "target": "fc3e89d7-c854-4643-ab1f-a02128b3330d",
+      "targetHandle": "right-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "2506efc2-145a-4730-92b2-5e9298dab27b",
+      "selected": false
+    },
+    {
+      "source": "fc3e89d7-c854-4643-ab1f-a02128b3330d",
+      "sourceHandle": "bottom-source",
+      "target": "d8edaaec-5c2c-4dfd-9fe5-95aac6e56939",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "c3419d03-fdfa-4cc8-bb86-48acdd195582",
+      "selected": false
+    },
+    {
+      "source": "d8edaaec-5c2c-4dfd-9fe5-95aac6e56939",
+      "sourceHandle": "bottom-source",
+      "target": "8000c367-8a91-417c-b44f-46e8bd2ef6b2",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "4d6a56d1-55da-444e-a537-bd1f5411d127",
+      "selected": false
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make-ocr\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者云端 API\")\n  n_4(\"图片\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"再识别\")\n  n_10(\"docx成果\")\n  n_11(\"中间格式MD\")\n  n_12(\"HTML格式\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n  n_0 --> n_4\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make-ocr\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者云端 API\")\n  n_4(\"图片\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"里面图片再识别\")\n  n_10(\"docx成果\")\n  n_11(\"中间格式MD\")\n  n_12(\"HTML格式\")\n  n_13(\"docker ocr<br/>或者云端 API\")\n  n_14(\"能识别H1-H6 这样的标题\")\n  n_15(\"正文表格能识别\")\n  n_16(\"图片能识别\")\n  n_17(\"按照docx模板\")\n  n_18(\"里面图片再识别\")\n  n_19(\"docx成果\")\n  n_20(\"中间格式MD\")\n  n_21(\"HTML格式\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n  n_0 --> n_4\n  n_11 --> n_8\n  n_11 --> n_12\n  n_12 --> n_8\n  n_8 --> n_10\n  n_10 --> n_9\n  n_20 --> n_17\n  n_20 --> n_21\n  n_21 --> n_17\n  n_17 --> n_19\n  n_19 --> n_18\n",
   "flowEdgeStyle": "curve",
   "flowDirection": "TD",
   "flowEdgeSpacing": false
