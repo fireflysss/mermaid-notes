@@ -28,7 +28,7 @@
       "id": "1",
       "type": "flow-process",
       "position": {
-        "x": 98,
+        "x": 146,
         "y": 192
       },
       "data": {
@@ -53,7 +53,7 @@
       "id": "3f44ff1f-743b-47b5-a222-521d233f864a",
       "type": "flow-process",
       "position": {
-        "x": 386,
+        "x": 346,
         "y": 192
       },
       "data": {
@@ -103,11 +103,11 @@
       "id": "c753af33-61b1-4abb-adee-44e849daa805",
       "type": "flow-process",
       "position": {
-        "x": 12,
-        "y": 549
+        "x": 544,
+        "y": 192
       },
       "data": {
-        "label": "目的是什么",
+        "label": "图片",
         "width": 160,
         "height": 56,
         "selectedCount": 1,
@@ -323,9 +323,25 @@
         "color": "#6366f1"
       },
       "id": "xy-edge__startbottom-source-3f44ff1f-743b-47b5-a222-521d233f864atop-target"
+    },
+    {
+      "source": "start",
+      "sourceHandle": "bottom-source",
+      "target": "c753af33-61b1-4abb-adee-44e849daa805",
+      "targetHandle": "top-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__startbottom-source-c753af33-61b1-4abb-adee-44e849daa805top-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"ocr识别\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者SKILL API\")\n  n_4(\"目的是什么\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"再识别\")\n  n_10(\"docx成果\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"ocr识别\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者SKILL API\")\n  n_4(\"图片\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"再识别\")\n  n_10(\"docx成果\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n  n_0 --> n_4\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD",
   "flowEdgeSpacing": true
