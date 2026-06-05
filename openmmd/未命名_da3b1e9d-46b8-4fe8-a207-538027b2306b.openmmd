@@ -151,7 +151,7 @@
       "id": "afa8bb03-0200-4648-9543-930ec1e0210f",
       "type": "flow-process",
       "position": {
-        "x": 796,
+        "x": 785,
         "y": 549
       },
       "data": {
@@ -181,6 +181,81 @@
       },
       "data": {
         "label": "图片能识别",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "db1bde12-1373-4a99-8731-b53588dc286e",
+      "type": "flow-process",
+      "position": {
+        "x": 1015,
+        "y": 423
+      },
+      "data": {
+        "label": "docx模板",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "2c323ef4-8333-468a-bab8-b9bbf82cd23b",
+      "type": "flow-process",
+      "position": {
+        "x": 1257,
+        "y": 322
+      },
+      "data": {
+        "label": "再识别",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "23c5aa09-7850-41ec-b094-4f34108d0296",
+      "type": "flow-process",
+      "position": {
+        "x": 1229,
+        "y": 423
+      },
+      "data": {
+        "label": "docx成果",
         "width": 160,
         "height": 56,
         "selectedCount": 1,
@@ -248,7 +323,7 @@
       "id": "xy-edge__startbottom-source-3f44ff1f-743b-47b5-a222-521d233f864atop-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"ocr识别\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"Process 4\")\n  n_4(\"目的是什么\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"ocr识别\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"Process 4\")\n  n_4(\"目的是什么\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"docx模板\")\n  n_9(\"再识别\")\n  n_10(\"docx成果\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD",
   "flowEdgeSpacing": true
