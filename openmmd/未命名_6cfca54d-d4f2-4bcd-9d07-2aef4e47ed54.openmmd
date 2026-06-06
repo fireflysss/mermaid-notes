@@ -100,6 +100,18 @@
       "label": "转卡片",
       "parentId": "66e9e48c-0e1f-4d1b-982f-b3c0abde82b5",
       "order": 1
+    },
+    {
+      "id": "fb416ce6-0a06-41de-9e84-e15cb840a60c",
+      "label": "先看视频",
+      "parentId": "5956a931-00aa-4eae-b11b-699ebd094c17",
+      "order": 2
+    },
+    {
+      "id": "0a7a6bab-1751-4e59-90ff-ecca6ca29917",
+      "label": "打造转化工具",
+      "parentId": "32c17bd3-1dde-44b1-b8a8-7356e16d263c",
+      "order": 1
     }
   ],
   "mmLayout": "right",
@@ -108,5 +120,5 @@
   "mmEdgeStyle": "curve",
   "mmTheme": "default",
   "mmSlotOverrides": {},
-  "mermaidCode": "mindmap\n  最近事情\n    论文\n      Subtopic\n    fuzor\n      出图\n    考试\n      法规\n        做题考试\n        快速看完\n      实务\n        讲义\n          转MD\n            看视频\n        300问\n          熟悉\n          转卡片\n"
+  "mermaidCode": "mindmap\n  最近事情\n    论文\n      Subtopic\n    fuzor\n      出图\n    考试\n      法规\n        做题考试\n        快速看完\n      实务\n        讲义\n          转MD\n            看视频\n          打造转化工具\n        300问\n          熟悉\n          转卡片\n        先看视频\n"
 }
