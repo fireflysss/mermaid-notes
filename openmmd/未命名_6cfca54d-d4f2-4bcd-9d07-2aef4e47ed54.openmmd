@@ -9,7 +9,7 @@
     },
     {
       "id": "n1",
-      "label": "Topic 1",
+      "label": "论文",
       "parentId": "root",
       "order": 0,
       "shape": "default"
@@ -42,5 +42,5 @@
   "mmEdgeStyle": "curve",
   "mmTheme": "default",
   "mmSlotOverrides": {},
-  "mermaidCode": "mindmap\n  最近事情\n    Topic 1\n      Subtopic\n    Topic 2\n    Topic 3\n"
+  "mermaidCode": "mindmap\n  最近事情\n    论文\n      Subtopic\n    Topic 2\n    Topic 3\n"
 }

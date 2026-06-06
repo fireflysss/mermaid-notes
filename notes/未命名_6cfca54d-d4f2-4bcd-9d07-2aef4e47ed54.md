@@ -3,7 +3,7 @@
 ```mermaid
 mindmap
   最近事情
-    Topic 1
+    论文
       Subtopic
     Topic 2
     Topic 3
