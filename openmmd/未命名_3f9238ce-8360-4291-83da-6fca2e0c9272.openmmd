@@ -1,0 +1,129 @@
+{
+  "lanes": [
+    {
+      "id": "237357f4-659e-4fbd-ad1f-4909584b8103",
+      "label": "Planning",
+      "order": 0,
+      "width": 1170,
+      "height": 228
+    },
+    {
+      "id": "0f1d55a6-1ab2-4970-b115-012cea55af6b",
+      "label": "Development",
+      "order": 1,
+      "width": 1170,
+      "height": 224
+    },
+    {
+      "id": "11d1dd6c-de65-4cfb-95c0-9701270d9dd7",
+      "label": "Review",
+      "order": 2,
+      "width": 1170,
+      "height": 224
+    }
+  ],
+  "tasks": [
+    {
+      "id": "be79a66a-1b0e-41d4-a6dc-702bc995231f",
+      "laneId": "237357f4-659e-4fbd-ad1f-4909584b8103",
+      "label": "Approved?",
+      "shape": "decision",
+      "order": 0,
+      "x": 460,
+      "y": 54,
+      "width": 156,
+      "height": 92
+    },
+    {
+      "id": "4fc0f69f-9e6b-449b-81da-a8f23dda286d",
+      "laneId": "237357f4-659e-4fbd-ad1f-4909584b8103",
+      "label": "Start",
+      "shape": "terminator",
+      "order": 1,
+      "x": 40,
+      "y": 72,
+      "width": 156,
+      "height": 56
+    },
+    {
+      "id": "88ddf903-8d88-472d-bf53-276a060f7061",
+      "laneId": "237357f4-659e-4fbd-ad1f-4909584b8103",
+      "label": "Define Requirements",
+      "shape": "process",
+      "order": 2,
+      "x": 240,
+      "y": 72,
+      "width": 174.5,
+      "height": 56
+    },
+    {
+      "id": "ad58941a-4347-4a06-9db1-e7d0e6ef68a1",
+      "laneId": "0f1d55a6-1ab2-4970-b115-012cea55af6b",
+      "label": "Implement Feature",
+      "shape": "process",
+      "order": 0,
+      "x": 460,
+      "y": 72,
+      "width": 159.5,
+      "height": 56
+    },
+    {
+      "id": "05c96c4e-8ad8-461f-9ea7-c890146e71d8",
+      "laneId": "11d1dd6c-de65-4cfb-95c0-9701270d9dd7",
+      "label": "Code Review",
+      "shape": "process",
+      "order": 0,
+      "x": 460,
+      "y": 72,
+      "width": 156,
+      "height": 56
+    }
+  ],
+  "connections": [
+    {
+      "id": "29b6413c-ae07-4575-bed6-e8a7102bfb5e",
+      "fromTaskId": "4fc0f69f-9e6b-449b-81da-a8f23dda286d",
+      "toTaskId": "88ddf903-8d88-472d-bf53-276a060f7061",
+      "lineStyle": "solid",
+      "arrowHead": "arrow",
+      "sourceHandle": "right",
+      "targetHandle": "left"
+    },
+    {
+      "id": "5677a7f6-a32c-4759-ad07-407791716bc8",
+      "fromTaskId": "88ddf903-8d88-472d-bf53-276a060f7061",
+      "toTaskId": "be79a66a-1b0e-41d4-a6dc-702bc995231f",
+      "lineStyle": "solid",
+      "arrowHead": "arrow",
+      "sourceHandle": "right",
+      "targetHandle": "left"
+    },
+    {
+      "id": "f1603cf5-d66c-4a0d-8afb-6a2ae157a179",
+      "fromTaskId": "be79a66a-1b0e-41d4-a6dc-702bc995231f",
+      "toTaskId": "ad58941a-4347-4a06-9db1-e7d0e6ef68a1",
+      "label": "Yes",
+      "lineStyle": "solid",
+      "arrowHead": "arrow",
+      "sourceHandle": "bottom",
+      "targetHandle": "top"
+    },
+    {
+      "id": "5a9421e0-2622-4059-8bac-dd2af3aa1f4e",
+      "fromTaskId": "ad58941a-4347-4a06-9db1-e7d0e6ef68a1",
+      "toTaskId": "05c96c4e-8ad8-461f-9ea7-c890146e71d8",
+      "lineStyle": "solid",
+      "arrowHead": "arrow",
+      "sourceHandle": "bottom",
+      "targetHandle": "top"
+    }
+  ],
+  "swBgPattern": "none",
+  "swDirection": "LR",
+  "swEdgeStyle": "smooth",
+  "swEdgeSpacing": true,
+  "swTheme": "default",
+  "swLaneGap": 24,
+  "swLaneColorOverrides": {},
+  "mermaidCode": "flowchart LR\n  subgraph lane_0[\"Planning\"]\n    t_0{\"Approved?\"}\n    t_1([\"Start\"])\n    t_2[\"Define Requirements\"]\n  end\n  subgraph lane_1[\"Development\"]\n    t_3[\"Implement Feature\"]\n  end\n  subgraph lane_2[\"Review\"]\n    t_4[\"Code Review\"]\n  end\n  t_1 --> t_2\n  t_2 --> t_0\n  t_0 -->|\"Yes\"| t_3\n  t_3 --> t_4\n"
+}

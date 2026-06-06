@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "id": "root",
+      "label": "最近事情",
+      "parentId": null,
+      "order": 0,
+      "shape": "circle"
+    },
+    {
+      "id": "n1",
+      "label": "Topic 1",
+      "parentId": "root",
+      "order": 0,
+      "shape": "default"
+    },
+    {
+      "id": "n2",
+      "label": "Topic 2",
+      "parentId": "root",
+      "order": 1,
+      "shape": "default"
+    },
+    {
+      "id": "n3",
+      "label": "Topic 3",
+      "parentId": "root",
+      "order": 2,
+      "shape": "default"
+    },
+    {
+      "id": "n1a",
+      "label": "Subtopic",
+      "parentId": "n1",
+      "order": 0,
+      "shape": "default"
+    }
+  ],
+  "mmLayout": "right",
+  "mmNodeStyle": "plain",
+  "mmBgPattern": "none",
+  "mmEdgeStyle": "curve",
+  "mmTheme": "default",
+  "mmSlotOverrides": {},
+  "mermaidCode": "mindmap\n  最近事情\n    Topic 1\n      Subtopic\n    Topic 2\n    Topic 3\n"
+}

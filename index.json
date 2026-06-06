@@ -1,11 +1,11 @@
 {
-  "updatedAt": 1780726833816,
+  "updatedAt": 1780726909459,
   "projects": [
     {
       "id": "f4778eff-f7cf-4641-bdbd-781fb46b8434",
       "name": "最近事项",
       "createdAt": 1780726764359,
-      "updatedAt": 1780726821574
+      "updatedAt": 1780726906093
     },
     {
       "id": "4d450200-6796-4002-b0c4-26c67f460a51",
@@ -21,6 +21,24 @@
     }
   ],
   "diagrams": [
+    {
+      "id": "6cfca54d-d4f2-4bcd-9d07-2aef4e47ed54",
+      "projectId": "f4778eff-f7cf-4641-bdbd-781fb46b8434",
+      "name": "未命名",
+      "type": "mindmap",
+      "createdAt": 1780726887461,
+      "updatedAt": 1780726906088,
+      "version": 2
+    },
+    {
+      "id": "3f9238ce-8360-4291-83da-6fca2e0c9272",
+      "projectId": "f4778eff-f7cf-4641-bdbd-781fb46b8434",
+      "name": "未命名",
+      "type": "swimlane",
+      "createdAt": 1780726859325,
+      "updatedAt": 1780726874827,
+      "version": 2
+    },
     {
       "id": "da3b1e9d-46b8-4fe8-a207-538027b2306b",
       "projectId": "4d450200-6796-4002-b0c4-26c67f460a51",
