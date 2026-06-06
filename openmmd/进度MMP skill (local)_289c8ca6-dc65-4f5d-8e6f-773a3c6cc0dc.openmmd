@@ -383,7 +383,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "bottom-source",
-      "targetHandle": "top-target"
+      "targetHandle": "top-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-1",
@@ -398,7 +402,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-2",
@@ -413,7 +421,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-3",
@@ -428,7 +440,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-4",
@@ -443,7 +459,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-5",
@@ -458,7 +478,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-6",
@@ -473,7 +497,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-7",
@@ -488,7 +516,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-8",
@@ -503,7 +535,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-9",
@@ -518,7 +554,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-10",
@@ -533,7 +573,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-11",
@@ -548,7 +592,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-12",
@@ -563,7 +611,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "bottom-source",
-      "targetHandle": "top-target"
+      "targetHandle": "top-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-13",
@@ -578,7 +630,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-14",
@@ -593,7 +649,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-15",
@@ -608,7 +668,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-16",
@@ -623,7 +687,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-17",
@@ -638,7 +706,11 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     },
     {
       "id": "e-18",
@@ -653,10 +725,15 @@
         "type": "arrowclosed"
       },
       "sourceHandle": "right-source",
-      "targetHandle": "left-target"
+      "targetHandle": "left-target",
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      }
     }
   ],
   "mermaidCode": "flowchart TD\n  n_0([\"make mpp SKILL\"])\n  n_1(\"数据来源\")\n  n_2(\"skill  creata 要求创建\")\n  n_3(\"Ai自己编数据\")\n  n_4(\"表格数据\")\n  n_5(\"建立MPP\")\n  n_6(\"给你表格大纲\")\n  n_7(\"给你关键节点\")\n  n_8(\"结合工程资料\")\n  n_9(\"excel 过程文件\")\n  n_10(\"根据数据编辑进度计划\")\n  n_11>\"过程检查交互\"]\n  n_12(\"脚本或者skill\")\n  n_13(\"读取MPP模板\")\n  n_14(\"根据模板创建\")\n  n_15(\"熟悉模板样式\")\n  n_2 --> n_0\n  n_1 --> n_3\n  n_1 --> n_4\n  n_1 --> n_6\n  n_1 --> n_7\n  n_3 --> n_8\n  n_4 --> n_8\n  n_6 --> n_8\n  n_7 --> n_8\n  n_8 --> n_0\n  n_0 --> n_10\n  n_10 --> n_9\n  n_9 --> n_11\n  n_0 --> n_13\n  n_12 --> n_14\n  n_14 --> n_5\n  n_13 --> n_15\n  n_9 --> n_12\n  n_15 --> n_14\n",
   "flowEdgeStyle": "curve",
-  "flowDirection": "TD"
+  "flowDirection": "TD",
+  "flowEdgeSpacing": true
 }
