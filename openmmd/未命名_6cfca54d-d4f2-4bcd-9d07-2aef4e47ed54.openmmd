@@ -61,8 +61,44 @@
     },
     {
       "id": "ec110912-87e3-46bf-a2ee-7650b75d0a49",
-      "label": "新节点",
+      "label": "快速看完",
       "parentId": "9b6f7a1c-eced-4a65-976b-b1ea2c021272",
+      "order": 1
+    },
+    {
+      "id": "32c17bd3-1dde-44b1-b8a8-7356e16d263c",
+      "label": "讲义",
+      "parentId": "5956a931-00aa-4eae-b11b-699ebd094c17",
+      "order": 0
+    },
+    {
+      "id": "eca6cfef-948c-4462-9f5f-7c498c664954",
+      "label": "转MD",
+      "parentId": "32c17bd3-1dde-44b1-b8a8-7356e16d263c",
+      "order": 0
+    },
+    {
+      "id": "a4cc87bb-0ff4-4271-9228-151ff0d9aa6a",
+      "label": "看视频",
+      "parentId": "eca6cfef-948c-4462-9f5f-7c498c664954",
+      "order": 0
+    },
+    {
+      "id": "66e9e48c-0e1f-4d1b-982f-b3c0abde82b5",
+      "label": "300问",
+      "parentId": "5956a931-00aa-4eae-b11b-699ebd094c17",
+      "order": 1
+    },
+    {
+      "id": "55e6ab2f-f9e4-4cbf-8691-3045fce37270",
+      "label": "熟悉",
+      "parentId": "66e9e48c-0e1f-4d1b-982f-b3c0abde82b5",
+      "order": 0
+    },
+    {
+      "id": "fb8c16bd-f114-477f-ae9b-9085c1e03669",
+      "label": "转卡片",
+      "parentId": "66e9e48c-0e1f-4d1b-982f-b3c0abde82b5",
       "order": 1
     }
   ],
@@ -72,5 +108,5 @@
   "mmEdgeStyle": "curve",
   "mmTheme": "default",
   "mmSlotOverrides": {},
-  "mermaidCode": "mindmap\n  最近事情\n    论文\n      Subtopic\n    fuzor\n      出图\n    考试\n      法规\n        做题考试\n        新节点\n      实务\n"
+  "mermaidCode": "mindmap\n  最近事情\n    论文\n      Subtopic\n    fuzor\n      出图\n    考试\n      法规\n        做题考试\n        快速看完\n      实务\n        讲义\n          转MD\n            看视频\n        300问\n          熟悉\n          转卡片\n"
 }
