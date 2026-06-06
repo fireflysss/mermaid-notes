@@ -5,7 +5,12 @@ mindmap
   最近事情
     论文
       Subtopic
-    Topic 2
-    Topic 3
+    fuzor
+      出图
+    考试
+      法规
+        做题考试
+        新节点
+      实务
 
 ```

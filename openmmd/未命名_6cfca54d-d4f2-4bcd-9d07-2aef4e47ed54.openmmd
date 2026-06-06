@@ -16,14 +16,14 @@
     },
     {
       "id": "n2",
-      "label": "Topic 2",
+      "label": "fuzor",
       "parentId": "root",
       "order": 1,
       "shape": "default"
     },
     {
       "id": "n3",
-      "label": "Topic 3",
+      "label": "考试",
       "parentId": "root",
       "order": 2,
       "shape": "default"
@@ -34,6 +34,36 @@
       "parentId": "n1",
       "order": 0,
       "shape": "default"
+    },
+    {
+      "id": "3a59526a-2b46-4520-b966-7c00d0164185",
+      "label": "出图",
+      "parentId": "n2",
+      "order": 0
+    },
+    {
+      "id": "9b6f7a1c-eced-4a65-976b-b1ea2c021272",
+      "label": "法规",
+      "parentId": "n3",
+      "order": 0
+    },
+    {
+      "id": "5956a931-00aa-4eae-b11b-699ebd094c17",
+      "label": "实务",
+      "parentId": "n3",
+      "order": 1
+    },
+    {
+      "id": "bfe0d069-7b6a-464a-ad65-e0e267635ab3",
+      "label": "做题考试",
+      "parentId": "9b6f7a1c-eced-4a65-976b-b1ea2c021272",
+      "order": 0
+    },
+    {
+      "id": "ec110912-87e3-46bf-a2ee-7650b75d0a49",
+      "label": "新节点",
+      "parentId": "9b6f7a1c-eced-4a65-976b-b1ea2c021272",
+      "order": 1
     }
   ],
   "mmLayout": "right",
@@ -42,5 +72,5 @@
   "mmEdgeStyle": "curve",
   "mmTheme": "default",
   "mmSlotOverrides": {},
-  "mermaidCode": "mindmap\n  最近事情\n    论文\n      Subtopic\n    Topic 2\n    Topic 3\n"
+  "mermaidCode": "mindmap\n  最近事情\n    论文\n      Subtopic\n    fuzor\n      出图\n    考试\n      法规\n        做题考试\n        新节点\n      实务\n"
 }
