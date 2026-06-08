@@ -823,7 +823,7 @@
         "width": 160,
         "height": 56
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     },
     {
@@ -850,34 +850,6 @@
       },
       "selected": false,
       "dragging": false
-    },
-    {
-      "id": "e2179db9-ee86-4a9b-aadf-408be2d09829",
-      "type": "flow-process",
-      "position": {
-        "x": 1780,
-        "y": -48
-      },
-      "data": {
-        "label": "并且增加一些功能",
-        "width": 277,
-        "height": 162,
-        "selectedCount": 1,
-        "isMultiSelectAnchor": false
-      },
-      "style": {
-        "width": 160,
-        "height": 56
-      },
-      "measured": {
-        "width": 277,
-        "height": 162
-      },
-      "selected": false,
-      "dragging": false,
-      "width": 277,
-      "height": 162,
-      "resizing": false
     }
   ],
   "edges": [
@@ -1663,25 +1635,9 @@
         "color": "#6366f1"
       },
       "id": "xy-edge__b850a170-a0e9-4647-b286-40017a532c01right-source-e0345715-4885-450d-9183-1716ae534177left-target"
-    },
-    {
-      "source": "e0345715-4885-450d-9183-1716ae534177",
-      "sourceHandle": "right-source",
-      "target": "e2179db9-ee86-4a9b-aadf-408be2d09829",
-      "targetHandle": "left-target",
-      "animated": false,
-      "style": {
-        "stroke": "#6366f1",
-        "strokeWidth": 2
-      },
-      "markerEnd": {
-        "type": "arrowclosed",
-        "color": "#6366f1"
-      },
-      "id": "xy-edge__e0345715-4885-450d-9183-1716ae534177right-source-e2179db9-ee86-4a9b-aadf-408be2d09829left-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"make-ocr\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者云端 API\")\n  n_4(\"图片\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"里面图片再识别\")\n  n_10(\"docx成果 为最终结果\")\n  n_11(\"中间格式MD\")\n  n_12(\"HTML格式\")\n  n_13(\"docker ocr<br/>或者云端 API\")\n  n_14(\"能识别H1-H6 这样的标题\")\n  n_15(\"正文表格能识别\")\n  n_16(\"按照docx模板\")\n  n_17(\"docx成果 为最终结果\")\n  n_18(\"中间格式MD\")\n  n_19(\"HTML格式\")\n  n_20(\"最终docx\")\n  n_21(\"里面图片再识别\")\n  n_22{\"是否 里面图片再识别\"}\n  n_23(\"正确排版\")\n  n_24(\"正确排版\")\n  n_25([\"可以输出MD格式为最终结果\"])\n  n_26([\"可以输出MD格式为最终结果\"])\n  n_27([\"可以输出HTML格式 为最终结果\"])\n  n_28([\"可以输出HTML格式 为最终结果\"])\n  n_29(\"docker ocr\")\n  n_30(\"输入界面\")\n  n_31(\"输出界面\")\n  n_32[\"和mineru.net 一样\"]\n  n_33(\"和 mineru.net一样\")\n  n_34(\"并且增加一些功能\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n  n_0 --> n_4\n  n_11 --> n_8\n  n_11 --> n_12\n  n_12 --> n_8\n  n_8 --> n_10\n  n_10 --> n_9\n  n_18 --> n_16\n  n_18 --> n_19\n  n_19 --> n_16\n  n_16 --> n_17\n  n_4 --> n_3\n  n_1 --> n_3\n  n_2 --> n_13\n  n_13 --> n_14\n  n_13 --> n_15\n  n_15 --> n_18\n  n_14 --> n_18\n  n_7 --> n_11\n  n_6 --> n_11\n  n_5 --> n_11\n  n_3 --> n_6\n  n_21 --> n_20\n  n_17 --> n_22\n  n_22 --> n_21\n  n_3 --> n_5\n  n_3 --> n_7\n  n_3 --> n_23\n  n_23 --> n_11\n  n_13 --> n_24\n  n_24 --> n_18\n  n_11 --> n_25\n  n_18 --> n_26\n  n_12 --> n_27\n  n_19 --> n_28\n  n_0 --> n_29\n  n_29 --> n_30\n  n_29 --> n_31\n  n_30 --> n_32\n  n_31 --> n_33\n  n_33 --> n_34\n",
+  "mermaidCode": "flowchart TD\n  n_0([\"make-ocr\"])\n  n_1(\"扫描版PDF\")\n  n_2(\"电子版DPF\")\n  n_3(\"docker ocr<br/>或者云端 API\")\n  n_4(\"图片\")\n  n_5(\"能识别H1-H6 这样的标题\")\n  n_6(\"正文表格能识别\")\n  n_7(\"图片能识别\")\n  n_8(\"按照docx模板\")\n  n_9(\"里面图片再识别\")\n  n_10(\"docx成果 为最终结果\")\n  n_11(\"中间格式MD\")\n  n_12(\"HTML格式\")\n  n_13(\"docker ocr<br/>或者云端 API\")\n  n_14(\"能识别H1-H6 这样的标题\")\n  n_15(\"正文表格能识别\")\n  n_16(\"按照docx模板\")\n  n_17(\"docx成果 为最终结果\")\n  n_18(\"中间格式MD\")\n  n_19(\"HTML格式\")\n  n_20(\"最终docx\")\n  n_21(\"里面图片再识别\")\n  n_22{\"是否 里面图片再识别\"}\n  n_23(\"正确排版\")\n  n_24(\"正确排版\")\n  n_25([\"可以输出MD格式为最终结果\"])\n  n_26([\"可以输出MD格式为最终结果\"])\n  n_27([\"可以输出HTML格式 为最终结果\"])\n  n_28([\"可以输出HTML格式 为最终结果\"])\n  n_29(\"docker ocr\")\n  n_30(\"输入界面\")\n  n_31(\"输出界面\")\n  n_32[\"和mineru.net 一样\"]\n  n_33(\"和 mineru.net一样\")\n  n_0 --> n_0\n  n_0 --> n_1\n  n_0 --> n_2\n  n_0 --> n_4\n  n_11 --> n_8\n  n_11 --> n_12\n  n_12 --> n_8\n  n_8 --> n_10\n  n_10 --> n_9\n  n_18 --> n_16\n  n_18 --> n_19\n  n_19 --> n_16\n  n_16 --> n_17\n  n_4 --> n_3\n  n_1 --> n_3\n  n_2 --> n_13\n  n_13 --> n_14\n  n_13 --> n_15\n  n_15 --> n_18\n  n_14 --> n_18\n  n_7 --> n_11\n  n_6 --> n_11\n  n_5 --> n_11\n  n_3 --> n_6\n  n_21 --> n_20\n  n_17 --> n_22\n  n_22 --> n_21\n  n_3 --> n_5\n  n_3 --> n_7\n  n_3 --> n_23\n  n_23 --> n_11\n  n_13 --> n_24\n  n_24 --> n_18\n  n_11 --> n_25\n  n_18 --> n_26\n  n_12 --> n_27\n  n_19 --> n_28\n  n_0 --> n_29\n  n_29 --> n_30\n  n_29 --> n_31\n  n_30 --> n_32\n  n_31 --> n_33\n",
   "flowEdgeStyle": "curve",
   "flowDirection": "TD",
   "flowEdgeSpacing": false
