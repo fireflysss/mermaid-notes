@@ -4,8 +4,8 @@
       "id": "da59a1c6-0a2d-4e84-97dd-501df2522212",
       "type": "flow-process",
       "position": {
-        "x": 267,
-        "y": 79
+        "x": 266,
+        "y": 92
       },
       "data": {
         "label": "📂第1章-墙面工艺节点",
@@ -143,7 +143,7 @@
         "y": 261
       },
       "data": {
-        "label": "📂相关知识\n（比如微信扫码，了解更多关于“石材铺贴”的知识）",
+        "label": "📂相关知识汇总\n（比如微信扫码，了解更多关于“石材铺贴”的知识）",
         "width": 172,
         "height": 103,
         "selectedCount": 1,
@@ -168,12 +168,12 @@
       "type": "flow-process-rect",
       "position": {
         "x": 1076,
-        "y": 285
+        "y": 268
       },
       "data": {
         "label": "📂二维码截图\n（保存二维码截图）",
         "width": 160,
-        "height": 56,
+        "height": 68,
         "selectedCount": 1,
         "isMultiSelectAnchor": false
       },
@@ -182,23 +182,52 @@
         "height": 56
       },
       "width": 160,
-      "height": 56,
+      "height": 68,
       "measured": {
         "width": 160,
-        "height": 56
+        "height": 68
       },
       "selected": false,
-      "dragging": false
+      "dragging": false,
+      "resizing": false
     },
     {
       "id": "8361e4ac-8d7c-4738-9fe2-2f5641396a6b",
       "type": "flow-process-rect",
       "position": {
-        "x": 1131,
-        "y": 407
+        "x": 1076,
+        "y": 388
       },
       "data": {
-        "label": "📂二维码截图\n（保存二维码截图）",
+        "label": "📂相关知识\n（扫码是浏览器页面的保存相关知识的）",
+        "width": 160,
+        "height": 122,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "width": 160,
+      "height": 122,
+      "measured": {
+        "width": 160,
+        "height": 122
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false
+    },
+    {
+      "id": "44eeade9-dd0b-4aa3-8f9e-c6980a3c87d2",
+      "type": "flow-process-rect",
+      "position": {
+        "x": 510,
+        "y": 285
+      },
+      "data": {
+        "label": "第1章-墙面工艺节点.md",
         "width": 160,
         "height": 56,
         "selectedCount": 1,
@@ -208,13 +237,11 @@
         "width": 160,
         "height": 56
       },
-      "width": 160,
-      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     }
   ],
@@ -294,9 +321,41 @@
         "color": "#6366f1"
       },
       "id": "xy-edge__ec247af4-ded8-4b8c-80e4-08475ccc2dacright-source-a3493f84-0e9d-464f-b6e8-b55efccb68f8left-target"
+    },
+    {
+      "source": "ec247af4-ded8-4b8c-80e4-08475ccc2dac",
+      "sourceHandle": "right-source",
+      "target": "8361e4ac-8d7c-4738-9fe2-2f5641396a6b",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__ec247af4-ded8-4b8c-80e4-08475ccc2dacright-source-8361e4ac-8d7c-4738-9fe2-2f5641396a6bleft-target"
+    },
+    {
+      "source": "da59a1c6-0a2d-4e84-97dd-501df2522212",
+      "sourceHandle": "right-source",
+      "target": "44eeade9-dd0b-4aa3-8f9e-c6980a3c87d2",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__da59a1c6-0a2d-4e84-97dd-501df2522212right-source-44eeade9-dd0b-4aa3-8f9e-c6980a3c87d2left-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0(\"📂第1章-墙面工艺节点\")\n  n_1(\"📂二维码资料\")\n  n_2[\"📂二维码截图<br/>（保存二维码截图）\"]\n  n_3[\"📂动画图片汇总\"]\n  n_4[\"📂动画图片 <br/>（保存gif）\"]\n  n_5[\"📂相关知识<br/>（比如微信扫码，了解更多关于“石材铺贴”的知识）\"]\n  n_6[\"📂二维码截图<br/>（保存二维码截图）\"]\n  n_7[\"📂二维码截图<br/>（保存二维码截图）\"]\n  n_0 --> n_1\n  n_1 --> n_3\n  n_3 --> n_2\n  n_3 --> n_4\n  n_5 --> n_6\n",
+  "mermaidCode": "flowchart TD\n  n_0(\"📂第1章-墙面工艺节点\")\n  n_1(\"📂二维码资料\")\n  n_2[\"📂二维码截图<br/>（保存二维码截图）\"]\n  n_3[\"📂动画图片汇总\"]\n  n_4[\"📂动画图片 <br/>（保存gif）\"]\n  n_5[\"📂相关知识汇总<br/>（比如微信扫码，了解更多关于“石材铺贴”的知识）\"]\n  n_6[\"📂二维码截图<br/>（保存二维码截图）\"]\n  n_7[\"📂相关知识<br/>（扫码是浏览器页面的保存相关知识的）\"]\n  n_8[\"第1章-墙面工艺节点.md\"]\n  n_0 --> n_1\n  n_1 --> n_3\n  n_3 --> n_2\n  n_3 --> n_4\n  n_5 --> n_6\n  n_5 --> n_7\n  n_0 --> n_8\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD",
   "flowEdgeSpacing": true
