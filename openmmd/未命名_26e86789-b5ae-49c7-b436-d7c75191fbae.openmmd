@@ -1,11 +1,11 @@
 {
   "nodes": [
     {
-      "id": "1",
+      "id": "da59a1c6-0a2d-4e84-97dd-501df2522212",
       "type": "flow-process",
       "position": {
-        "x": 250,
-        "y": 150
+        "x": 267,
+        "y": 79
       },
       "data": {
         "label": "第1章-墙面工艺节点",
@@ -18,46 +18,24 @@
         "width": 160,
         "height": 56
       },
+      "width": 160,
+      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
       },
-      "selected": false
+      "selected": false,
+      "dragging": false
     },
     {
-      "id": "1c8e3afe-8532-4aa3-a218-411ea88518fb",
+      "id": "ec219b91-1526-4c07-90b1-9e4c0ffbc29f",
       "type": "flow-process",
       "position": {
-        "x": 500,
-        "y": 143
-      },
-      "data": {
-        "label": "二维码",
-        "width": 160,
-        "height": 56,
-        "selectedCount": 1,
-        "isMultiSelectAnchor": false
-      },
-      "style": {
-        "width": 160,
-        "height": 56
-      },
-      "measured": {
-        "width": 160,
-        "height": 56
-      },
-      "selected": true,
-      "dragging": false
-    },
-    {
-      "id": "7580f1fa-7682-40d2-b225-2bfe139e58af",
-      "type": "flow-process-rect",
-      "position": {
-        "x": 1027,
+        "x": 510,
         "y": 79
       },
       "data": {
-        "label": "Rect 4",
+        "label": "📂二维码资料",
         "width": 160,
         "height": 56,
         "selectedCount": 1,
@@ -67,6 +45,8 @@
         "width": 160,
         "height": 56
       },
+      "width": 160,
+      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
@@ -75,14 +55,14 @@
       "dragging": false
     },
     {
-      "id": "3ac4be78-5628-4560-8810-22e5914fa3bc",
+      "id": "6ed6d1f8-6244-4a06-93f6-dd0e3c5720fd",
       "type": "flow-process-rect",
       "position": {
-        "x": 774,
-        "y": 79
+        "x": 1076,
+        "y": 38
       },
       "data": {
-        "label": "动画图片",
+        "label": "📂二维码截图",
         "width": 160,
         "height": 56,
         "selectedCount": 1,
@@ -92,49 +72,132 @@
         "width": 160,
         "height": 56
       },
+      "width": 160,
+      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
       },
       "selected": false,
       "dragging": false
+    },
+    {
+      "id": "0ce01964-881c-4cb8-953d-d67e47ce2106",
+      "type": "flow-process-rect",
+      "position": {
+        "x": 741,
+        "y": 79
+      },
+      "data": {
+        "label": "📂动画图片汇总",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "width": 160,
+      "height": 56,
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "7313a955-5526-4aa1-90ea-298af7a285db",
+      "type": "flow-process-rect",
+      "position": {
+        "x": 1076,
+        "y": 163
+      },
+      "data": {
+        "label": "📂动画图片 \n（gif）",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "width": 160,
+      "height": 56,
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true
     }
   ],
   "edges": [
     {
-      "source": "1",
-      "sourceHandle": "right-source",
-      "target": "1c8e3afe-8532-4aa3-a218-411ea88518fb",
-      "targetHandle": "left-target",
-      "animated": false,
-      "style": {
-        "stroke": "#6366f1",
-        "strokeWidth": 2
-      },
-      "markerEnd": {
-        "type": "arrowclosed",
+      "id": "e-0",
+      "source": "da59a1c6-0a2d-4e84-97dd-501df2522212",
+      "target": "ec219b91-1526-4c07-90b1-9e4c0ffbc29f",
+      "data": {
+        "lineStyle": "solid",
+        "arrowHead": "arrow",
         "color": "#6366f1"
       },
-      "id": "xy-edge__1right-source-1c8e3afe-8532-4aa3-a218-411ea88518fbleft-target"
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "sourceHandle": "right-source",
+      "targetHandle": "left-target"
     },
     {
-      "source": "1c8e3afe-8532-4aa3-a218-411ea88518fb",
-      "sourceHandle": "right-source",
-      "target": "3ac4be78-5628-4560-8810-22e5914fa3bc",
-      "targetHandle": "left-target",
-      "animated": false,
-      "style": {
-        "stroke": "#6366f1",
-        "strokeWidth": 2
-      },
-      "markerEnd": {
-        "type": "arrowclosed",
+      "id": "e-1",
+      "source": "ec219b91-1526-4c07-90b1-9e4c0ffbc29f",
+      "target": "0ce01964-881c-4cb8-953d-d67e47ce2106",
+      "data": {
+        "lineStyle": "solid",
+        "arrowHead": "arrow",
         "color": "#6366f1"
       },
-      "id": "xy-edge__1c8e3afe-8532-4aa3-a218-411ea88518fbright-source-3ac4be78-5628-4560-8810-22e5914fa3bcleft-target"
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "sourceHandle": "right-source",
+      "targetHandle": "left-target"
+    },
+    {
+      "id": "e-2",
+      "source": "0ce01964-881c-4cb8-953d-d67e47ce2106",
+      "target": "6ed6d1f8-6244-4a06-93f6-dd0e3c5720fd",
+      "data": {
+        "lineStyle": "solid",
+        "arrowHead": "arrow",
+        "color": "#6366f1"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "sourceHandle": "right-source",
+      "targetHandle": "left-target"
+    },
+    {
+      "id": "e-3",
+      "source": "0ce01964-881c-4cb8-953d-d67e47ce2106",
+      "target": "7313a955-5526-4aa1-90ea-298af7a285db",
+      "data": {
+        "lineStyle": "solid",
+        "arrowHead": "arrow",
+        "color": "#6366f1"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "sourceHandle": "right-source",
+      "targetHandle": "left-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0(\"第1章-墙面工艺节点\")\n  n_1(\"二维码\")\n  n_2[\"Rect 4\"]\n  n_3[\"动画图片\"]\n  n_0 --> n_1\n  n_1 --> n_3\n",
+  "mermaidCode": "flowchart TD\n  n_0(\"第1章-墙面工艺节点\")\n  n_1(\"📂二维码资料\")\n  n_2[\"📂二维码截图\"]\n  n_3[\"📂动画图片汇总\"]\n  n_4[\"📂动画图片 <br/>（gif）\"]\n  n_0 --> n_1\n  n_1 --> n_3\n  n_3 --> n_2\n  n_3 --> n_4\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD",
   "flowEdgeSpacing": true
