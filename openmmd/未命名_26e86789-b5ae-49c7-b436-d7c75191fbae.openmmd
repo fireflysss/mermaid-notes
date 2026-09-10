@@ -59,7 +59,7 @@
       "type": "flow-process-rect",
       "position": {
         "x": 1076,
-        "y": 38
+        "y": 66
       },
       "data": {
         "label": "📂二维码截图\n（保存二维码截图）",
@@ -113,7 +113,7 @@
       "type": "flow-process-rect",
       "position": {
         "x": 1076,
-        "y": 163
+        "y": 188
       },
       "data": {
         "label": "📂动画图片 \n（保存gif）",
@@ -132,17 +132,46 @@
         "width": 160,
         "height": 56
       },
-      "selected": false
+      "selected": false,
+      "dragging": false
     },
     {
       "id": "ec247af4-ded8-4b8c-80e4-08475ccc2dac",
       "type": "flow-process-rect",
       "position": {
-        "x": 747,
-        "y": 201
+        "x": 735,
+        "y": 261
       },
       "data": {
-        "label": "📂",
+        "label": "📂相关知识\n（比如微信扫码，了解更多关于“石材铺贴”的知识）",
+        "width": 172,
+        "height": 103,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 172,
+        "height": 103
+      },
+      "selected": false,
+      "dragging": false,
+      "width": 172,
+      "height": 103,
+      "resizing": false
+    },
+    {
+      "id": "a3493f84-0e9d-464f-b6e8-b55efccb68f8",
+      "type": "flow-process-rect",
+      "position": {
+        "x": 1076,
+        "y": 285
+      },
+      "data": {
+        "label": "📂二维码截图\n（保存二维码截图）",
         "width": 160,
         "height": 56,
         "selectedCount": 1,
@@ -152,6 +181,35 @@
         "width": 160,
         "height": 56
       },
+      "width": 160,
+      "height": 56,
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "8361e4ac-8d7c-4738-9fe2-2f5641396a6b",
+      "type": "flow-process-rect",
+      "position": {
+        "x": 1131,
+        "y": 407
+      },
+      "data": {
+        "label": "📂二维码截图\n（保存二维码截图）",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "width": 160,
+      "height": 56,
       "measured": {
         "width": 160,
         "height": 56
@@ -220,9 +278,25 @@
       },
       "sourceHandle": "right-source",
       "targetHandle": "left-target"
+    },
+    {
+      "source": "ec247af4-ded8-4b8c-80e4-08475ccc2dac",
+      "sourceHandle": "right-source",
+      "target": "a3493f84-0e9d-464f-b6e8-b55efccb68f8",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__ec247af4-ded8-4b8c-80e4-08475ccc2dacright-source-a3493f84-0e9d-464f-b6e8-b55efccb68f8left-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0(\"📂第1章-墙面工艺节点\")\n  n_1(\"📂二维码资料\")\n  n_2[\"📂二维码截图<br/>（保存二维码截图）\"]\n  n_3[\"📂动画图片汇总\"]\n  n_4[\"📂动画图片 <br/>（保存gif）\"]\n  n_5[\"📂\"]\n  n_0 --> n_1\n  n_1 --> n_3\n  n_3 --> n_2\n  n_3 --> n_4\n",
+  "mermaidCode": "flowchart TD\n  n_0(\"📂第1章-墙面工艺节点\")\n  n_1(\"📂二维码资料\")\n  n_2[\"📂二维码截图<br/>（保存二维码截图）\"]\n  n_3[\"📂动画图片汇总\"]\n  n_4[\"📂动画图片 <br/>（保存gif）\"]\n  n_5[\"📂相关知识<br/>（比如微信扫码，了解更多关于“石材铺贴”的知识）\"]\n  n_6[\"📂二维码截图<br/>（保存二维码截图）\"]\n  n_7[\"📂二维码截图<br/>（保存二维码截图）\"]\n  n_0 --> n_1\n  n_1 --> n_3\n  n_3 --> n_2\n  n_3 --> n_4\n  n_5 --> n_6\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD",
   "flowEdgeSpacing": true
