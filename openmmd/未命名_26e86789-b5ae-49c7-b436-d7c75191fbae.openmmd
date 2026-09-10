@@ -1,27 +1,6 @@
 {
   "nodes": [
     {
-      "id": "start",
-      "type": "flow-terminator",
-      "position": {
-        "x": 250,
-        "y": 50
-      },
-      "data": {
-        "label": "Start",
-        "width": 160,
-        "height": 56
-      },
-      "style": {
-        "width": 160,
-        "height": 56
-      },
-      "measured": {
-        "width": 160,
-        "height": 56
-      }
-    },
-    {
       "id": "1",
       "type": "flow-process",
       "position": {
@@ -29,9 +8,11 @@
         "y": 150
       },
       "data": {
-        "label": "Process",
+        "label": "第1章-墙面工艺节点",
         "width": 160,
-        "height": 56
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
       },
       "style": {
         "width": 160,
@@ -40,15 +21,92 @@
       "measured": {
         "width": 160,
         "height": 56
-      }
+      },
+      "selected": false
+    },
+    {
+      "id": "1c8e3afe-8532-4aa3-a218-411ea88518fb",
+      "type": "flow-process",
+      "position": {
+        "x": 500,
+        "y": 143
+      },
+      "data": {
+        "label": "二维码",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "7580f1fa-7682-40d2-b225-2bfe139e58af",
+      "type": "flow-process-rect",
+      "position": {
+        "x": 1027,
+        "y": 79
+      },
+      "data": {
+        "label": "Rect 4",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "3ac4be78-5628-4560-8810-22e5914fa3bc",
+      "type": "flow-process-rect",
+      "position": {
+        "x": 774,
+        "y": 79
+      },
+      "data": {
+        "label": "动画图片",
+        "width": 160,
+        "height": 56,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 160,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
     }
   ],
   "edges": [
     {
-      "id": "e-start-1",
-      "source": "start",
-      "target": "1",
-      "animated": true,
+      "source": "1",
+      "sourceHandle": "right-source",
+      "target": "1c8e3afe-8532-4aa3-a218-411ea88518fb",
+      "targetHandle": "left-target",
+      "animated": false,
       "style": {
         "stroke": "#6366f1",
         "strokeWidth": 2
@@ -56,10 +114,27 @@
       "markerEnd": {
         "type": "arrowclosed",
         "color": "#6366f1"
-      }
+      },
+      "id": "xy-edge__1right-source-1c8e3afe-8532-4aa3-a218-411ea88518fbleft-target"
+    },
+    {
+      "source": "1c8e3afe-8532-4aa3-a218-411ea88518fb",
+      "sourceHandle": "right-source",
+      "target": "3ac4be78-5628-4560-8810-22e5914fa3bc",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__1c8e3afe-8532-4aa3-a218-411ea88518fbright-source-3ac4be78-5628-4560-8810-22e5914fa3bcleft-target"
     }
   ],
-  "mermaidCode": "flowchart TD\n  n_0([\"Start\"])\n  n_1(\"Process\")\n  n_0 --> n_1\n",
+  "mermaidCode": "flowchart TD\n  n_0(\"第1章-墙面工艺节点\")\n  n_1(\"二维码\")\n  n_2[\"Rect 4\"]\n  n_3[\"动画图片\"]\n  n_0 --> n_1\n  n_1 --> n_3\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD",
   "flowEdgeSpacing": true
