@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790478661358,
+  "updatedAt": 1790478677553,
   "projects": [
     {
       "id": "f4778eff-f7cf-4641-bdbd-781fb46b8434",
@@ -20,7 +20,7 @@
       "name": "123",
       "type": "workspace",
       "createdAt": 1778291739467,
-      "updatedAt": 1790478568334
+      "updatedAt": 1790478669075
     }
   ],
   "diagrams": [
@@ -77,6 +77,16 @@
       "createdAt": 1779632658565,
       "updatedAt": 1779635665683,
       "version": 2
+    },
+    {
+      "id": "9f0cb6d1-6209-47be-b617-712e4ccf6ce1",
+      "projectId": "ba443e89-508e-4190-9e56-c2c5afbec546",
+      "name": "未命名",
+      "type": "sequence",
+      "order": 1,
+      "createdAt": 1790478664086,
+      "updatedAt": 1790478664086,
+      "version": 1
     },
     {
       "id": "26e86789-b5ae-49c7-b436-d7c75191fbae",
