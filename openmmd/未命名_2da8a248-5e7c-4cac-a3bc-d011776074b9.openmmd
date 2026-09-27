@@ -49,7 +49,7 @@
       "label": "土方施工",
       "shape": "process",
       "order": 1,
-      "x": 675,
+      "x": 652,
       "y": 72,
       "width": 156,
       "height": 56
@@ -60,8 +60,41 @@
       "label": "地下室",
       "shape": "process",
       "order": 2,
-      "x": 899,
-      "y": 71,
+      "x": 850,
+      "y": 72,
+      "width": 156,
+      "height": 56
+    },
+    {
+      "id": "87acce30-a14a-4fe5-a2ae-b9e9dc763bba",
+      "laneId": "lane-2",
+      "label": "2-1#楼",
+      "shape": "process",
+      "order": 3,
+      "x": 1029,
+      "y": 57,
+      "width": 156,
+      "height": 56
+    },
+    {
+      "id": "9d3cf493-dc47-4dc0-8b51-9749c553f105",
+      "laneId": "lane-2",
+      "label": "2-2#楼",
+      "shape": "process",
+      "order": 4,
+      "x": 1099,
+      "y": 161,
+      "width": 156,
+      "height": 56
+    },
+    {
+      "id": "e89ca931-b8d6-40c4-8da8-e311ede4fe19",
+      "laneId": "lane-2",
+      "label": "3#楼",
+      "shape": "process",
+      "order": 5,
+      "x": 1184,
+      "y": 279,
       "width": 156,
       "height": 56
     }
@@ -89,5 +122,5 @@
   "swTheme": "default",
   "swLaneGap": 24,
   "swLaneColorOverrides": {},
-  "mermaidCode": "flowchart LR\n  subgraph lane_0[\"Planning\"]\n    t_0([\"Start\"])\n    t_1[\"施工准备\"]\n  end\n  subgraph lane_1[\"Development\"]\n    t_2[\"地下室\"]\n    t_3[\"桩基工程\"]\n    t_4[\"土方施工\"]\n  end\n  t_0 --> t_1\n  t_1 --> t_3\n"
+  "mermaidCode": "flowchart LR\n  subgraph lane_0[\"Planning\"]\n    t_0([\"Start\"])\n    t_1[\"施工准备\"]\n  end\n  subgraph lane_1[\"Development\"]\n    t_2[\"2-1#楼\"]\n    t_3[\"桩基工程\"]\n    t_4[\"土方施工\"]\n    t_5[\"地下室\"]\n    t_6[\"2-2#楼\"]\n    t_7[\"3#楼\"]\n  end\n  t_0 --> t_1\n  t_1 --> t_3\n"
 }
