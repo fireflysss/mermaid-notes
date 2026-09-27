@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790485862012,
+  "updatedAt": 1790485981759,
   "projects": [
     {
       "id": "f4778eff-f7cf-4641-bdbd-781fb46b8434",
@@ -20,7 +20,7 @@
       "name": "123",
       "type": "workspace",
       "createdAt": 1778291739467,
-      "updatedAt": 1790485816056
+      "updatedAt": 1790485979875
     }
   ],
   "diagrams": [
@@ -79,13 +79,23 @@
       "version": 2
     },
     {
+      "id": "2da8a248-5e7c-4cac-a3bc-d011776074b9",
+      "projectId": "ba443e89-508e-4190-9e56-c2c5afbec546",
+      "name": "未命名",
+      "type": "swimlane",
+      "order": 3,
+      "createdAt": 1790485904724,
+      "updatedAt": 1790485979873,
+      "version": 2
+    },
+    {
       "id": "3e05f5e8-ee37-4a32-bc18-8feb24821322",
       "projectId": "ba443e89-508e-4190-9e56-c2c5afbec546",
       "name": "未命名",
       "type": "sequence",
       "order": 2,
       "createdAt": 1790485766226,
-      "updatedAt": 1790485816044,
+      "updatedAt": 1790485886296,
       "version": 2
     },
     {

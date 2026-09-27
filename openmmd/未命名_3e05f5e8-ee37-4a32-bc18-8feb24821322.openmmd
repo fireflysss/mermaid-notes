@@ -11,6 +11,12 @@
       "label": "竣工",
       "kind": "entity",
       "order": 1
+    },
+    {
+      "id": "cf393ab8-2b55-417c-9ab8-558f77e8c053",
+      "label": "桩基工程",
+      "kind": "entity",
+      "order": 2
     }
   ],
   "messages": [
@@ -21,6 +27,14 @@
       "label": "施工准备",
       "type": "sync",
       "order": 0
+    },
+    {
+      "id": "51b66f10-c587-48f5-b5c5-98505938fbb3",
+      "from": "system",
+      "to": "cf393ab8-2b55-417c-9ab8-558f77e8c053",
+      "label": "Message",
+      "type": "sync",
+      "order": 1
     }
   ],
   "notes": [],
@@ -30,5 +44,5 @@
   "gaps": {},
   "lifelineStyle": "dashed",
   "boxStyle": "rounded",
-  "mermaidCode": "sequenceDiagram\n  autonumber\n  actor p0 as 开始\n  participant p1 as 竣工\n  p0->>p1: 施工准备\n"
+  "mermaidCode": "sequenceDiagram\n  autonumber\n  actor p0 as 开始\n  participant p1 as 竣工\n  participant p2 as 桩基工程\n  p0->>p1: 施工准备\n  p1->>p2: Message\n"
 }
