@@ -42,6 +42,28 @@
       "order": 0,
       "x": 460,
       "y": 72
+    },
+    {
+      "id": "06154b37-e9d5-4978-85e8-890e0cdf4d3d",
+      "laneId": "lane-2",
+      "label": "土方施工",
+      "shape": "process",
+      "order": 1,
+      "x": 675,
+      "y": 72,
+      "width": 156,
+      "height": 56
+    },
+    {
+      "id": "fb5e2edc-e16e-4e79-8309-33fcad3ccbbd",
+      "laneId": "lane-2",
+      "label": "地下室",
+      "shape": "process",
+      "order": 2,
+      "x": 899,
+      "y": 71,
+      "width": 156,
+      "height": 56
     }
   ],
   "connections": [
@@ -67,5 +89,5 @@
   "swTheme": "default",
   "swLaneGap": 24,
   "swLaneColorOverrides": {},
-  "mermaidCode": "flowchart LR\n  subgraph lane_0[\"Planning\"]\n    t_0([\"Start\"])\n    t_1[\"施工准备\"]\n  end\n  subgraph lane_1[\"Development\"]\n    t_2[\"桩基工程\"]\n  end\n  t_0 --> t_1\n  t_1 --> t_2\n"
+  "mermaidCode": "flowchart LR\n  subgraph lane_0[\"Planning\"]\n    t_0([\"Start\"])\n    t_1[\"施工准备\"]\n  end\n  subgraph lane_1[\"Development\"]\n    t_2[\"地下室\"]\n    t_3[\"桩基工程\"]\n    t_4[\"土方施工\"]\n  end\n  t_0 --> t_1\n  t_1 --> t_3\n"
 }
