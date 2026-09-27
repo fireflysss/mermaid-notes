@@ -4,26 +4,89 @@
       "id": "10acc0b4-a36e-474b-927d-df03f704b90b",
       "type": "flow-process",
       "position": {
-        "x": 138,
-        "y": 2
+        "x": 14,
+        "y": -15
       },
       "data": {
-        "label": "Process 1",
-        "width": 160,
-        "height": 56
+        "label": "审查MD文件\n（和原来SKILL的审查文件一样）",
+        "width": 184,
+        "height": 88,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
       },
       "style": {
         "width": 160,
         "height": 56
       },
       "measured": {
+        "width": 184,
+        "height": 88
+      },
+      "selected": false,
+      "width": 184,
+      "height": 88,
+      "resizing": false,
+      "dragging": false
+    },
+    {
+      "id": "b07f8c43-059c-4079-bb28-0291ef02cc0a",
+      "type": "flow-process-rect",
+      "position": {
+        "x": 409,
+        "y": -50
+      },
+      "data": {
+        "label": "局部修改\n（和原来SKILL的审查文件一样）",
+        "width": 177,
+        "height": 73,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
         "width": 160,
         "height": 56
-      }
+      },
+      "measured": {
+        "width": 177,
+        "height": 73
+      },
+      "selected": false,
+      "dragging": false,
+      "width": 177,
+      "height": 73,
+      "resizing": false
+    },
+    {
+      "id": "d05f985b-fe69-4c33-9abb-113b607664be",
+      "type": "flow-process-rect",
+      "position": {
+        "x": 409,
+        "y": 88
+      },
+      "data": {
+        "label": "范围大的修改\n（部分章节替换补写）",
+        "width": 180,
+        "height": 70,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 180,
+        "height": 70
+      },
+      "selected": false,
+      "dragging": false,
+      "width": 180,
+      "height": 70,
+      "resizing": false
     }
   ],
   "edges": [],
-  "mermaidCode": "flowchart TD\n  n_0(\"Process 1\")\n",
+  "mermaidCode": "flowchart TD\n  n_0(\"审查MD文件<br/>（和原来SKILL的审查文件一样）\")\n  n_1[\"局部修改<br/>（和原来SKILL的审查文件一样）\"]\n  n_2[\"范围大的修改<br/>（部分章节替换补写）\"]\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD",
   "flowEdgeSpacing": true
