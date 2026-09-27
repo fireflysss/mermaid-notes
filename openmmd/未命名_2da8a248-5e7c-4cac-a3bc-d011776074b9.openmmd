@@ -71,8 +71,8 @@
       "label": "2-1#楼",
       "shape": "process",
       "order": 3,
-      "x": 1029,
-      "y": 57,
+      "x": 1133,
+      "y": 39,
       "width": 156,
       "height": 56
     },
@@ -82,8 +82,8 @@
       "label": "2-2#楼",
       "shape": "process",
       "order": 4,
-      "x": 1099,
-      "y": 161,
+      "x": 1204,
+      "y": 115,
       "width": 156,
       "height": 56
     },
@@ -93,8 +93,19 @@
       "label": "3#楼",
       "shape": "process",
       "order": 5,
-      "x": 1184,
-      "y": 279,
+      "x": 1149,
+      "y": 286,
+      "width": 156,
+      "height": 56
+    },
+    {
+      "id": "518fb1be-de7f-44ec-837c-8b6b3af56a63",
+      "laneId": "lane-2",
+      "label": "4#楼",
+      "shape": "process",
+      "order": 6,
+      "x": 1204,
+      "y": 373,
       "width": 156,
       "height": 56
     }
@@ -113,6 +124,48 @@
       "toTaskId": "task-4",
       "sourceHandle": "right",
       "targetHandle": "top"
+    },
+    {
+      "id": "539f719b-767f-49a6-b2f9-6b0ca2ebb5b6",
+      "fromTaskId": "task-4",
+      "toTaskId": "06154b37-e9d5-4978-85e8-890e0cdf4d3d",
+      "sourceHandle": "right",
+      "targetHandle": "left"
+    },
+    {
+      "id": "41ce7992-dff7-49b1-b36e-fcfa6d4791ed",
+      "fromTaskId": "06154b37-e9d5-4978-85e8-890e0cdf4d3d",
+      "toTaskId": "fb5e2edc-e16e-4e79-8309-33fcad3ccbbd",
+      "sourceHandle": "right",
+      "targetHandle": "left"
+    },
+    {
+      "id": "edb3844f-3094-4c40-b359-ed211ee3010d",
+      "fromTaskId": "fb5e2edc-e16e-4e79-8309-33fcad3ccbbd",
+      "toTaskId": "87acce30-a14a-4fe5-a2ae-b9e9dc763bba",
+      "sourceHandle": "right",
+      "targetHandle": "left"
+    },
+    {
+      "id": "e673cf66-b214-4398-abfe-27463283f6e4",
+      "fromTaskId": "fb5e2edc-e16e-4e79-8309-33fcad3ccbbd",
+      "toTaskId": "9d3cf493-dc47-4dc0-8b51-9749c553f105",
+      "sourceHandle": "right",
+      "targetHandle": "left"
+    },
+    {
+      "id": "8491f3bf-5725-4cf0-9424-6fce98d8c84e",
+      "fromTaskId": "fb5e2edc-e16e-4e79-8309-33fcad3ccbbd",
+      "toTaskId": "e89ca931-b8d6-40c4-8da8-e311ede4fe19",
+      "sourceHandle": "right",
+      "targetHandle": "left"
+    },
+    {
+      "id": "2032d490-04a1-4ec6-b73b-6a41afb5d98e",
+      "fromTaskId": "fb5e2edc-e16e-4e79-8309-33fcad3ccbbd",
+      "toTaskId": "518fb1be-de7f-44ec-837c-8b6b3af56a63",
+      "sourceHandle": "right",
+      "targetHandle": "left"
     }
   ],
   "swBgPattern": "none",
@@ -122,5 +175,5 @@
   "swTheme": "default",
   "swLaneGap": 24,
   "swLaneColorOverrides": {},
-  "mermaidCode": "flowchart LR\n  subgraph lane_0[\"Planning\"]\n    t_0([\"Start\"])\n    t_1[\"施工准备\"]\n  end\n  subgraph lane_1[\"Development\"]\n    t_2[\"2-1#楼\"]\n    t_3[\"桩基工程\"]\n    t_4[\"土方施工\"]\n    t_5[\"地下室\"]\n    t_6[\"2-2#楼\"]\n    t_7[\"3#楼\"]\n  end\n  t_0 --> t_1\n  t_1 --> t_3\n"
+  "mermaidCode": "flowchart LR\n  subgraph lane_0[\"Planning\"]\n    t_0([\"Start\"])\n    t_1[\"施工准备\"]\n  end\n  subgraph lane_1[\"Development\"]\n    t_2[\"2-1#楼\"]\n    t_3[\"桩基工程\"]\n    t_4[\"土方施工\"]\n    t_5[\"地下室\"]\n    t_6[\"2-2#楼\"]\n    t_7[\"3#楼\"]\n    t_8[\"4#楼\"]\n  end\n  t_0 --> t_1\n  t_1 --> t_3\n  t_3 --> t_4\n  t_4 --> t_5\n  t_5 --> t_2\n  t_5 --> t_6\n  t_5 --> t_7\n  t_5 --> t_8\n"
 }
