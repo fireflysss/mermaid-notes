@@ -71,8 +71,8 @@
       "label": "2-1#楼",
       "shape": "process",
       "order": 3,
-      "x": 1133,
-      "y": 39,
+      "x": 1284,
+      "y": 3,
       "width": 156,
       "height": 56
     },
@@ -82,8 +82,8 @@
       "label": "2-2#楼",
       "shape": "process",
       "order": 4,
-      "x": 1204,
-      "y": 115,
+      "x": 1326,
+      "y": 92,
       "width": 156,
       "height": 56
     },
@@ -93,8 +93,8 @@
       "label": "3#楼",
       "shape": "process",
       "order": 5,
-      "x": 1149,
-      "y": 286,
+      "x": 1276,
+      "y": 216,
       "width": 156,
       "height": 56
     },
