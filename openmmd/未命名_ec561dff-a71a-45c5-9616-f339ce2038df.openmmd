@@ -1,36 +1,14 @@
 {
   "nodes": [
     {
-      "id": "start",
-      "type": "flow-terminator",
-      "position": {
-        "x": 250,
-        "y": 50
-      },
-      "data": {
-        "label": "Start",
-        "width": 160,
-        "height": 56
-      },
-      "style": {
-        "width": 160,
-        "height": 56
-      },
-      "measured": {
-        "width": 160,
-        "height": 56
-      },
-      "selected": true
-    },
-    {
-      "id": "1",
+      "id": "10acc0b4-a36e-474b-927d-df03f704b90b",
       "type": "flow-process",
       "position": {
-        "x": 250,
-        "y": 150
+        "x": 138,
+        "y": 2
       },
       "data": {
-        "label": "Process",
+        "label": "Process 1",
         "width": 160,
         "height": 56
       },
@@ -44,23 +22,8 @@
       }
     }
   ],
-  "edges": [
-    {
-      "id": "e-start-1",
-      "source": "start",
-      "target": "1",
-      "animated": true,
-      "style": {
-        "stroke": "#6366f1",
-        "strokeWidth": 2
-      },
-      "markerEnd": {
-        "type": "arrowclosed",
-        "color": "#6366f1"
-      }
-    }
-  ],
-  "mermaidCode": "flowchart TD\n  n_0([\"Start\"])\n  n_1(\"Process\")\n  n_0 --> n_1\n",
+  "edges": [],
+  "mermaidCode": "flowchart TD\n  n_0(\"Process 1\")\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD",
   "flowEdgeSpacing": true
