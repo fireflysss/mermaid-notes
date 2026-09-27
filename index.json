@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790478717804,
+  "updatedAt": 1790478781745,
   "projects": [
     {
       "id": "f4778eff-f7cf-4641-bdbd-781fb46b8434",
@@ -20,7 +20,7 @@
       "name": "123",
       "type": "workspace",
       "createdAt": 1778291739467,
-      "updatedAt": 1790478704459
+      "updatedAt": 1790478730558
     }
   ],
   "diagrams": [
@@ -76,6 +76,16 @@
       "type": "mindmap",
       "createdAt": 1779632658565,
       "updatedAt": 1779635665683,
+      "version": 2
+    },
+    {
+      "id": "ec561dff-a71a-45c5-9616-f339ce2038df",
+      "projectId": "ba443e89-508e-4190-9e56-c2c5afbec546",
+      "name": "未命名",
+      "type": "flowchart",
+      "order": 1,
+      "createdAt": 1790478726071,
+      "updatedAt": 1790478730555,
       "version": 2
     },
     {
