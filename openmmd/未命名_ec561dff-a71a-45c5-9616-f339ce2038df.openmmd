@@ -36,7 +36,7 @@
         "y": -50
       },
       "data": {
-        "label": "局部修改\n（和原来SKILL的审查MD文件一样）",
+        "label": "局部修改，修改的内容简单\n（和原来SKILL的审查MD文件一样）",
         "width": 177,
         "height": 73,
         "selectedCount": 1,
@@ -92,7 +92,7 @@
         "y": 120
       },
       "data": {
-        "label": "目录结构\nH1 ",
+        "label": "目录结构\nH1 对应的问题\nH n要替换的章节（替换的章节的章节等级）",
         "width": 180,
         "height": 215,
         "selectedCount": 1,
@@ -106,14 +106,63 @@
         "width": 180,
         "height": 215
       },
-      "selected": true,
+      "selected": false,
       "width": 180,
       "height": 215,
       "resizing": false
     }
   ],
-  "edges": [],
-  "mermaidCode": "flowchart TD\n  n_0(\"审查MD文件<br/>（和原来SKILL的审查文件一样）\")\n  n_1[\"局部修改<br/>（和原来SKILL的审查MD文件一样）\"]\n  n_2[\"范围大的修改<br/>（部分章节替换补写）\"]\n  n_3[\"目录结构<br/>H1 \"]\n",
+  "edges": [
+    {
+      "source": "10acc0b4-a36e-474b-927d-df03f704b90b",
+      "sourceHandle": "right-source",
+      "target": "b07f8c43-059c-4079-bb28-0291ef02cc0a",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__10acc0b4-a36e-474b-927d-df03f704b90bright-source-b07f8c43-059c-4079-bb28-0291ef02cc0aleft-target"
+    },
+    {
+      "source": "10acc0b4-a36e-474b-927d-df03f704b90b",
+      "sourceHandle": "right-source",
+      "target": "d05f985b-fe69-4c33-9abb-113b607664be",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__10acc0b4-a36e-474b-927d-df03f704b90bright-source-d05f985b-fe69-4c33-9abb-113b607664beleft-target"
+    },
+    {
+      "source": "d05f985b-fe69-4c33-9abb-113b607664be",
+      "sourceHandle": "right-source",
+      "target": "dbe445f1-baf8-49a0-90ed-cab384c78d4a",
+      "targetHandle": "left-target",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1",
+        "strokeWidth": 2
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#6366f1"
+      },
+      "id": "xy-edge__d05f985b-fe69-4c33-9abb-113b607664beright-source-dbe445f1-baf8-49a0-90ed-cab384c78d4aleft-target"
+    }
+  ],
+  "mermaidCode": "flowchart TD\n  n_0(\"审查MD文件<br/>（和原来SKILL的审查文件一样）\")\n  n_1[\"局部修改，修改的内容简单<br/>（和原来SKILL的审查MD文件一样）\"]\n  n_2[\"范围大的修改<br/>（部分章节替换补写）\"]\n  n_3[\"目录结构<br/>H1 对应的问题<br/>H n要替换的章节（替换的章节的章节等级）\"]\n  n_0 --> n_1\n  n_0 --> n_2\n  n_2 --> n_3\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD",
   "flowEdgeSpacing": true
