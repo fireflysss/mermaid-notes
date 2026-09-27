@@ -50,7 +50,7 @@
         "width": 177,
         "height": 73
       },
-      "selected": false,
+      "selected": true,
       "dragging": false,
       "width": 177,
       "height": 73,
@@ -83,10 +83,37 @@
       "width": 180,
       "height": 70,
       "resizing": false
+    },
+    {
+      "id": "dbe445f1-baf8-49a0-90ed-cab384c78d4a",
+      "type": "flow-process-rect",
+      "position": {
+        "x": 725,
+        "y": 120
+      },
+      "data": {
+        "label": "目录结构\nH1 ",
+        "width": 180,
+        "height": 215,
+        "selectedCount": 1,
+        "isMultiSelectAnchor": false
+      },
+      "style": {
+        "width": 160,
+        "height": 56
+      },
+      "measured": {
+        "width": 180,
+        "height": 215
+      },
+      "selected": false,
+      "width": 180,
+      "height": 215,
+      "resizing": false
     }
   ],
   "edges": [],
-  "mermaidCode": "flowchart TD\n  n_0(\"审查MD文件<br/>（和原来SKILL的审查文件一样）\")\n  n_1[\"局部修改<br/>（和原来SKILL的审查文件一样）\"]\n  n_2[\"范围大的修改<br/>（部分章节替换补写）\"]\n",
+  "mermaidCode": "flowchart TD\n  n_0(\"审查MD文件<br/>（和原来SKILL的审查文件一样）\")\n  n_1[\"局部修改<br/>（和原来SKILL的审查文件一样）\"]\n  n_2[\"范围大的修改<br/>（部分章节替换补写）\"]\n  n_3[\"目录结构<br/>H1 \"]\n",
   "flowEdgeStyle": "smooth",
   "flowDirection": "TD",
   "flowEdgeSpacing": true
